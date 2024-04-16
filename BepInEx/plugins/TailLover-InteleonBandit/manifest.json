@@ -1,0 +1,9 @@
+{
+	"name": "InteleonBandit",
+	"version_number": "1.0.2",
+	"website_url": "",
+	"description": "The secret agent lizard with all his tools as a skin for Bandit - Has cape and tail physics. Now with Shiny Variant!",
+	"dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Commando_Elite_Trooper_Skin",
+    "version_number": "1.2.2",
+    "website_url": "",
+    "description": "Gives Commando a skin heavily inspired by Star Wars clone troopers.",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

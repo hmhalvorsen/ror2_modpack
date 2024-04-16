@@ -1,0 +1,12 @@
+﻿{
+	"name": "PauseInMultiplayer",
+	"author" : "Constant-ine",
+	"version_number": "1.0.9",
+	"website_url": "https://www.buymeacoffee.com/constant1",
+	"description": "Take a quick break by pausing in multiplayer!",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.9",
+		"RiskofThunder-HookGenPatcher-1.2.1",
+		"tristanmcpherson-R2API-3.0.30"
+	]
+}

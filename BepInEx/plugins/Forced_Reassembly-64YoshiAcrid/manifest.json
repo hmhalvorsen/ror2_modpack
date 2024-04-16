@@ -1,0 +1,10 @@
+{
+    "name": "64YoshiAcrid",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "The evil seed of what you've done germinates within you.",
+    "dependencies": [
+        "RiskofThunder-R2API_Loadout-1.0.0",
+        "KingEnderBrine-LobbySkinsFix-1.2.0"
+    ]
+}

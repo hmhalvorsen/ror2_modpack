@@ -1,0 +1,9 @@
+{
+    "name": "Fem_Bandit",
+    "version_number": "0.5.0",
+    "website_url": "",
+    "description": "Adds a fem skin to Bandit. Work in progress, but updates will be slow.",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

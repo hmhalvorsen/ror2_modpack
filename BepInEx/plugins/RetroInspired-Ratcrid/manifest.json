@@ -1,0 +1,9 @@
+{
+	"name": "Ratcrid",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "I turned Acrid into a rat. You're welcome.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.1903"
+	]
+}

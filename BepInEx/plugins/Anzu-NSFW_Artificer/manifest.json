@@ -1,0 +1,9 @@
+{
+    "name": "NSFW_Artificer",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "[NSFW] Model shape credits go to みかん#2834, makes Artificer shameless in going out naked while fighting off the enemies. Featuring : Naked Artificer, and Tan Artificer!",
+    "dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "RiskOfKermit",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/VelocityK9/RiskOfKermit",
+	"description": "Kermit skin mod for Risk Of Rain 2",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.2113"
+	]
+}

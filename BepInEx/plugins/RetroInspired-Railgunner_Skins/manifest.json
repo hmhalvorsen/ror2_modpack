@@ -1,0 +1,9 @@
+{
+	"name": "Railgunner_Skins",
+	"version_number": "1.0.2",
+	"website_url": "",
+	"description": "A couple of Railgunner skins with 'armed forces' themes, one a Nighttime Special Operator and the Other a Rallypoint Delta Scout",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.1903"
+	]
+}

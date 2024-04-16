@@ -1,0 +1,9 @@
+﻿{
+	"name": "VioletEverBandit",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "Comission skin of Violet ever garden as bandit",
+	"dependencies": [
+        "bbepis-BepInExPack-5.4.1903"
+	]
+}

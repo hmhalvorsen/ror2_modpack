@@ -1,0 +1,11 @@
+{
+    "name": "Smirkposting",
+    "version_number": "2.4.0",
+    "website_url": "",
+    "description": "A skinpack for me to shitpost low effort skins on",
+    "dependencies": [
+        "RiskofThunder-R2API_Loadout-1.0.0",
+        "KingEnderBrine-LobbySkinsFix-1.2.1",
+        "KingEnderBrine-ScrollableLobbyUI-1.7.6"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Doomfist_Loader",
+    "version_number": "1.0.0",
+    "website_url": "https://discord.gg/qrHkhVnkae",
+    "description": "Adds the Movement God himself, Doomfist from Overwatch, as a skin for Loader",
+    "dependencies": [
+       "bbepis-BepInExPack-5.4.2103"
+    ]
+}

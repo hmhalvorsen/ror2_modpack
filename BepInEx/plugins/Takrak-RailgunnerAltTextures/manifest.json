@@ -1,0 +1,9 @@
+{
+	"name": "RailgunnerAltTextures",
+	"version_number": "1.0.8",
+	"website_url": "",
+	"description": "Adds a few alternate skins for railgunner.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.1902"
+	]
+}

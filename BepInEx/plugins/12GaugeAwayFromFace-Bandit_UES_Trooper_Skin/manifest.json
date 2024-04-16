@@ -1,0 +1,9 @@
+{
+    "name": "Bandit_UES_Trooper_Skin",
+    "version_number": "1.2.1",
+    "website_url": "",
+    "description": "Gives Bandit a new skin, alongside a few recolors.",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

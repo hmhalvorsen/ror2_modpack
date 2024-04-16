@@ -1,0 +1,9 @@
+{
+    "name": "Thicc_Loader",
+    "version_number": "1.0.4",
+    "website_url": "",
+    "description": "[NSFW] Makes Loader thicc. That's about it.",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

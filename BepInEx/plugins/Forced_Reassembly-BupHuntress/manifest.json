@@ -1,0 +1,10 @@
+{
+    "name": "BupHuntress",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Shoutouts to SimpleFlips.",
+    "dependencies": [
+        "RiskofThunder-R2API_Loadout-1.0.0",
+        "KingEnderBrine-LobbySkinsFix-1.2.0"
+    ]
+}

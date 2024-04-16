@@ -1,0 +1,10 @@
+{
+    "name": "PaimonSkinPlugin",
+    "version_number": "1.3.0",
+    "website_url": "",
+    "description": "Adds paimon skin",
+    "dependencies": [
+        "tristanmcpherson-R2API-4.3.2",
+    	"bbepis-BepInExPack-5.4.1903"
+    ]
+}

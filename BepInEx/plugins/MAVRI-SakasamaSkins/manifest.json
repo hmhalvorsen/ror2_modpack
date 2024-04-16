@@ -1,0 +1,10 @@
+{
+    "name": "SakasamaSkins",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "It's a Skinpack, more hues more fun.",
+    "dependencies": [
+        "tristanmcpherson-R2API-3.0.44",
+    	"bbepis-BepInExPack-5.4.9"
+    ]
+}

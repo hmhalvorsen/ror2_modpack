@@ -1,0 +1,10 @@
+{
+	"name": "MechArtificer",
+	"version_number": "0.0.1",
+	"website_url": "",
+	"description": "Adds a blockier, more militaristic look for the Artificer",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.1902",
+		"tristanmcpherson-R2API-4.0.11"
+	]
+}

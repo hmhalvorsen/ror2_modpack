@@ -1,0 +1,9 @@
+{
+    "name": "Fem_Bandit_Item_Display_Fix",
+    "version_number": "0.0.1",
+    "website_url": "",
+    "description": "Changes how items are displayed on Bandit to fit Liamono's 'Fem Bandit' model",
+    "dependencies": [ 
+    "Liamono-Fem_Bandit-0.5.0"
+    ]
+}

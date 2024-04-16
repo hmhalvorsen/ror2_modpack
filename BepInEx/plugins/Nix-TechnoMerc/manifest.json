@@ -1,0 +1,9 @@
+﻿{
+	"name": "TechnoMerc",
+	"version_number": "1.0.3",
+	"website_url": "",
+	"description": "body suit skin for merc",
+	"dependencies": [
+        "bbepis-BepInExPack-5.4.1903"
+	]
+}

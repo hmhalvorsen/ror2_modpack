@@ -1,0 +1,9 @@
+{
+    "name": "Jamie_Duskpaw_Skins",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "A mod that turns Mercenary and Bandit into my character, Jamie Duskpaw. This mod includes both SFW and NSFW versions. The character is owned by me, model made by @FuckThisShit747 on Twitter, and made into a mod by Mr Bones. Railgunner coming soon.",
+    "dependencies": [
+        "KingEnderBrine-LobbySkinsFix-1.2.0", "bbepis-BepInExPack-5.4.1905"
+    ]
+}

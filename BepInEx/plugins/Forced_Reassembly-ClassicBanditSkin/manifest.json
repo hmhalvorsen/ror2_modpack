@@ -1,0 +1,11 @@
+{
+    "name": "ClassicBanditSkin",
+    "version_number": "2.0.1",
+    "website_url": "",
+    "description": "Changes Bandit's model to the Early Access design.",
+    "dependencies": [
+        "RiskofThunder-R2API_Loadout-1.0.0",
+        "KingEnderBrine-LobbySkinsFix-1.2.0",
+        "Moffein-FixGenesisLoopConsoleSpam-1.0.0"
+    ]
+}

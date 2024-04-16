@@ -1,0 +1,9 @@
+{
+    "name": "BestBoiSkinPack",
+    "version_number": "1.2.0",
+    "website_url": "",
+    "description": "new captain skin wow",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.1905"
+    ]
+}

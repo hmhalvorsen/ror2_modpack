@@ -1,0 +1,9 @@
+{
+    "name": "SFW_Alternate_Huntress",
+    "version_number": "1.0.3",
+    "website_url": "",
+    "description": "Makes some changes to Huntress' original mesh. SFW version.",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

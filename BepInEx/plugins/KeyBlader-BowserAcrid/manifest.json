@@ -1,0 +1,9 @@
+﻿{
+	"name": "BowserAcrid",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "Bowser 64 skin over Acrid, villian in a half shell. Poison power",
+	"dependencies": [
+        "bbepis-BepInExPack-5.4.1903"
+	]
+}

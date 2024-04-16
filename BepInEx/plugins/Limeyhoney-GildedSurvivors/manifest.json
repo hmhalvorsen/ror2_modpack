@@ -1,0 +1,10 @@
+{
+    "name": "GildedSurvivors",
+    "version_number": "3.0.1",
+    "website_url": "",
+    "description": "A skin depository of Gilded survivors.",
+    "dependencies": [
+        "tristanmcpherson-R2API-4.4.1",
+		"bbepis-BepInExPack-5.4.2102"
+    ]
+}

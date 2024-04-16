@@ -1,0 +1,9 @@
+{
+    "name": "Fem_Commando_Skin",
+    "version_number": "1.8.1",
+    "website_url": "",
+    "description": "[NSFW] Gives Commando a gender bend skin, which is quite risque.",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

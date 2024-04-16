@@ -1,0 +1,9 @@
+{
+    "name": "UltrakillV1_Bandit_Skin",
+    "version_number": "1.0.4",
+    "website_url": "",
+    "description": "boioioioioioioioing",
+    "dependencies": [
+        "bbepis-BepInExPack-5.3.1"
+    ]
+}

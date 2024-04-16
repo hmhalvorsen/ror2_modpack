@@ -1,0 +1,7 @@
+{
+	"name": "BeachCaptain",
+	"description": "Beach skin for Captain",
+	"version_number": "1.0.0",
+	"dependencies": ["KingEnderBrine-LobbySkinsFix-1.2.0"],
+	"website_url": ""
+}

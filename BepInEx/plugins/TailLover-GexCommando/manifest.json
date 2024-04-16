@@ -1,0 +1,9 @@
+{
+	"name": "GexCommando",
+	"version_number": "1.0.2",
+	"website_url": "",
+	"description": "What time is it? It's TAIL TIME! A low-poly gex skin for Commando - Includes tail physics. Plans to have voicelines later",
+	"dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "FemLemCommando",
+    "version_number": "1.0.2",
+    "website_url": "",
+    "description": "Commando got a Lemurian GF and taught her how to shoot",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.1902"
+  ]
+}

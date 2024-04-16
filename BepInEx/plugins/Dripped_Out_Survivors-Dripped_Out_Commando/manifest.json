@@ -1,0 +1,10 @@
+{
+    "name": "Dripped_Out_Commando",
+    "version_number": "2.6.9",
+    "website_url": "https://twitter.com/KKingDoesWeird",
+    "description": "...and his drip was electric.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2103",
+        "tristanmcpherson-R2API-4.4.1"
+    ]
+}

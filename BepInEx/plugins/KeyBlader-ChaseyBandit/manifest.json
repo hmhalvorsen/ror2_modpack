@@ -1,0 +1,9 @@
+﻿{
+	"name": "ChaseyBandit",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "Chasey Duck skin over Bandit",
+	"dependencies": [
+        "bbepis-BepInExPack-5.4.1903"
+	]
+}

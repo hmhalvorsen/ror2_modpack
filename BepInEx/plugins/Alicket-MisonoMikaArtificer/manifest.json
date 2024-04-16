@@ -1,0 +1,10 @@
+{
+    "name": "MisonoMikaArtificer",
+    "version_number": "1.1.2",
+    "website_url": "",
+    "description": "An Artificer skin mod as Misono Mika, a character from mobile game Blue Archive. With voice!",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2108", "RiskofThunder-HookGenPatcher-1.2.3", "Rune580-Risk_Of_Options-2.5.3", 
+		"Moffein-BaseVoiceoverLib-1.1.1"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "LightDreamerSkin",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/EmnoS/DreamSkins/tree/main/LightDreamer",
+    "description": "The first Skin I managed to create from an idea and wanted to share with whoever likes the Void Theme and wants to explore it with different Characters.",
+    "dependencies": [
+    "bbepis-BepInExPack-5.4.2103"
+    ]
+}

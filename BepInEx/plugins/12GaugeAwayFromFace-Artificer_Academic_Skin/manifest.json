@@ -1,0 +1,9 @@
+{
+    "name": "Artificer_Academic_Skin",
+    "version_number": "1.0.4",
+    "website_url": "",
+    "description": "Give Artificer a new skin with a skirt replacing her cape.",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

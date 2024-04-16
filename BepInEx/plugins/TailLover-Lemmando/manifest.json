@@ -1,0 +1,9 @@
+{
+	"name": "Lemmando",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "An intelligent Lemurian found the remains of a fallen commando from RoR1, and wants to leave the planet. Has tail physics",
+	"dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

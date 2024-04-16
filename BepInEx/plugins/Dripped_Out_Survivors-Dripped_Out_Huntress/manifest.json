@@ -1,0 +1,10 @@
+{
+    "name": "Dripped_Out_Huntress",
+    "version_number": "1.0.0",
+    "website_url": "https://twitter.com/KKingDoesWeird",
+    "description": "...And with her arrows and her drip, she shall blot out the sun.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2103",
+        "tristanmcpherson-R2API-4.4.1"
+    ]
+}

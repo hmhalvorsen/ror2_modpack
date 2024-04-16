@@ -1,0 +1,9 @@
+{
+    "name": "ShowDeathCause",
+    "version_number": "3.0.1",
+    "website_url": "https://github.com/NotTsunami/ShowDeathCause",
+    "description": "Tells how your and your friends miserable lives ended. Now updated for the DLC!",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.19"
+    ]
+}

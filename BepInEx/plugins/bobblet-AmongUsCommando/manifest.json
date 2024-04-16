@@ -1,0 +1,9 @@
+{
+    "name": "AmongUsCommando",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "If I had a crewmate, I wonder what I would tell them... Yes, yes I knew the answer",
+    "dependencies": [
+        "bbepis-BepInExPack-5.3.1"
+    ]
+}

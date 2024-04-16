@@ -1,0 +1,9 @@
+{
+    "name": "Bandit_Mika",
+    "version_number": "0.1.0",
+	"website_url": "",
+	"description": "Best girl from blue archive as bandit.",
+	"dependencies": [
+	 "bbepis-BepInExPack-5.4.2103"
+    ]
+}

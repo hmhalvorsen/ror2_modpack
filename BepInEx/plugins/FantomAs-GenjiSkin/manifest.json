@@ -1,0 +1,9 @@
+{
+    "name": "GenjiSkin",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Skin on a mercenary in the form of a genji",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

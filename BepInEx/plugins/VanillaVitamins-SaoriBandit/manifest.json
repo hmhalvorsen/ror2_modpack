@@ -1,0 +1,12 @@
+{
+    "name": "SaoriBandit",
+    "version_number": "1.0.2",
+    "website_url": "",
+    "description": "Adds Arius Squad's Saori from Blue Archive as a skin for Bandit. With voice!",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.1905",
+		"RiskofThunder-HookGenPatcher-1.2.3",
+		"Moffein-BaseVoiceoverLib-1.1.1",
+		"Moffein-FixGenesisLoopConsoleSpam-1.0.0"
+    ]
+}

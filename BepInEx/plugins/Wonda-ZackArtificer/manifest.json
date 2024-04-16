@@ -1,0 +1,9 @@
+{
+  "name": "ZackArtificer",
+  "version_number": "1.1.0",
+  "website_url": "",
+  "description": "Adds @ZackTheNerd as a skin for Artificer.",
+  "dependencies": [
+    "bbepis-BepInExPack-5.3.1"
+  ]
+}

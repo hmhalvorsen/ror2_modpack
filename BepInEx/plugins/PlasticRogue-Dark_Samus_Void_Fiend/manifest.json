@@ -1,0 +1,9 @@
+{
+    "name": "Dark_Samus_Void_Fiend",
+    "version_number": "1.0.1",
+	"website_url": "",
+	"description": "A slightly cursed skin mod I made to test a few things.",
+	"dependencies": [
+	 "bbepis-BepInExPack-5.4.2103"
+    ]
+}

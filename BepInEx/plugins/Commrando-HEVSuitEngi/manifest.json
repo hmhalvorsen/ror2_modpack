@@ -1,0 +1,9 @@
+{
+	"name": "HEVSuitEngi",
+	"version_number": "1.5.1",
+	"website_url": "",
+	"description": "An attempt at giving Engineer an HEV suit from Half Life",
+	"dependencies": [
+		"RyanPallesen-RyanSkinAPI-3.4.1"
+	]
+}

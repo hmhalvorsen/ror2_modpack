@@ -1,0 +1,8 @@
+{
+    "name": "MechaCuddleMerc",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/thunderstore-io",
+    "description": "Adds mecha cuddle master as a skin for merc. funky space bear :)",
+    "dependencies": [
+    ]
+}

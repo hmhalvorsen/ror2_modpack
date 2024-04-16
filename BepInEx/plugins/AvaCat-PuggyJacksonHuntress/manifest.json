@@ -1,0 +1,9 @@
+{
+    "name": "PuggyJacksonHuntress",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/thunderstore-io",
+    "description": "Turns Huntress into Puggy Jackson",
+    "dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

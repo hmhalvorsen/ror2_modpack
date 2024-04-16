@@ -1,0 +1,11 @@
+{
+    "name": "Loader_Mechanical_Dairy_Skin",
+		"author": "KoolaidBerryBlue",
+    "version_number": "1.0.2",
+    "website_url": "",
+    "description": "Adds a new skin for the loader that gives her a Mecha Milk shirt and some other tweaks to her model. Huge thanks to N8sgr8 for updating this for me.",
+    "dependencies": [ 
+		"bbepis-BepInExPack-5.3.1",
+			"tristanmcpherson-R2API-2.5.14"
+    ]
+}

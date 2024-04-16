@@ -1,0 +1,10 @@
+{
+	"name": "HellfireCaptain",
+	"version_number": "1.2.2",
+	"website_url": "",
+	"description": "After investigating a mysterious message from Abyssal Depths, Captain is forever changed. Now void compatible!",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.1903",
+		"tristanmcpherson-R2API-4.2.1"
+	]
+}

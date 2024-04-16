@@ -1,0 +1,9 @@
+{
+    "name": "Void_Fiend_Female_Skin",
+    "version_number": "0.0.1",
+    "website_url": "",
+    "description": "Add NSFW skin to Void Fiend. This is very broken and very cheap.",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

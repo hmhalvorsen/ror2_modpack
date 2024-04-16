@@ -1,0 +1,9 @@
+{
+    "name": "FemSpyroHuntress",
+    "version_number": "1.0.4",
+    "website_url": "",
+    "description": "Custom Genderbent Spyro skin for Huntress with physics for the tail and breasts",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.1902"
+  ]
+}

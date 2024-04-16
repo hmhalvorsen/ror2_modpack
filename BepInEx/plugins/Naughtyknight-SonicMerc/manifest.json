@@ -1,0 +1,11 @@
+{
+    "name": "SonicMerc",
+    "version_number": "2.3.1",
+    "description": "Turns the Mercenary into the Blue Blur!",
+	"website_url": "https://github.com/Naughty-Knight/SonicMerc",
+    "dependencies": [
+    "bbepis-BepInExPack-5.4.1905",
+    "tristanmcpherson-R2API-4.3.5",
+    "RiskofThunder-HookGenPatcher-1.2.3"
+    ]
+}

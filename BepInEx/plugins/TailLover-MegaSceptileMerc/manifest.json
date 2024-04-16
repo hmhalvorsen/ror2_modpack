@@ -1,0 +1,9 @@
+{
+	"name": "MegaSceptileMerc",
+	"version_number": "2.0.0",
+	"website_url": "",
+	"description": "Mega Sceptile skin over Merc - Tail Physics - Now has a custom made shiny variant!",
+	"dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

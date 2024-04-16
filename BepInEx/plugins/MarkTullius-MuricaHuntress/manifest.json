@@ -1,0 +1,11 @@
+﻿{
+  "name": "MuricaHuntress",
+  "author": "MarkTullius",
+  "authorName": "MarkTullius",
+  "version_number": "1.0.2",
+  "website_url": "",
+  "description": "Murica Skin for Huntress",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.2113"
+  ]
+}

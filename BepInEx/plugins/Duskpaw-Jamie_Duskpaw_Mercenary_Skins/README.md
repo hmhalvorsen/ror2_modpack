@@ -1,0 +1,1 @@
+A mod that turns Mercenary into my character, Jamie Duskpaw. This mod includes both SFW and NSFW versions. The character is owned by me, model made by @FuckThisShit747 on Twitter, and made into a mod by Mr Bones. Fixed a known bug that caused a specific piece of fluff to not move with the rest of the character.

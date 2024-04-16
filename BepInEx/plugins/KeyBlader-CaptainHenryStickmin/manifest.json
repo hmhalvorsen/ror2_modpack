@@ -1,0 +1,9 @@
+﻿{
+	"name": "CaptainHenryStickmin",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "Henry Stickmin Captain skin, now you can do the true distraction dance",
+	"dependencies": [
+        "bbepis-BepInExPack-5.4.1903"
+	]
+}

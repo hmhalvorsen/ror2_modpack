@@ -1,0 +1,9 @@
+{
+    "name": "SummerSkinPack",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "adds summer skins options",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

@@ -1,0 +1,1 @@
+##Adds Mysterious Heroine X skin to Mercenary with Excalibur. Models taken from Fate/Extella. You know, type moon fate/ shit. This mod aboslutely looks horrible btw. 1.0.2 makes legs not disconnect (LOL)

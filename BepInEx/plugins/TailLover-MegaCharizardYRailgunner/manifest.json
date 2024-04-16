@@ -1,0 +1,9 @@
+{
+	"name": "MegaCharizardYRailgunner",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "A skin for Railgunner that turns them into Mega Charizard Y. Has tail physics and Tail Flame Particles",
+	"dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

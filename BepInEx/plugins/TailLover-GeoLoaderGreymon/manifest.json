@@ -1,0 +1,9 @@
+{
+	"name": "GeoLoaderGreymon",
+	"version_number": "1.0.2",
+	"website_url": "",
+	"description": "GeoGreymon found a new evolution - GeoLoaderGreymon! As with all my skins, includes tail physics - Updated with new arms!",
+	"dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

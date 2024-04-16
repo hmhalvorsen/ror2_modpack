@@ -1,0 +1,9 @@
+{
+    "name": "Plague_Artificer_Skin",
+    "version_number": "0.1.2",
+    "website_url": "",
+    "description": "[Lite-NSFW] Add a skin for Artificer themed after plague doctor.",
+    "dependencies": [
+      "bbepis-BepInExPack-5.4.1902"
+    ]
+  }

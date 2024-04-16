@@ -1,0 +1,8 @@
+{
+    "name": "Protogen_Bunny_Commando",
+    "version_number": "1.2.0",
+	"website_url": "",
+	"description": "A simple skin mod that makes Commando into a rabbit-like Protogen. Includes a fox option, and a cosmic option.",
+	"dependencies": [
+    ]
+}

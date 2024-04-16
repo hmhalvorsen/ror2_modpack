@@ -1,0 +1,10 @@
+{
+    "name": "VibriCommandoSkin",
+    "version_number": "1.3.1",
+    "website_url": "",
+    "description": "Adds Vibri from Vib-Ribbon as a skin for Commando..",
+    "dependencies": [
+        "RiskofThunder-R2API_Loadout-1.0.0",
+        "KingEnderBrine-LobbySkinsFix-1.2.0"
+    ]
+}

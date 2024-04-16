@@ -1,0 +1,9 @@
+﻿{
+	"name": "HoloHuntress",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "Comission skin of Holo from spice and wolf",
+	"dependencies": [
+        "bbepis-BepInExPack-5.4.1903"
+	]
+}

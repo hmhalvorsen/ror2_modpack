@@ -1,0 +1,9 @@
+{
+    "name": "Enhanced_Fem_Acrid",
+    "version_number": "1.0.2",
+    "website_url": "",
+    "description": "[NSFW] Takes the Acrid model from the femMod and makes her curvier (or flat chested). Now with jiggle physics!",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

@@ -1,0 +1,4809 @@
+- manifestVersion: 1
+  name: RiskofThunder-BepInEx_GUI
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/BepInEx_GUI/
+  displayName: BepInEx_GUI
+  description: Graphical User Interface meant to replace the regular console host
+    that is used by BepInEx when the config setting is enabled.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-BepInEx_GUI/3.0.3/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-FixPluginTypesSerialization
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/FixPluginTypesSerialization/
+  displayName: FixPluginTypesSerialization
+  description: Fix custom Serializable structs and such not properly getting
+    deserialized by Unity.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-FixPluginTypesSerialization/1.0.3/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-RoR2BepInExPack
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/RoR2BepInExPack/
+  displayName: RoR2BepInExPack
+  description: Simplify the modding ecosystem of Risk of Rain 2, making it easier
+    for modders to create and maintain their mods while preventing harmful bugs.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 11
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-RoR2BepInExPack/1.11.0/icon.png
+- manifestVersion: 1
+  name: bbepis-BepInExPack
+  authorName: bbepis
+  websiteUrl: https://thunderstore.io/package/bbepis/BepInExPack/
+  displayName: BepInExPack
+  description: Unified BepInEx all-in-one modding pack - plugin framework, detour library
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-RoR2BepInExPack-1.9.0
+    - RiskofThunder-FixPluginTypesSerialization-1.0.3
+    - RiskofThunder-BepInEx_GUI-3.0.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 4
+    patch: 2113
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/bbepis-BepInExPack/5.4.2113/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-HookGenPatcher
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/HookGenPatcher/
+  displayName: HookGenPatcher
+  description: MMHOOK generation at runtime.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1801
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-HookGenPatcher/1.2.3/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Core
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Core/
+  displayName: R2API_Core
+  description: Core R2API module
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 0
+    patch: 12
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Core/5.0.12/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Skins
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Skins/
+  displayName: R2API_Skins
+  description: R2API Submodule for adding custom Skins and Skin-related utilities
+    to the game
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.11
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Skins/1.1.0/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Addressables
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Addressables/
+  displayName: R2API_Addressables
+  description: R2API Submodule for implementing Addressables functionality
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.10
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Addressables/1.0.3/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_SceneAsset
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_SceneAsset/
+  displayName: R2API_SceneAsset
+  description: API for retrieving assets that live exclusively in game scenes
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.12
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_SceneAsset/1.1.2/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Elites
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Elites/
+  displayName: R2API_Elites
+  description: API for adding custom elite types
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.10
+    - RiskofThunder-R2API_ContentManagement-1.0.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Elites/1.0.3/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Items
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Items/
+  displayName: R2API_Items
+  description: API for adding custom items
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_ContentManagement-1.0.1
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Items/1.0.3/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Loadout
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Loadout/
+  displayName: R2API_Loadout
+  description: API for registering skills, skins and entity states
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_ContentManagement-1.0.1
+    - RiskofThunder-R2API_Skins-1.0.0
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Loadout/1.0.2/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Prefab
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Prefab/
+  displayName: R2API_Prefab
+  description: API for Prefab creation, networking and duplication
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_ContentManagement-1.0.1
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Prefab/1.0.3/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Sound
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Sound/
+  displayName: R2API_Sound
+  description: API for adding custom sounds or musics
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_ContentManagement-1.0.1
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Sound/1.0.2/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_TempVisualEffect
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_TempVisualEffect/
+  displayName: R2API_TempVisualEffect
+  description: API for adding custom temporary visual effects for characters.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_ContentManagement-1.0.1
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_TempVisualEffect/1.0.2/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Unlockable
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Unlockable/
+  displayName: R2API_Unlockable
+  description: API for adding custom achievements and unlockables
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_ContentManagement-1.0.1
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Unlockable/1.0.2/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Director
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Director/
+  displayName: R2API_Director
+  description: API for easily modifiying the Director (RoR2 monster / interactable
+    spawner) behaviour
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.10
+    - RiskofThunder-R2API_Addressables-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Director/2.1.0/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_ArtifactCode
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_ArtifactCode/
+  displayName: R2API_ArtifactCode
+  description: API for making Artifact Codes
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_ArtifactCode/1.0.1/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_CommandHelper
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_CommandHelper/
+  displayName: R2API_CommandHelper
+  description: API for registering console commands
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_CommandHelper/1.0.1/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Deployable
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Deployable/
+  displayName: R2API_Deployable
+  description: API for adding custom deployables
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Deployable/1.0.1/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Dot
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Dot/
+  displayName: R2API_Dot
+  description: API for adding custom damage over time effects
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Dot/1.0.1/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Language
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Language/
+  displayName: R2API_Language
+  description: API for modifying the language localisation of the game
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Language/1.0.1/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_LobbyConfig
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_LobbyConfig/
+  displayName: R2API_LobbyConfig
+  description: API for modifying the in-game lobby rules
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_LobbyConfig/1.0.1/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Orb
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Orb/
+  displayName: R2API_Orb
+  description: API for creation and management of custom Orb types.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Orb/1.0.1/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Difficulty
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Difficulty/
+  displayName: R2API_Difficulty
+  description: API for adding custom in-game difficulties
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.10
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Difficulty/1.1.2/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_DamageType
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_DamageType/
+  displayName: R2API_DamageType
+  description: API for registering damage types
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_Core-5.0.6
+    - bbepis-BepInExPack-5.4.2109
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_DamageType/1.0.4/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_RecalculateStats
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_RecalculateStats/
+  displayName: R2API_RecalculateStats
+  description: API for manipulating Character Stats
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.11
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_RecalculateStats/1.3.0/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Networking
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Networking/
+  displayName: R2API_Networking
+  description: Networking API around the Unity UNet Low Level API (LLAPI)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2103
+    - RiskofThunder-R2API_Core-5.0.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Networking/1.0.2/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_ContentManagement
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_ContentManagement/
+  displayName: R2API_ContentManagement
+  description: API for adding content to the game
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.11
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_ContentManagement/1.0.4/icon.png
+- manifestVersion: 1
+  name: tristanmcpherson-R2API
+  authorName: tristanmcpherson
+  websiteUrl: https://thunderstore.io/package/tristanmcpherson/R2API/
+  displayName: R2API
+  description: A modding API for Risk of Rain 2
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - RiskofThunder-R2API_ContentManagement-1.0.1
+    - RiskofThunder-R2API_Networking-1.0.2
+    - RiskofThunder-R2API_RecalculateStats-1.2.0
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_DamageType-1.0.4
+    - RiskofThunder-R2API_Difficulty-1.1.1
+    - RiskofThunder-R2API_Orb-1.0.1
+    - RiskofThunder-R2API_LobbyConfig-1.0.1
+    - RiskofThunder-R2API_Language-1.0.1
+    - RiskofThunder-R2API_Dot-1.0.1
+    - RiskofThunder-R2API_Deployable-1.0.1
+    - RiskofThunder-R2API_CommandHelper-1.0.1
+    - RiskofThunder-R2API_ArtifactCode-1.0.1
+    - RiskofThunder-R2API_Director-1.1.1
+    - RiskofThunder-R2API_Unlockable-1.0.2
+    - RiskofThunder-R2API_TempVisualEffect-1.0.2
+    - RiskofThunder-R2API_Sound-1.0.2
+    - RiskofThunder-R2API_Prefab-1.0.3
+    - RiskofThunder-R2API_Loadout-1.0.2
+    - RiskofThunder-R2API_Items-1.0.3
+    - RiskofThunder-R2API_Elites-1.0.2
+    - RiskofThunder-R2API_SceneAsset-1.1.1
+    - RiskofThunder-R2API_Core-5.0.10
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/tristanmcpherson-R2API/5.0.5/icon.png
+- manifestVersion: 1
+  name: Rune580-Risk_Of_Options
+  authorName: Rune580
+  websiteUrl: https://thunderstore.io/package/Rune580/Risk_Of_Options/
+  displayName: Risk_Of_Options
+  description: A convenient API for adding BepInEx ConfigEntry's to a option menu
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1905
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 7
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Rune580-Risk_Of_Options/2.7.1/icon.png
+- manifestVersion: 1
+  name: KingEnderBrine-LobbySkinsFix
+  authorName: KingEnderBrine
+  websiteUrl: https://thunderstore.io/package/KingEnderBrine/LobbySkinsFix/
+  displayName: LobbySkinsFix
+  description: Fixes issues with switching to modded skin and back to vanilla in lobby
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2108
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/KingEnderBrine-LobbySkinsFix/1.2.1/icon.png
+- manifestVersion: 1
+  name: EnforcerGang-MinerUnearthed
+  authorName: EnforcerGang
+  websiteUrl: https://thunderstore.io/package/EnforcerGang/MinerUnearthed/
+  displayName: MinerUnearthed
+  description: Adds the Miner from Risk of Rain 1. | translation updates
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1905
+    - tristanmcpherson-R2API-4.4.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 9
+    patch: 10
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/EnforcerGang-MinerUnearthed/1.9.10/icon.png
+- manifestVersion: 1
+  name: Paladin_Alliance-PaladinMod
+  authorName: Paladin_Alliance
+  websiteUrl: https://thunderstore.io/package/Paladin_Alliance/PaladinMod/
+  displayName: PaladinMod
+  description: Adds Paladin, a fully fleshed out custom survivor (models by Zenta
+    and SkeletorChampion).
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1905
+    - tristanmcpherson-R2API-4.3.21
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Paladin_Alliance-PaladinMod/1.6.3/icon.png
+- manifestVersion: 1
+  name: EnforcerGang-SniperClassic
+  authorName: EnforcerGang
+  websiteUrl: https://thunderstore.io/package/EnforcerGang/SniperClassic/
+  displayName: SniperClassic
+  description: Adds the Sniper from Risk of Rain 1 along with his Spotter drone.
+    Multiplayer-compatible!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-4.4.1
+    - bbepis-BepInExPack-5.4.2103
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 8
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/EnforcerGang-SniperClassic/1.5.8/icon.png
+- manifestVersion: 1
+  name: Gnome-ChefMod
+  authorName: Gnome
+  websiteUrl: https://thunderstore.io/package/Gnome/ChefMod/
+  displayName: ChefMod
+  description: Adds the CHEF robot from RoR1 as a survivor. Multiplayer-compatible!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1905
+    - tristanmcpherson-R2API-4.4.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 2
+    patch: 10
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Gnome-ChefMod/2.2.10/icon.png
+- manifestVersion: 1
+  name: RiskofThunder-R2API_Colors
+  authorName: RiskofThunder
+  websiteUrl: https://thunderstore.io/package/RiskofThunder/R2API_Colors/
+  displayName: R2API_Colors
+  description: API for registering Colors to the game
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2109
+    - RiskofThunder-R2API_Core-5.0.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RiskofThunder-R2API_Colors/1.0.1/icon.png
+- manifestVersion: 1
+  name: EnforcerGang-HAND_OVERCLOCKED
+  authorName: EnforcerGang
+  websiteUrl: https://thunderstore.io/package/EnforcerGang/HAND_OVERCLOCKED/
+  displayName: HAND_OVERCLOCKED
+  description: Adds HAN-D, the classic robot janitor from Risk of Rain 1.
+    Multiplayer-compatible!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1905
+    - tristanmcpherson-R2API-4.4.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 6
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/EnforcerGang-HAND_OVERCLOCKED/1.4.6/icon.png
+- manifestVersion: 1
+  name: MetrosexualFruitcake-CustomEmotesAPI
+  authorName: MetrosexualFruitcake
+  websiteUrl: https://thunderstore.io/package/MetrosexualFruitcake/CustomEmotesAPI/
+  displayName: CustomEmotesAPI
+  description: API for adding emotes to survivors
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-4.4.1
+    - Rune580-Risk_Of_Options-2.5.3
+    - bbepis-BepInExPack-5.4.2103
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 3
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/MetrosexualFruitcake-CustomEmotesAPI/2.3.1/icon.png
+- manifestVersion: 1
+  name: XoXFaby-MMHOOK_Standalone
+  authorName: XoXFaby
+  websiteUrl: https://thunderstore.io/package/XoXFaby/MMHOOK_Standalone/
+  displayName: MMHOOK_Standalone
+  description: Standalone MMHOOK_Assembly-CSharp for other mods to depend on.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+    - RiskofThunder-HookGenPatcher-1.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/XoXFaby-MMHOOK_Standalone/1.0.3/icon.png
+- manifestVersion: 1
+  name: dotflare-LostThroughTimeSkinPack
+  authorName: dotflare
+  websiteUrl: https://thunderstore.io/package/dotflare/LostThroughTimeSkinPack/
+  displayName: LostThroughTimeSkinPack
+  description: Guess who's back, back again
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - tristanmcpherson-R2API-4.3.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 4
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/dotflare-LostThroughTimeSkinPack/1.1.4/icon.png
+- manifestVersion: 1
+  name: dan8991iel-LunarCoinShareOnPickup
+  authorName: dan8991iel
+  websiteUrl: https://thunderstore.io/package/dan8991iel/LunarCoinShareOnPickup/
+  displayName: LunarCoinShareOnPickup
+  description: When one player in the lobby picks up a lunar coin, each player in
+    the lobby will receive one. No more hate and envy against the person who
+    grabs them the quickest. Change Lunar Coin shared and unshared amount via
+    config.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-4.0.11
+    - bbepis-BepInExPack-5.4.1900
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 4
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/dan8991iel-LunarCoinShareOnPickup/4.2.1/icon.png
+- manifestVersion: 1
+  name: AceOfShades-QuickRestart
+  authorName: AceOfShades
+  websiteUrl: https://thunderstore.io/package/AceOfShades/QuickRestart/
+  displayName: QuickRestart
+  description: Allows quickly starting a new run.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1905
+    - tristanmcpherson-R2API-4.3.21
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/AceOfShades-QuickRestart/1.4.2/icon.png
+- manifestVersion: 1
+  name: NotTsunami-ShowDeathCause
+  authorName: NotTsunami
+  websiteUrl: https://thunderstore.io/package/NotTsunami/ShowDeathCause/
+  displayName: ShowDeathCause
+  description: Tells how your and your friends miserable lives ended. Now updated
+    for the DLC!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.19
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/NotTsunami-ShowDeathCause/3.0.1/icon.png
+- manifestVersion: 1
+  name: XoXFaby-BetterAPI
+  authorName: XoXFaby
+  websiteUrl: https://thunderstore.io/package/XoXFaby/BetterAPI/
+  displayName: BetterAPI
+  description: A simple API implementation
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 4
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/XoXFaby-BetterAPI/4.0.3/icon.png
+- manifestVersion: 1
+  name: MetrosexualFruitcake-BadAssEmotes
+  authorName: MetrosexualFruitcake
+  websiteUrl: https://thunderstore.io/package/MetrosexualFruitcake/BadAssEmotes/
+  displayName: BadAssEmotes
+  description: 19$ Fortnite Card, who wants it?
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - MetrosexualFruitcake-CustomEmotesAPI-1.9.6
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 7
+    patch: 8
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/MetrosexualFruitcake-BadAssEmotes/1.7.8/icon.png
+- manifestVersion: 1
+  name: marklow-PrestigiousSkinpack
+  authorName: marklow
+  websiteUrl: https://thunderstore.io/package/marklow/PrestigiousSkinpack/
+  displayName: PrestigiousSkinpack
+  description: Adds a prestigious white/gold skin for everyone!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+    - tristanmcpherson-R2API-4.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/marklow-PrestigiousSkinpack/1.4.2/icon.png
+- manifestVersion: 1
+  name: KrononConspirator-MadVeteran_Skinpack
+  authorName: KrononConspirator
+  websiteUrl: https://thunderstore.io/package/KrononConspirator/MadVeteran_Skinpack/
+  displayName: MadVeteran_Skinpack
+  description: Skinpack based on the concept or idea of a Meta Related to each and
+    (soon to be) every Survivor in RoR2.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - tristanmcpherson-R2API-4.3.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/KrononConspirator-MadVeteran_Skinpack/1.4.2/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-TF2_Engineer_Skin
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/TF2_Engineer_Skin/
+  displayName: TF2_Engineer_Skin
+  description: Gives our engineer a similar look to a certain other engineer.
+    Comes with a turret skin as well.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+    - tristanmcpherson-R2API-2.5.14
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-TF2_Engineer_Skin/1.0.3/icon.png
+- manifestVersion: 1
+  name: Bubbet-SkipIntro
+  authorName: Bubbet
+  websiteUrl: https://thunderstore.io/package/Bubbet/SkipIntro/
+  displayName: SkipIntro
+  description: Skip intro, but for DLC1+
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Bubbet-SkipIntro/1.0.0/icon.png
+- manifestVersion: 1
+  name: RumblingJOSEPH-VoidItemAPI
+  authorName: RumblingJOSEPH
+  websiteUrl: https://thunderstore.io/package/RumblingJOSEPH/VoidItemAPI/
+  displayName: VoidItemAPI
+  description: An API for easily initializing transformations for custom void items.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RumblingJOSEPH-VoidItemAPI/1.1.0/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Artificer_Academic_Skin
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Artificer_Academic_Skin/
+  displayName: Artificer_Academic_Skin
+  description: Give Artificer a new skin with a skirt replacing her cape.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Artificer_Academic_Skin/1.0.4/icon.png
+- manifestVersion: 1
+  name: JaceDaDorito-FogboundLagoon
+  authorName: JaceDaDorito
+  websiteUrl: https://thunderstore.io/package/JaceDaDorito/FogboundLagoon/
+  displayName: FogboundLagoon
+  description: I can't even see my reflection in the water... only those
+    mysterious crimson lights...
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.2110
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/JaceDaDorito-FogboundLagoon/1.1.3/icon.png
+- manifestVersion: 1
+  name: TailLover-DinoMulT
+  authorName: TailLover
+  websiteUrl: https://thunderstore.io/package/TailLover/DinoMulT/
+  displayName: DinoMulT
+  description: Mul-T skin changing his base colours, and replacing his head and
+    adding a mechanical tail - has physics
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/TailLover-DinoMulT/1.0.3/icon.png
+- manifestVersion: 1
+  name: marklow-HellfireCaptain
+  authorName: marklow
+  websiteUrl: https://thunderstore.io/package/marklow/HellfireCaptain/
+  displayName: HellfireCaptain
+  description: After investigating a mysterious message from Abyssal Depths,
+    Captain is forever changed. Now void compatible!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+    - tristanmcpherson-R2API-4.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/marklow-HellfireCaptain/1.2.2/icon.png
+- manifestVersion: 1
+  name: Liamono-Fem_Commando
+  authorName: Liamono
+  websiteUrl: https://thunderstore.io/package/Liamono/Fem_Commando/
+  displayName: Fem_Commando
+  description: Adds 2 polished fem skins for Commando. No longer dependent on
+    EnigmaticThunder (or anything else)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Liamono-Fem_Commando/1.2.0/icon.png
+- manifestVersion: 1
+  name: Constant-ine-PauseInMultiplayer
+  authorName: Constant-ine
+  websiteUrl: https://thunderstore.io/package/Constant-ine/PauseInMultiplayer/
+  displayName: PauseInMultiplayer
+  description: Take a quick break by pausing in multiplayer!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.1
+    - tristanmcpherson-R2API-3.0.30
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 9
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Constant-ine-PauseInMultiplayer/1.0.9/icon.png
+- manifestVersion: 1
+  name: KingEnderBrine-Mercenary2B
+  authorName: KingEnderBrine
+  websiteUrl: https://thunderstore.io/package/KingEnderBrine/Mercenary2B/
+  displayName: Mercenary2B
+  description: Adds 2B skin for a Mercenary, with physics for a skirt, breasts,
+    butt and a sword tassel
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/KingEnderBrine-Mercenary2B/1.3.0/icon.png
+- manifestVersion: 1
+  name: Liamono-Fem_Paladin
+  authorName: Liamono
+  websiteUrl: https://thunderstore.io/package/Liamono/Fem_Paladin/
+  displayName: Fem_Paladin
+  description: Adds a polished fem skin to Paladin, now updated for PaladinMod
+    1.5.0 compatibility.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - Paladin_Alliance-PaladinMod-1.5.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Liamono-Fem_Paladin/1.3.0/icon.png
+- manifestVersion: 1
+  name: TailLover-MewtwoArtificer
+  authorName: TailLover
+  websiteUrl: https://thunderstore.io/package/TailLover/MewtwoArtificer/
+  displayName: MewtwoArtificer
+  description: Mewtwo joins the roster as a skin for Artificer - has tail physics.
+    Now has two new colour variations from smash!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/TailLover-MewtwoArtificer/1.0.3/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Lemons_Fem_Captain_Skin
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Lemons_Fem_Captain_Skin/
+  displayName: Lemons_Fem_Captain_Skin
+  description: Gives Captain a unique gender bend skin.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Lemons_Fem_Captain_Skin/1.0.4/icon.png
+- manifestVersion: 1
+  name: Liamono-Fem_Mercenary
+  authorName: Liamono
+  websiteUrl: https://thunderstore.io/package/Liamono/Fem_Mercenary/
+  displayName: Fem_Mercenary
+  description: Adds 2 highly polished fem skins to RoR2's most advanced class. No
+    longer dependent on EnigmaticThunder (or anything else)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Liamono-Fem_Mercenary/1.2.0/icon.png
+- manifestVersion: 1
+  name: marklow-KanagawaSkinpack
+  authorName: marklow
+  websiteUrl: https://thunderstore.io/package/marklow/KanagawaSkinpack/
+  displayName: KanagawaSkinpack
+  description: Inspired by -The Great Wave off Kanagawa-. Now void compatible!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+    - tristanmcpherson-R2API-4.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/marklow-KanagawaSkinpack/1.1.1/icon.png
+- manifestVersion: 1
+  name: Smxrez-SmoreSkins
+  authorName: Smxrez
+  websiteUrl: https://thunderstore.io/package/Smxrez/SmoreSkins/
+  displayName: SmoreSkins
+  description: A skinpack that contains 12 cool recolors
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Smxrez-SmoreSkins/1.1.3/icon.png
+- manifestVersion: 1
+  name: LexLamb-MechArtificer
+  authorName: LexLamb
+  websiteUrl: https://thunderstore.io/package/LexLamb/MechArtificer/
+  displayName: MechArtificer
+  description: Adds a blockier, more militaristic look for the Artificer
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-4.0.11
+    - bbepis-BepInExPack-5.4.1902
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/LexLamb-MechArtificer/0.0.1/icon.png
+- manifestVersion: 1
+  name: GEMO-AllCommandoSkinsPack
+  authorName: GEMO
+  websiteUrl: https://thunderstore.io/package/GEMO/AllCommandoSkinsPack/
+  displayName: AllCommandoSkinsPack
+  description: "A skin pack allowing for most survivors to have their own Commando
+    cosplay! [ Now featuring : Classic Commando ]"
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.1905
+    - tristanmcpherson-R2API-4.3.21
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/GEMO-AllCommandoSkinsPack/1.5.0/icon.png
+- manifestVersion: 1
+  name: Catsune-Voidbound_Railgunner_Skin
+  authorName: Catsune
+  websiteUrl: https://thunderstore.io/package/Catsune/Voidbound_Railgunner_Skin/
+  displayName: Voidbound_Railgunner_Skin
+  description: My first pass at a void-themed skin for railgunner
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Catsune-Voidbound_Railgunner_Skin/1.0.1/icon.png
+- manifestVersion: 1
+  name: bobblet-UltrakillV1_Bandit_Skin
+  authorName: bobblet
+  websiteUrl: https://thunderstore.io/package/bobblet/UltrakillV1_Bandit_Skin/
+  displayName: UltrakillV1_Bandit_Skin
+  description: boioioioioioioioing
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/bobblet-UltrakillV1_Bandit_Skin/1.0.4/icon.png
+- manifestVersion: 1
+  name: MipoeBaku-PaimonSkinPlugin
+  authorName: MipoeBaku
+  websiteUrl: https://thunderstore.io/package/MipoeBaku/PaimonSkinPlugin/
+  displayName: PaimonSkinPlugin
+  description: Adds paimon skin
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+    - tristanmcpherson-R2API-4.3.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/MipoeBaku-PaimonSkinPlugin/1.3.0/icon.png
+- manifestVersion: 1
+  name: Smxrez-NemesisSkins
+  authorName: Smxrez
+  websiteUrl: https://thunderstore.io/package/Smxrez/NemesisSkins/
+  displayName: NemesisSkins
+  description: A skinpack that adds 4 skins based on StarStorm1's nemesis survivors
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - RiskofThunder-R2API_Skins-1.1.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 4
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Smxrez-NemesisSkins/0.4.0/icon.png
+- manifestVersion: 1
+  name: Heyimnoob-UsurperPaladin
+  authorName: Heyimnoob
+  websiteUrl: https://thunderstore.io/package/Heyimnoob/UsurperPaladin/
+  displayName: UsurperPaladin
+  description: commando where the fuck did you get that massive sword
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.1
+    - tristanmcpherson-R2API-3.0.30
+    - Paladin_Alliance-PaladinMod-1.5.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Heyimnoob-UsurperPaladin/1.2.0/icon.png
+- manifestVersion: 1
+  name: SethC-ChildrenOfTheGrove
+  authorName: SethC
+  websiteUrl: https://thunderstore.io/package/SethC/ChildrenOfTheGrove/
+  displayName: ChildrenOfTheGrove
+  description: A couple skins inspired by The Grovetender
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - bbepis-BepInExPack-5.4.2103
+    - tristanmcpherson-R2API-5.0.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/SethC-ChildrenOfTheGrove/1.6.0/icon.png
+- manifestVersion: 1
+  name: RetroInspired-Retros_Skinpack
+  authorName: RetroInspired
+  websiteUrl: https://thunderstore.io/package/RetroInspired/Retros_Skinpack/
+  displayName: Retros_Skinpack
+  description: A collection of skins and recolors I made for my friends and I, now
+    they're for you too. Includes Config.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RetroInspired-Retros_Skinpack/1.0.0/icon.png
+- manifestVersion: 1
+  name: bobblet-AmongUsCommando
+  authorName: bobblet
+  websiteUrl: https://thunderstore.io/package/bobblet/AmongUsCommando/
+  displayName: AmongUsCommando
+  description: If I had a crewmate, I wonder what I would tell them... Yes, yes I
+    knew the answer
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/bobblet-AmongUsCommando/1.0.1/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Artificer_Endowed_Skin_Pack
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Artificer_Endowed_Skin_Pack/
+  displayName: Artificer_Endowed_Skin_Pack
+  description: "[NSFW] Give Artificer a pair of news skins that make her...
+    endowed. Includes a modified version of the Academic Skin."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 7
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Artificer_Endowed_Skin_Pack/1.0.7/icon.png
+- manifestVersion: 1
+  name: TailLover-MechaDragonRailgunner
+  authorName: TailLover
+  websiteUrl: https://thunderstore.io/package/TailLover/MechaDragonRailgunner/
+  displayName: MechaDragonRailgunner
+  description: Railgunner skin that turns them into a Robo Dragon! Has tail
+    physics. Plans to alter backpack later.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 7
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/TailLover-MechaDragonRailgunner/0.7.0/icon.png
+- manifestVersion: 1
+  name: TailLover-CaptainLatch
+  authorName: TailLover
+  websiteUrl: https://thunderstore.io/package/TailLover/CaptainLatch/
+  displayName: CaptainLatch
+  description: Captain of the UES 'Easy Prey' lands to find more places to play
+    ball. Has tail physics
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/TailLover-CaptainLatch/1.0.1/icon.png
+- manifestVersion: 1
+  name: Limeyhoney-GildedSurvivors
+  authorName: Limeyhoney
+  websiteUrl: https://thunderstore.io/package/Limeyhoney/GildedSurvivors/
+  displayName: GildedSurvivors
+  description: A skin depository of Gilded survivors.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-4.4.1
+    - bbepis-BepInExPack-5.4.2102
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Limeyhoney-GildedSurvivors/3.0.1/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Enhanced_Fem_Acrid
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Enhanced_Fem_Acrid/
+  displayName: Enhanced_Fem_Acrid
+  description: "[NSFW] Takes the Acrid model from the femMod and makes her curvier
+    (or flat chested). Now with jiggle physics!"
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Enhanced_Fem_Acrid/1.0.2/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Big_Tiddy_Fem_Engineer_Skin
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Big_Tiddy_Fem_Engineer_Skin/
+  displayName: Big_Tiddy_Fem_Engineer_Skin
+  description: "[NSFW] Gives engineer a feminine skin, which makes her VERY top
+    heavy. Comes with a replacement for the turrets."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Big_Tiddy_Fem_Engineer_Skin/1.4.0/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Alternate_Huntress
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Alternate_Huntress/
+  displayName: Alternate_Huntress
+  description: "[NSFW] Makes some changes to Huntress' original mesh, with two
+    very notable changes, removal of her chest armor and making her... bottom
+    heavy."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Alternate_Huntress/1.3.3/icon.png
+- manifestVersion: 1
+  name: MAVRI-CaptainUnderglowDrip
+  authorName: MAVRI
+  websiteUrl: https://thunderstore.io/package/MAVRI/CaptainUnderglowDrip/
+  displayName: CaptainUnderglowDrip
+  description: A nice glowy skin for Captain
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.44
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/MAVRI-CaptainUnderglowDrip/1.1.1/icon.png
+- manifestVersion: 1
+  name: Liamono-Fem_Bandit
+  authorName: Liamono
+  websiteUrl: https://thunderstore.io/package/Liamono/Fem_Bandit/
+  displayName: Fem_Bandit
+  description: Adds a fem skin to Bandit. Work in progress, but updates will be slow.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 5
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Liamono-Fem_Bandit/0.5.0/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Femme_Bandit
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Femme_Bandit/
+  displayName: Femme_Bandit
+  description: "[Lite NSFW] A gender bending skin for Bandit. She's got some thiccness."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Femme_Bandit/1.2.0/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Fem_Commando_Skin
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Fem_Commando_Skin/
+  displayName: Fem_Commando_Skin
+  description: "[NSFW] Gives Commando a gender bend skin, which is quite risque."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 8
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Fem_Commando_Skin/1.8.1/icon.png
+- manifestVersion: 1
+  name: SussyBnuuy-PEPSI_MAN_Void_Fiend
+  authorName: SussyBnuuy
+  websiteUrl: https://thunderstore.io/package/SussyBnuuy/PEPSI_MAN_Void_Fiend/
+  displayName: PEPSI_MAN_Void_Fiend
+  description: A skin mod that makes Void Fiend into the mysterious and powerful Pepsi Man.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/SussyBnuuy-PEPSI_MAN_Void_Fiend/1.1.0/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Thicc_Loader
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Thicc_Loader/
+  displayName: Thicc_Loader
+  description: "[NSFW] Makes Loader thicc. That's about it."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Thicc_Loader/1.0.4/icon.png
+- manifestVersion: 1
+  name: Heyimnoob-BioDroneAcrid
+  authorName: Heyimnoob
+  websiteUrl: https://thunderstore.io/package/Heyimnoob/BioDroneAcrid/
+  displayName: BioDroneAcrid
+  description: BRO IS THAT A MOTHERFUCKIN EVA REFERENCE
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.1
+    - tristanmcpherson-R2API-3.0.30
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Heyimnoob-BioDroneAcrid/1.1.0/icon.png
+- manifestVersion: 1
+  name: TailLover-LongTailAcrid
+  authorName: TailLover
+  websiteUrl: https://thunderstore.io/package/TailLover/LongTailAcrid/
+  displayName: LongTailAcrid
+  description: A skin for Acrid that gives him a much longer tail, don't ask why.
+    Has tail physics to improve animation.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/TailLover-LongTailAcrid/1.0.1/icon.png
+- manifestVersion: 1
+  name: Liamono-Infiltrator_Fem_Bandit
+  authorName: Liamono
+  websiteUrl: https://thunderstore.io/package/Liamono/Infiltrator_Fem_Bandit/
+  displayName: Infiltrator_Fem_Bandit
+  description: Work-in-progress. Adds a high-tech female assassin skin to bandit,
+    now with a new pistol and better polish.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 5
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Liamono-Infiltrator_Fem_Bandit/0.5.0/icon.png
+- manifestVersion: 1
+  name: RetroInspired-Gupmando
+  authorName: RetroInspired
+  websiteUrl: https://thunderstore.io/package/RetroInspired/Gupmando/
+  displayName: Gupmando
+  description: A couple Gup skins for Commando, Now with 100% more slimeboi Acrid
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RetroInspired-Gupmando/1.0.2/icon.png
+- manifestVersion: 1
+  name: Arty_Boyos-VoidQueen
+  authorName: Arty_Boyos
+  websiteUrl: https://thunderstore.io/package/Arty_Boyos/VoidQueen/
+  displayName: VoidQueen
+  description: usable with dlc. mod made for my friend.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Arty_Boyos-VoidQueen/3.0.0/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Fem_Captain_Skin
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Fem_Captain_Skin/
+  displayName: Fem_Captain_Skin
+  description: Gives Captain a gender bend skin. That is all.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Fem_Captain_Skin/1.0.3/icon.png
+- manifestVersion: 1
+  name: FrostRay-Frost_Ray_Skin_Pack
+  authorName: FrostRay
+  websiteUrl: https://thunderstore.io/package/FrostRay/Frost_Ray_Skin_Pack/
+  displayName: Frost_Ray_Skin_Pack
+  description: Adds a few skins. Currently adds a green skin to Bandit, Mercenary,
+    and Huntress.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1902
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/FrostRay-Frost_Ray_Skin_Pack/1.2.3/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Commando_Elite_Trooper_Skin
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Commando_Elite_Trooper_Skin/
+  displayName: Commando_Elite_Trooper_Skin
+  description: Gives Commando a skin heavily inspired by Star Wars clone troopers.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Commando_Elite_Trooper_Skin/1.2.2/icon.png
+- manifestVersion: 1
+  name: TailLover-Lemmando
+  authorName: TailLover
+  websiteUrl: https://thunderstore.io/package/TailLover/Lemmando/
+  displayName: Lemmando
+  description: An intelligent Lemurian found the remains of a fallen commando from
+    RoR1, and wants to leave the planet. Has tail physics
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/TailLover-Lemmando/1.0.0/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Risque_Fem_Commando_Skin
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Risque_Fem_Commando_Skin/
+  displayName: Risque_Fem_Commando_Skin
+  description: "[NSFW] Gives Commando a risque gender bend skin, along with a few
+    familiar recolors. Comes complete with jiggle physics."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Risque_Fem_Commando_Skin/1.3.1/icon.png
+- manifestVersion: 1
+  name: RuneFox237-FemSpyroHuntress
+  authorName: RuneFox237
+  websiteUrl: https://thunderstore.io/package/RuneFox237/FemSpyroHuntress/
+  displayName: FemSpyroHuntress
+  description: Custom Genderbent Spyro skin for Huntress with physics for the tail
+    and breasts
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1902
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RuneFox237-FemSpyroHuntress/1.0.4/icon.png
+- manifestVersion: 1
+  name: SussyBnuuy-Hatsune_Miku_Artificer
+  authorName: SussyBnuuy
+  websiteUrl: https://thunderstore.io/package/SussyBnuuy/Hatsune_Miku_Artificer/
+  displayName: Hatsune_Miku_Artificer
+  description: A skin mod that makes Artificer into Hatsune Miku.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/SussyBnuuy-Hatsune_Miku_Artificer/1.0.1/icon.png
+- manifestVersion: 1
+  name: KrononConspirator-Paladin_Berserker
+  authorName: KrononConspirator
+  websiteUrl: https://thunderstore.io/package/KrononConspirator/Paladin_Berserker/
+  displayName: Paladin_Berserker
+  description: Dreams. Win or lose...I'm sure you could spend your whole life chasing one.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.1
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - Paladin_Alliance-PaladinMod-1.5.8
+    - tristanmcpherson-R2API-4.3.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/KrononConspirator-Paladin_Berserker/1.0.0/icon.png
+- manifestVersion: 1
+  name: TailLover-FrankasaurusEngi
+  authorName: TailLover
+  websiteUrl: https://thunderstore.io/package/TailLover/FrankasaurusEngi/
+  displayName: FrankasaurusEngi
+  description: Frankasaurus from the obscure game 'ATTACK OF THE FRIDAY MONSTERS!
+    A TOKYO TALE' as a skin for Engineer. Has Tail Physics
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/TailLover-FrankasaurusEngi/1.0.4/icon.png
+- manifestVersion: 1
+  name: Arty_Boyos-KindredsLizard
+  authorName: Arty_Boyos
+  websiteUrl: https://thunderstore.io/package/Arty_Boyos/KindredsLizard/
+  displayName: KindredsLizard
+  description: Updated for dlc. mod made for my friend.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Arty_Boyos-KindredsLizard/2.0.0/icon.png
+- manifestVersion: 1
+  name: EmperorKermit-PlagueBandit
+  authorName: EmperorKermit
+  websiteUrl: https://thunderstore.io/package/EmperorKermit/PlagueBandit/
+  displayName: PlagueBandit
+  description: Plague Doctor Skin for the Bandit
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-4.3.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/EmperorKermit-PlagueBandit/1.0.1/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Risque_Railgunner_Skin
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Risque_Railgunner_Skin/
+  displayName: Risque_Railgunner_Skin
+  description: "[NSFW] Gives Railgunner a risque skin, along with a recolor. Comes
+    complete with jiggle physics."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Risque_Railgunner_Skin/1.0.0/icon.png
+- manifestVersion: 1
+  name: dotflare-WinterSkinPack
+  authorName: dotflare
+  websiteUrl: https://thunderstore.io/package/dotflare/WinterSkinPack/
+  displayName: WinterSkinPack
+  description: Merry Christmas ya little shits
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - tristanmcpherson-R2API-4.3.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/dotflare-WinterSkinPack/1.0.1/icon.png
+- manifestVersion: 1
+  name: JustForMemes-SenatorArmstrongLoader
+  authorName: JustForMemes
+  websiteUrl: https://thunderstore.io/package/JustForMemes/SenatorArmstrongLoader/
+  displayName: SenatorArmstrongLoader
+  description: Nanomachines, son. They harden in response to physical trauma.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/JustForMemes-SenatorArmstrongLoader/1.0.1/icon.png
+- manifestVersion: 1
+  name: Nix-LazyHuntress
+  authorName: Nix
+  websiteUrl: https://thunderstore.io/package/Nix/LazyHuntress/
+  displayName: LazyHuntress
+  description: Adds a loose dress shirt skin for huntress
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Nix-LazyHuntress/1.0.2/icon.png
+- manifestVersion: 1
+  name: RuneFox237-LoonaRailgunner
+  authorName: RuneFox237
+  websiteUrl: https://thunderstore.io/package/RuneFox237/LoonaRailgunner/
+  displayName: LoonaRailgunner
+  description: Custom Railgunner Skin with hair, ear, and tail physics. Now with
+    Custom Item Displays
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1905
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RuneFox237-LoonaRailgunner/1.1.1/icon.png
+- manifestVersion: 1
+  name: Gameguide-FreddyFazbearEngieSkin
+  authorName: Gameguide
+  websiteUrl: https://thunderstore.io/package/Gameguide/FreddyFazbearEngieSkin/
+  displayName: FreddyFazbearEngieSkin
+  description: Five Nights at Freddy's Skins for ROR2 survivors. Oh yeah!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1905
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Gameguide-FreddyFazbearEngieSkin/2.0.1/icon.png
+- manifestVersion: 1
+  name: JustForMemes-JetstreamSamMercenary
+  authorName: JustForMemes
+  websiteUrl: https://thunderstore.io/package/JustForMemes/JetstreamSamMercenary/
+  displayName: JetstreamSamMercenary
+  description: Brazilians can double jump
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/JustForMemes-JetstreamSamMercenary/1.0.0/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Femme_Mercenary_Skin
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Femme_Mercenary_Skin/
+  displayName: Femme_Mercenary_Skin
+  description: "[NSFW] Gives Mercenary a gender bend skin. She's quite bottom heavy."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 4
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Femme_Mercenary_Skin/1.1.4/icon.png
+- manifestVersion: 1
+  name: ValRend-ElysiumLoader
+  authorName: ValRend
+  websiteUrl: https://thunderstore.io/package/ValRend/ElysiumLoader/
+  displayName: ElysiumLoader
+  description: The first skin I decided to make was a lewd Loader skin. No regrets.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+    - tristanmcpherson-R2API-2.5.14
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/ValRend-ElysiumLoader/1.1.1/icon.png
+- manifestVersion: 1
+  name: RetroInspired-Railgunner_Skins
+  authorName: RetroInspired
+  websiteUrl: https://thunderstore.io/package/RetroInspired/Railgunner_Skins/
+  displayName: Railgunner_Skins
+  description: A couple of Railgunner skins with 'armed forces' themes, one a
+    Nighttime Special Operator and the Other a Rallypoint Delta Scout
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RetroInspired-Railgunner_Skins/1.0.2/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-SFW_Alternate_Huntress
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/SFW_Alternate_Huntress/
+  displayName: SFW_Alternate_Huntress
+  description: Makes some changes to Huntress' original mesh. SFW version.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-SFW_Alternate_Huntress/1.0.3/icon.png
+- manifestVersion: 1
+  name: dotflare-AntiqueCaptain
+  authorName: dotflare
+  websiteUrl: https://thunderstore.io/package/dotflare/AntiqueCaptain/
+  displayName: AntiqueCaptain
+  description: Gives the captain a new skin.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - tristanmcpherson-R2API-4.3.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 7
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/dotflare-AntiqueCaptain/1.0.7/icon.png
+- manifestVersion: 1
+  name: MAVRI-SakasamaSkins
+  authorName: MAVRI
+  websiteUrl: https://thunderstore.io/package/MAVRI/SakasamaSkins/
+  displayName: SakasamaSkins
+  description: It's a Skinpack, more hues more fun.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.44
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/MAVRI-SakasamaSkins/1.0.1/icon.png
+- manifestVersion: 1
+  name: TailLover-SalazzleHuntress
+  authorName: TailLover
+  websiteUrl: https://thunderstore.io/package/TailLover/SalazzleHuntress/
+  displayName: SalazzleHuntress
+  description: Who gave this lizard a bow? Huntress skin making her Salazzle from
+    Pokemon - Has Tail and Feeler Physics. Now with a shiny variant!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/TailLover-SalazzleHuntress/2.0.0/icon.png
+- manifestVersion: 1
+  name: MintLightning-Fem_Commando_Item_Display_Fix
+  authorName: MintLightning
+  websiteUrl: https://thunderstore.io/package/MintLightning/Fem_Commando_Item_Display_Fix/
+  displayName: Fem_Commando_Item_Display_Fix
+  description: Changes how items are displayed on Commando to fit Liamono's 'Fem
+    Commando' model
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - Liamono-Fem_Commando-1.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/MintLightning-Fem_Commando_Item_Display_Fix/0.0.0/icon.png
+- manifestVersion: 1
+  name: Dreams-LightDreamerSkin
+  authorName: Dreams
+  websiteUrl: https://thunderstore.io/package/Dreams/LightDreamerSkin/
+  displayName: LightDreamerSkin
+  description: The first Skin I managed to create from an idea and wanted to share
+    with whoever likes the Void Theme and wants to explore it with different
+    Characters.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2103
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Dreams-LightDreamerSkin/1.0.0/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Risque_Huntress
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Risque_Huntress/
+  displayName: Risque_Huntress
+  description: "[Lite NSFW] A new skin for Huntress, an alternate look along with
+    being bottom heavy."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Risque_Huntress/1.1.0/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-ThiccArtificerSkin
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/ThiccArtificerSkin/
+  displayName: ThiccArtificerSkin
+  description: "[NSFW] Gives Artificer a lewd skin based on the art by Popogori."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-ThiccArtificerSkin/1.1.1/icon.png
+- manifestVersion: 1
+  name: TailLover-InteleonBandit
+  authorName: TailLover
+  websiteUrl: https://thunderstore.io/package/TailLover/InteleonBandit/
+  displayName: InteleonBandit
+  description: The secret agent lizard with all his tools as a skin for Bandit -
+    Has cape and tail physics. Now with Shiny Variant!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/TailLover-InteleonBandit/1.0.2/icon.png
+- manifestVersion: 1
+  name: KomradeSpectre-VergilMercenary
+  authorName: KomradeSpectre
+  websiteUrl: https://thunderstore.io/package/KomradeSpectre/VergilMercenary/
+  displayName: VergilMercenary
+  description: Adds a custom Vergil skin for Mercenary- includes original, DMC5
+    and coatless skins. Originally by Rob, now maintained by me.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.52
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/KomradeSpectre-VergilMercenary/1.0.0/icon.png
+- manifestVersion: 1
+  name: KrononConspirator-Doom_Paladin
+  authorName: KrononConspirator
+  websiteUrl: https://thunderstore.io/package/KrononConspirator/Doom_Paladin/
+  displayName: Doom_Paladin
+  description: Rip and Tear, until it is done.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.1
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - Paladin_Alliance-PaladinMod-1.5.8
+    - tristanmcpherson-R2API-4.3.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/KrononConspirator-Doom_Paladin/1.0.0/icon.png
+- manifestVersion: 1
+  name: SethC-ThomasRex
+  authorName: SethC
+  websiteUrl: https://thunderstore.io/package/SethC/ThomasRex/
+  displayName: ThomasRex
+  description: He's back
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - bbepis-BepInExPack-5.4.2103
+    - tristanmcpherson-R2API-5.0.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/SethC-ThomasRex/2.0.0/icon.png
+- manifestVersion: 1
+  name: Sparky1j-MinosLoader
+  authorName: Sparky1j
+  websiteUrl: https://thunderstore.io/package/Sparky1j/MinosLoader/
+  displayName: MinosLoader
+  description: adds minos Loader skin
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2103
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Sparky1j-MinosLoader/1.1.0/icon.png
+- manifestVersion: 1
+  name: KoolaidBerryBlue-Loader_Mechanical_Dairy_Skin
+  authorName: KoolaidBerryBlue
+  websiteUrl: https://thunderstore.io/package/KoolaidBerryBlue/Loader_Mechanical_Dairy_Skin/
+  displayName: Loader_Mechanical_Dairy_Skin
+  description: Adds a new skin for the loader that gives her a Mecha Milk shirt
+    and some other tweaks to her model. Huge thanks to N8sgr8 for updating this
+    for me.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+    - tristanmcpherson-R2API-2.5.14
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/KoolaidBerryBlue-Loader_Mechanical_Dairy_Skin/1.0.2/icon.png
+- manifestVersion: 1
+  name: RetroInspired-Ratcrid
+  authorName: RetroInspired
+  websiteUrl: https://thunderstore.io/package/RetroInspired/Ratcrid/
+  displayName: Ratcrid
+  description: I turned Acrid into a rat. You're welcome.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RetroInspired-Ratcrid/1.0.0/icon.png
+- manifestVersion: 1
+  name: KJ-THICC_T
+  authorName: KJ
+  websiteUrl: https://thunderstore.io/package/KJ/THICC_T/
+  displayName: THICC_T
+  description: A thicc and cute alt skin for MUL-T.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/KJ-THICC_T/1.0.1/icon.png
+- manifestVersion: 1
+  name: Maiesen-Plague_Artificer_Skin
+  authorName: Maiesen
+  websiteUrl: https://thunderstore.io/package/Maiesen/Plague_Artificer_Skin/
+  displayName: Plague_Artificer_Skin
+  description: "[Lite-NSFW] Add a skin for Artificer themed after plague doctor."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1902
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Maiesen-Plague_Artificer_Skin/0.1.2/icon.png
+- manifestVersion: 1
+  name: SethC-MysticalArtificer
+  authorName: SethC
+  websiteUrl: https://thunderstore.io/package/SethC/MysticalArtificer/
+  displayName: MysticalArtificer
+  description: A skin for Artificer that's pretty mystical
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - bbepis-BepInExPack-5.4.2103
+    - tristanmcpherson-R2API-5.0.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/SethC-MysticalArtificer/1.0.0/icon.png
+- manifestVersion: 1
+  name: Moffein-BaseVoiceoverLib
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/BaseVoiceoverLib/
+  displayName: BaseVoiceoverLib
+  description: Shared mod for various skins that implement voicelines. Does
+    nothing on its own.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.1905
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 4
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Moffein-BaseVoiceoverLib/1.1.4/icon.png
+- manifestVersion: 1
+  name: Alicket-CommandoYuukaSkin
+  authorName: Alicket
+  websiteUrl: https://thunderstore.io/package/Alicket/CommandoYuukaSkin/
+  displayName: CommandoYuukaSkin
+  description: A Commando skin mod as Hayase Yuuka, a character from mobile game
+    Blue Archive. Now with voice!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - Rune580-Risk_Of_Options-2.5.3
+    - bbepis-BepInExPack-5.4.2108
+    - Moffein-BaseVoiceoverLib-1.1.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Alicket-CommandoYuukaSkin/1.3.1/icon.png
+- manifestVersion: 1
+  name: Zeon3008-DeadCellsCommandoPrisoner
+  authorName: Zeon3008
+  websiteUrl: https://thunderstore.io/package/Zeon3008/DeadCellsCommandoPrisoner/
+  displayName: DeadCellsCommandoPrisoner
+  description: A commando from a different realm joins the crew of the UES Safe Travels.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2103
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Zeon3008-DeadCellsCommandoPrisoner/1.0.0/icon.png
+- manifestVersion: 1
+  name: Dripped_Out_Survivors-Dripped_Out_Commando
+  authorName: Dripped_Out_Survivors
+  websiteUrl: https://thunderstore.io/package/Dripped_Out_Survivors/Dripped_Out_Commando/
+  displayName: Dripped_Out_Commando
+  description: ...and his drip was electric.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-4.4.1
+    - bbepis-BepInExPack-5.4.2103
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 6
+    patch: 9
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Dripped_Out_Survivors-Dripped_Out_Commando/2.6.9/icon.png
+- manifestVersion: 1
+  name: MintLightning-Fem_Bandit_Item_Display_Fix
+  authorName: MintLightning
+  websiteUrl: https://thunderstore.io/package/MintLightning/Fem_Bandit_Item_Display_Fix/
+  displayName: Fem_Bandit_Item_Display_Fix
+  description: Changes how items are displayed on Bandit to fit Liamono's 'Fem Bandit' model
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - Liamono-Fem_Bandit-0.5.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/MintLightning-Fem_Bandit_Item_Display_Fix/0.0.1/icon.png
+- manifestVersion: 1
+  name: SussyBnuuy-Hagrid_Acrid
+  authorName: SussyBnuuy
+  websiteUrl: https://thunderstore.io/package/SussyBnuuy/Hagrid_Acrid/
+  displayName: Hagrid_Acrid
+  description: A skin mod that makes Acrid into Hagrid.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/SussyBnuuy-Hagrid_Acrid/1.0.1/icon.png
+- manifestVersion: 1
+  name: Anzu-NSFW_Huntress
+  authorName: Anzu
+  websiteUrl: https://thunderstore.io/package/Anzu/NSFW_Huntress/
+  displayName: NSFW_Huntress
+  description: "[NSFW] Model credits go to みかん#2834, makes Huntress shameless in
+    going out naked while fighting off the enemies. Featuring : Snaked Huntress,
+    and Imp Huntress!"
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Anzu-NSFW_Huntress/1.3.1/icon.png
+- manifestVersion: 1
+  name: Serynn-SpiritBlossomKindredHuntress
+  authorName: Serynn
+  websiteUrl: https://thunderstore.io/package/Serynn/SpiritBlossomKindredHuntress/
+  displayName: SpiritBlossomKindredHuntress
+  description: Adds a skin that replaces the huntress with Spirit Blossom Kindred
+    from League of Legends.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Serynn-SpiritBlossomKindredHuntress/1.1.0/icon.png
+- manifestVersion: 1
+  name: KrononConspirator-TF2_Demoman_Paladin
+  authorName: KrononConspirator
+  websiteUrl: https://thunderstore.io/package/KrononConspirator/TF2_Demoman_Paladin/
+  displayName: TF2_Demoman_Paladin
+  description: "'one errant twitch...and kablooie!'"
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.1
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - tristanmcpherson-R2API-4.3.2
+    - Paladin_Alliance-PaladinMod-1.5.10
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/KrononConspirator-TF2_Demoman_Paladin/1.1.0/icon.png
+- manifestVersion: 1
+  name: Crawron-BeachCaptain
+  authorName: Crawron
+  websiteUrl: https://thunderstore.io/package/Crawron/BeachCaptain/
+  displayName: BeachCaptain
+  description: Beach skin for Captain
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Crawron-BeachCaptain/1.0.0/icon.png
+- manifestVersion: 1
+  name: Arty_Boyos-KindredHuntress
+  authorName: Arty_Boyos
+  websiteUrl: https://thunderstore.io/package/Arty_Boyos/KindredHuntress/
+  displayName: KindredHuntress
+  description: Updated for dlc. mod made for @Gatsby_GC and Mich with help from
+    Dragonyck on discord.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Arty_Boyos-KindredHuntress/2.0.0/icon.png
+- manifestVersion: 1
+  name: SussyBnuuy-Mamagen_Loader
+  authorName: SussyBnuuy
+  websiteUrl: https://thunderstore.io/package/SussyBnuuy/Mamagen_Loader/
+  displayName: Mamagen_Loader
+  description: A simple skin mod that makes Loader into a thicc wolf lady.
+    Includes 4 variants.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/SussyBnuuy-Mamagen_Loader/1.1.0/icon.png
+- manifestVersion: 1
+  name: Dripped_Out_Survivors-Dripped_Out_Bandit
+  authorName: Dripped_Out_Survivors
+  websiteUrl: https://thunderstore.io/package/Dripped_Out_Survivors/Dripped_Out_Bandit/
+  displayName: Dripped_Out_Bandit
+  description: Commando has some new drip and its about time he shows it off.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-4.4.1
+    - bbepis-BepInExPack-5.4.2103
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Dripped_Out_Survivors-Dripped_Out_Bandit/1.0.0/icon.png
+- manifestVersion: 1
+  name: Moffein-FixGenesisLoopConsoleSpam
+  authorName: Moffein
+  websiteUrl: https://thunderstore.io/package/Moffein/FixGenesisLoopConsoleSpam/
+  displayName: FixGenesisLoopConsoleSpam
+  description: Fixes console spam from Genesis Loop when playing with certain
+    custom skins and survivors. Client-side and Vanilla-compatible!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.1905
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Moffein-FixGenesisLoopConsoleSpam/1.0.0/icon.png
+- manifestVersion: 1
+  name: Forced_Reassembly-ClassicBanditSkin
+  authorName: Forced_Reassembly
+  websiteUrl: https://thunderstore.io/package/Forced_Reassembly/ClassicBanditSkin/
+  displayName: ClassicBanditSkin
+  description: Changes Bandit's model to the Early Access design.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - RiskofThunder-R2API_Loadout-1.0.0
+    - Moffein-FixGenesisLoopConsoleSpam-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Forced_Reassembly-ClassicBanditSkin/2.0.1/icon.png
+- manifestVersion: 1
+  name: Dripped_Out_Survivors-Dripped_Out_Huntress
+  authorName: Dripped_Out_Survivors
+  websiteUrl: https://thunderstore.io/package/Dripped_Out_Survivors/Dripped_Out_Huntress/
+  displayName: Dripped_Out_Huntress
+  description: ...And with her arrows and her drip, she shall blot out the sun.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-4.4.1
+    - bbepis-BepInExPack-5.4.2103
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Dripped_Out_Survivors-Dripped_Out_Huntress/1.0.0/icon.png
+- manifestVersion: 1
+  name: Nix-HoloHuntressNSFW
+  authorName: Nix
+  websiteUrl: https://thunderstore.io/package/Nix/HoloHuntressNSFW/
+  displayName: HoloHuntressNSFW
+  description: Comission skin of Holo nude from spice and wolf
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Nix-HoloHuntressNSFW/1.0.5/icon.png
+- manifestVersion: 1
+  name: RuneFox237-FemLemCommando
+  authorName: RuneFox237
+  websiteUrl: https://thunderstore.io/package/RuneFox237/FemLemCommando/
+  displayName: FemLemCommando
+  description: Commando got a Lemurian GF and taught her how to shoot
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1902
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RuneFox237-FemLemCommando/1.0.2/icon.png
+- manifestVersion: 1
+  name: Fruju-SpectralClawsPardofelisSkin
+  authorName: Fruju
+  websiteUrl: https://thunderstore.io/package/Fruju/SpectralClawsPardofelisSkin/
+  displayName: SpectralClawsPardofelisSkin
+  description: A skin for railgunner of Pardofelis from honkai impact.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Fruju-SpectralClawsPardofelisSkin/1.0.2/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Bandit_UES_Trooper_Skin
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Bandit_UES_Trooper_Skin/
+  displayName: Bandit_UES_Trooper_Skin
+  description: Gives Bandit a new skin, alongside a few recolors.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Bandit_UES_Trooper_Skin/1.2.1/icon.png
+- manifestVersion: 1
+  name: Cyto3218-Cyto_Commando
+  authorName: Cyto3218
+  websiteUrl: https://thunderstore.io/package/Cyto3218/Cyto_Commando/
+  displayName: Cyto_Commando
+  description: A simple mod that adds in a skin for Commando featuring Cyto the
+    Protogen! Now compatible with SOTV! With Dynamic Bones!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Cyto3218-Cyto_Commando/2.1.0/icon.png
+- manifestVersion: 1
+  name: Arty_Boyos-RoyalLizard
+  authorName: Arty_Boyos
+  websiteUrl: https://thunderstore.io/package/Arty_Boyos/RoyalLizard/
+  displayName: RoyalLizard
+  description: usable with dlc. mod made for my friend.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Arty_Boyos-RoyalLizard/2.0.0/icon.png
+- manifestVersion: 1
+  name: Nix-2BHuntress
+  authorName: Nix
+  websiteUrl: https://thunderstore.io/package/Nix/2BHuntress/
+  displayName: 2BHuntress
+  description: Skin request of 2B from Nier Automota
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Nix-2BHuntress/1.0.0/icon.png
+- manifestVersion: 1
+  name: EnforcerGang-Enforcer
+  authorName: EnforcerGang
+  websiteUrl: https://thunderstore.io/package/EnforcerGang/Enforcer/
+  displayName: Enforcer
+  description: Adds the Enforcer from Risk of Rain 1 as a fully fleshed out
+    playable survivor.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1905
+    - RiskofThunder-R2API_Unlockable-1.0.0
+    - RiskofThunder-R2API_RecalculateStats-1.0.0
+    - RiskofThunder-R2API_Director-1.0.0
+    - RiskofThunder-R2API_DamageType-1.0.0
+    - RiskofThunder-R2API_Prefab-1.0.1
+    - RiskofThunder-R2API_Core-5.0.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 8
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/EnforcerGang-Enforcer/3.8.2/icon.png
+- manifestVersion: 1
+  name: KrononConspirator-Bulwark_Enforcer
+  authorName: KrononConspirator
+  websiteUrl: https://thunderstore.io/package/KrononConspirator/Bulwark_Enforcer/
+  displayName: Bulwark_Enforcer
+  description: The strongest bulwark of authority, the Truth Incarnate
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - tristanmcpherson-R2API-4.3.2
+    - EnforcerGang-Enforcer-3.3.9
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/KrononConspirator-Bulwark_Enforcer/1.0.0/icon.png
+- manifestVersion: 1
+  name: FantomAs-SummerSkinPack
+  authorName: FantomAs
+  websiteUrl: https://thunderstore.io/package/FantomAs/SummerSkinPack/
+  displayName: SummerSkinPack
+  description: adds summer skins options
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/FantomAs-SummerSkinPack/1.0.1/icon.png
+- manifestVersion: 1
+  name: SussyBnuuy-Waluigi_Mercenary
+  authorName: SussyBnuuy
+  websiteUrl: https://thunderstore.io/package/SussyBnuuy/Waluigi_Mercenary/
+  displayName: Waluigi_Mercenary
+  description: A skin mod that makes mercenary into the enigmatic Waluigi. Wa!!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/SussyBnuuy-Waluigi_Mercenary/1.0.1/icon.png
+- manifestVersion: 1
+  name: Alicket-RailgunnerAris
+  authorName: Alicket
+  websiteUrl: https://thunderstore.io/package/Alicket/RailgunnerAris/
+  displayName: RailgunnerAris
+  description: A Railgunner skin mod as Tendou Aris, a character from mobile game
+    Blue Archive. With voice!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - Rune580-Risk_Of_Options-2.5.3
+    - bbepis-BepInExPack-5.4.2108
+    - Moffein-BaseVoiceoverLib-1.1.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Alicket-RailgunnerAris/1.1.2/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Risque_Fem_Captain_Skin
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Risque_Fem_Captain_Skin/
+  displayName: Risque_Fem_Captain_Skin
+  description: "[NSFW] Gives Captainw a gender bend skin. An alternate look along
+    with being curvaceous."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Risque_Fem_Captain_Skin/1.0.1/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Risque_Fem_Mercenary_Skin
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Risque_Fem_Mercenary_Skin/
+  displayName: Risque_Fem_Mercenary_Skin
+  description: "[Lite NSFW] Gives Mercenary a gender bend skin. An alternate look
+    along with being curvaceous."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Risque_Fem_Mercenary_Skin/1.1.0/icon.png
+- manifestVersion: 1
+  name: Takrak-RailgunnerAltTextures
+  authorName: Takrak
+  websiteUrl: https://thunderstore.io/package/Takrak/RailgunnerAltTextures/
+  displayName: RailgunnerAltTextures
+  description: Adds a few alternate skins for railgunner.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1902
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 8
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Takrak-RailgunnerAltTextures/1.0.8/icon.png
+- manifestVersion: 1
+  name: Anzu-NSFW_Artificer
+  authorName: Anzu
+  websiteUrl: https://thunderstore.io/package/Anzu/NSFW_Artificer/
+  displayName: NSFW_Artificer
+  description: "[NSFW] Model shape credits go to みかん#2834, makes Artificer
+    shameless in going out naked while fighting off the enemies. Featuring :
+    Naked Artificer, and Tan Artificer!"
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Anzu-NSFW_Artificer/1.0.1/icon.png
+- manifestVersion: 1
+  name: FantomAs-BlackHole_Commando
+  authorName: FantomAs
+  websiteUrl: https://thunderstore.io/package/FantomAs/BlackHole_Commando/
+  displayName: BlackHole_Commando
+  description: Add BlackHole skin to commando
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/FantomAs-BlackHole_Commando/1.0.0/icon.png
+- manifestVersion: 1
+  name: Rynum-Baguetto
+  authorName: Rynum
+  websiteUrl: https://thunderstore.io/package/Rynum/Baguetto/
+  displayName: Baguetto
+  description: "This skin answers the question: 'What if Commando were made of baguettes?'"
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1902
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Rynum-Baguetto/1.1.0/icon.png
+- manifestVersion: 1
+  name: TailLover-UltraNecrozmaFiend
+  authorName: TailLover
+  websiteUrl: https://thunderstore.io/package/TailLover/UltraNecrozmaFiend/
+  displayName: UltraNecrozmaFiend
+  description: A skin for Void Fiend that turns them into Ultra Necrozma. Has tail
+    physics and a shiny and dark variant!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/TailLover-UltraNecrozmaFiend/1.0.1/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Busty_Fem_Commando_Mandalorian_Skin
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Busty_Fem_Commando_Mandalorian_Skin/
+  displayName: Busty_Fem_Commando_Mandalorian_Skin
+  description: A female Mandalorian from Star Wars skin for Commando. She is thicc.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Busty_Fem_Commando_Mandalorian_Skin/1.2.1/icon.png
+- manifestVersion: 1
+  name: Maiesen-Steampunk_Loader_Skin
+  authorName: Maiesen
+  websiteUrl: https://thunderstore.io/package/Maiesen/Steampunk_Loader_Skin/
+  displayName: Steampunk_Loader_Skin
+  description: "[Lite-NSFW] Add a skin for Loader with a steampunk theme."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1902
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Maiesen-Steampunk_Loader_Skin/0.1.2/icon.png
+- manifestVersion: 1
+  name: 12GaugeAwayFromFace-Risque_Loader
+  authorName: 12GaugeAwayFromFace
+  websiteUrl: https://thunderstore.io/package/12GaugeAwayFromFace/Risque_Loader/
+  displayName: Risque_Loader
+  description: "[NSFW] Gives loader a risque skin, alongside a few recolors.
+    Complete with jiggle physics."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/12GaugeAwayFromFace-Risque_Loader/1.0.0/icon.png
+- manifestVersion: 1
+  name: KrononConspirator-40K_Grey_Knight_Paladin
+  authorName: KrononConspirator
+  websiteUrl: https://thunderstore.io/package/KrononConspirator/40K_Grey_Knight_Paladin/
+  displayName: 40K_Grey_Knight_Paladin
+  description: Armoured in Faith, Shielded by Devotion and Armed with Purity of Purpose.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - Paladin_Alliance-PaladinMod-1.5.8
+    - tristanmcpherson-R2API-4.3.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/KrononConspirator-40K_Grey_Knight_Paladin/1.0.0/icon.png
+- manifestVersion: 1
+  name: TailLover-MegaCharizardYRailgunner
+  authorName: TailLover
+  websiteUrl: https://thunderstore.io/package/TailLover/MegaCharizardYRailgunner/
+  displayName: MegaCharizardYRailgunner
+  description: A skin for Railgunner that turns them into Mega Charizard Y. Has
+    tail physics and Tail Flame Particles
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/TailLover-MegaCharizardYRailgunner/1.0.0/icon.png
+- manifestVersion: 1
+  name: Doowonky-Winston_Acrid
+  authorName: Doowonky
+  websiteUrl: https://thunderstore.io/package/Doowonky/Winston_Acrid/
+  displayName: Winston_Acrid
+  description: Excuse him for dropping in.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - tristanmcpherson-R2API-4.4.1
+    - bbepis-BepInExPack-5.4.2103
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Doowonky-Winston_Acrid/1.0.0/icon.png
+- manifestVersion: 1
+  name: UndyingDuck-HollowKnightMerc
+  authorName: UndyingDuck
+  websiteUrl: https://thunderstore.io/package/UndyingDuck/HollowKnightMerc/
+  displayName: HollowKnightMerc
+  description: adds a (rough) Hollow Knight skin for Mercenary. Still needs work
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+    - tristanmcpherson-R2API-4.3.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/UndyingDuck-HollowKnightMerc/1.0.0/icon.png
+- manifestVersion: 1
+  name: Johnhakumen-SaberPaladin
+  authorName: Johnhakumen
+  websiteUrl: https://thunderstore.io/package/Johnhakumen/SaberPaladin/
+  displayName: SaberPaladin
+  description: Saber skin for Paladin
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.50
+    - Paladin_Alliance-PaladinMod-1.5.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Johnhakumen-SaberPaladin/1.0.0/icon.png
+- manifestVersion: 1
+  name: TailLover-GexCommando
+  authorName: TailLover
+  websiteUrl: https://thunderstore.io/package/TailLover/GexCommando/
+  displayName: GexCommando
+  description: What time is it? It's TAIL TIME! A low-poly gex skin for Commando -
+    Includes tail physics. Plans to have voicelines later
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/TailLover-GexCommando/1.0.2/icon.png
+- manifestVersion: 1
+  name: Nix-TechnoMerc
+  authorName: Nix
+  websiteUrl: https://thunderstore.io/package/Nix/TechnoMerc/
+  displayName: TechnoMerc
+  description: body suit skin for merc
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Nix-TechnoMerc/1.0.3/icon.png
+- manifestVersion: 1
+  name: SussyBnuuy-Protogen_Bunny_Commando
+  authorName: SussyBnuuy
+  websiteUrl: https://thunderstore.io/package/SussyBnuuy/Protogen_Bunny_Commando/
+  displayName: Protogen_Bunny_Commando
+  description: A simple skin mod that makes Commando into a rabbit-like Protogen.
+    Includes a fox option, and a cosmic option.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/SussyBnuuy-Protogen_Bunny_Commando/1.2.0/icon.png
+- manifestVersion: 1
+  name: Picatin-PulseBladePilot_Railgunner
+  authorName: Picatin
+  websiteUrl: https://thunderstore.io/package/Picatin/PulseBladePilot_Railgunner/
+  displayName: PulseBladePilot_Railgunner
+  description: Railgunner Skin + Unique Gun Model // Titanfall 2 Pulse Blade Pilot
+    and Pre-Alpha Helmet // Entirely custom gun model
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Picatin-PulseBladePilot_Railgunner/2.0.1/icon.png
+- manifestVersion: 1
+  name: Nix-RobobunnyMerc
+  authorName: Nix
+  websiteUrl: https://thunderstore.io/package/Nix/RobobunnyMerc/
+  displayName: RobobunnyMerc
+  description: Robot bunny girl skin for merc
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Nix-RobobunnyMerc/1.0.0/icon.png
+- manifestVersion: 1
+  name: Nix-KeiyozaMerc
+  authorName: Nix
+  websiteUrl: https://thunderstore.io/package/Nix/KeiyozaMerc/
+  displayName: KeiyozaMerc
+  description: Comission Skin of Keiyoza as the merc (fox girl merc)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Nix-KeiyozaMerc/1.1.0/icon.png
+- manifestVersion: 1
+  name: Rhewllyd-NudeArtificer
+  authorName: Rhewllyd
+  websiteUrl: https://thunderstore.io/package/Rhewllyd/NudeArtificer/
+  displayName: NudeArtificer
+  description: Adds a skin that makes Artificer nude.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Rhewllyd-NudeArtificer/1.1.0/icon.png
+- manifestVersion: 1
+  name: KrononConspirator-Titanfall_Viper_Commando
+  authorName: KrononConspirator
+  websiteUrl: https://thunderstore.io/package/KrononConspirator/Titanfall_Viper_Commando/
+  displayName: Titanfall_Viper_Commando
+  description: "'Your journey ends here, Pilot. The skies belong to me. Nowhere to
+    run, nowhere to hide.'"
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - tristanmcpherson-R2API-4.3.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/KrononConspirator-Titanfall_Viper_Commando/1.0.0/icon.png
+- manifestVersion: 1
+  name: CoolHwip-VoidBorn_Huntress
+  authorName: CoolHwip
+  websiteUrl: https://thunderstore.io/package/CoolHwip/VoidBorn_Huntress/
+  displayName: VoidBorn_Huntress
+  description: NSFW void-ish themed huntress model
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 11
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/CoolHwip-VoidBorn_Huntress/1.0.11/icon.png
+- manifestVersion: 1
+  name: KrononConspirator-Lich_King_Paladin
+  authorName: KrononConspirator
+  websiteUrl: https://thunderstore.io/package/KrononConspirator/Lich_King_Paladin/
+  displayName: Lich_King_Paladin
+  description: You speak of justice? Of cowardice? I will show you the justice of
+    the grave, and the true meaning of Fear
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.1
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - Paladin_Alliance-PaladinMod-1.5.8
+    - tristanmcpherson-R2API-4.3.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/KrononConspirator-Lich_King_Paladin/1.0.0/icon.png
+- manifestVersion: 1
+  name: Sparky1j-MindflayerArtificer
+  authorName: Sparky1j
+  websiteUrl: https://thunderstore.io/package/Sparky1j/MindflayerArtificer/
+  displayName: MindflayerArtificer
+  description: adds mindflayer artificer skin
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2103
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Sparky1j-MindflayerArtificer/1.1.3/icon.png
+- manifestVersion: 1
+  name: Nix-VioletEverBandit
+  authorName: Nix
+  websiteUrl: https://thunderstore.io/package/Nix/VioletEverBandit/
+  displayName: VioletEverBandit
+  description: Comission skin of Violet ever garden as bandit
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Nix-VioletEverBandit/1.0.0/icon.png
+- manifestVersion: 1
+  name: Rhewllyd-NudeLoader
+  authorName: Rhewllyd
+  websiteUrl: https://thunderstore.io/package/Rhewllyd/NudeLoader/
+  displayName: NudeLoader
+  description: Adds a skin that makes Loader nude.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Rhewllyd-NudeLoader/1.0.0/icon.png
+- manifestVersion: 1
+  name: KrononConspirator-40K_Iron_Warrior_Nemforcer
+  authorName: KrononConspirator
+  websiteUrl: https://thunderstore.io/package/KrononConspirator/40K_Iron_Warrior_Nemforcer/
+  displayName: 40K_Iron_Warrior_Nemforcer
+  description: From Iron cometh Strength! From Strength cometh Will! From Will
+    cometh Faith! From Faith cometh Honour! From Honour cometh Iron!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - tristanmcpherson-R2API-4.3.2
+    - EnforcerGang-Enforcer-3.3.9
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/KrononConspirator-40K_Iron_Warrior_Nemforcer/1.1.0/icon.png
+- manifestVersion: 1
+  name: rodbot_-Artificer_Haydee_Skin
+  authorName: rodbot_
+  websiteUrl: https://thunderstore.io/package/rodbot_/Artificer_Haydee_Skin/
+  displayName: Artificer_Haydee_Skin
+  description: Adds a skin that swaps Artificer's mesh with Haydee's. Features
+    three texture variants.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.50
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/rodbot_-Artificer_Haydee_Skin/1.0.4/icon.png
+- manifestVersion: 1
+  name: markthechineselawyer2-Joyride_Bandit_Skin
+  authorName: markthechineselawyer2
+  websiteUrl: https://thunderstore.io/package/markthechineselawyer2/Joyride_Bandit_Skin/
+  displayName: Joyride_Bandit_Skin
+  description: An updated version of a cyberpunk styled skin I made for bandit,
+    now with a cool mask!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - tristanmcpherson-R2API-4.3.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/markthechineselawyer2-Joyride_Bandit_Skin/1.0.3/icon.png
+- manifestVersion: 1
+  name: Nix-HoloHuntress
+  authorName: Nix
+  websiteUrl: https://thunderstore.io/package/Nix/HoloHuntress/
+  displayName: HoloHuntress
+  description: Comission skin of Holo from spice and wolf
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Nix-HoloHuntress/1.0.0/icon.png
+- manifestVersion: 1
+  name: k8e-Doomfist_Loader
+  authorName: k8e
+  websiteUrl: https://thunderstore.io/package/k8e/Doomfist_Loader/
+  displayName: Doomfist_Loader
+  description: Adds the Movement God himself, Doomfist from Overwatch, as a skin for Loader
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2103
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/k8e-Doomfist_Loader/1.0.0/icon.png
+- manifestVersion: 1
+  name: Spartan-HonkaiSRSkins
+  authorName: Spartan
+  websiteUrl: https://thunderstore.io/package/Spartan/HonkaiSRSkins/
+  displayName: HonkaiSRSkins
+  description: "Honkai: Star Rail Character Skins"
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 3
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Spartan-HonkaiSRSkins/0.3.0/icon.png
+- manifestVersion: 1
+  name: Rhewllyd-NudeFemBandit
+  authorName: Rhewllyd
+  websiteUrl: https://thunderstore.io/package/Rhewllyd/NudeFemBandit/
+  displayName: NudeFemBandit
+  description: Adds a skin that makes Bandit female and nude.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Rhewllyd-NudeFemBandit/1.0.0/icon.png
+- manifestVersion: 1
+  name: PaperMartin-GreyfoxMercenaryskin
+  authorName: PaperMartin
+  websiteUrl: https://thunderstore.io/package/PaperMartin/GreyfoxMercenaryskin/
+  displayName: GreyfoxMercenaryskin
+  description: A skin for the mercenary based on Grey Fox from metal gear solid
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - tristanmcpherson-R2API-3.0.52
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/PaperMartin-GreyfoxMercenaryskin/2.0.0/icon.png
+- manifestVersion: 1
+  name: PlasticRogue-Dark_Samus_Void_Fiend
+  authorName: PlasticRogue
+  websiteUrl: https://thunderstore.io/package/PlasticRogue/Dark_Samus_Void_Fiend/
+  displayName: Dark_Samus_Void_Fiend
+  description: A slightly cursed skin mod I made to test a few things.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.2103
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/PlasticRogue-Dark_Samus_Void_Fiend/1.0.1/icon.png
+- manifestVersion: 1
+  name: Team_Pepega-GodzillaAcridSkin
+  authorName: Team_Pepega
+  websiteUrl: https://thunderstore.io/package/Team_Pepega/GodzillaAcridSkin/
+  displayName: GodzillaAcridSkin
+  description: The King of the Monsters
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+    - tristanmcpherson-R2API-4.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Team_Pepega-GodzillaAcridSkin/1.2.0/icon.png
+- manifestVersion: 1
+  name: Duskpaw-Jamie_Duskpaw_Skins
+  authorName: Duskpaw
+  websiteUrl: https://thunderstore.io/package/Duskpaw/Jamie_Duskpaw_Skins/
+  displayName: Jamie_Duskpaw_Skins
+  description: A mod that turns Mercenary and Bandit into my character, Jamie
+    Duskpaw. This mod includes both SFW and NSFW versions. The character is
+    owned by me, model made by @FuckThisShit747 on Twitter, and made into a mod
+    by Mr Bones. Railgunner coming soon.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - bbepis-BepInExPack-5.4.1905
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Duskpaw-Jamie_Duskpaw_Skins/1.0.0/icon.png
+- manifestVersion: 1
+  name: VanillaVitamins-SaoriBandit
+  authorName: VanillaVitamins
+  websiteUrl: https://thunderstore.io/package/VanillaVitamins/SaoriBandit/
+  displayName: SaoriBandit
+  description: Adds Arius Squad's Saori from Blue Archive as a skin for Bandit. With voice!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - RiskofThunder-HookGenPatcher-1.2.3
+    - bbepis-BepInExPack-5.4.1905
+    - Moffein-BaseVoiceoverLib-1.1.1
+    - Moffein-FixGenesisLoopConsoleSpam-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/VanillaVitamins-SaoriBandit/1.0.2/icon.png
+- manifestVersion: 1
+  name: Rhewllyd-NudeFemCommando
+  authorName: Rhewllyd
+  websiteUrl: https://thunderstore.io/package/Rhewllyd/NudeFemCommando/
+  displayName: NudeFemCommando
+  description: A nude fem commando skin
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Rhewllyd-NudeFemCommando/1.0.0/icon.png
+- manifestVersion: 1
+  name: Catsune-Hoodless_Railgunner
+  authorName: Catsune
+  websiteUrl: https://thunderstore.io/package/Catsune/Hoodless_Railgunner/
+  displayName: Hoodless_Railgunner
+  description: A couple of hoodless Railgunner skins, reminiscent of the mastery design
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1903
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Catsune-Hoodless_Railgunner/1.0.1/icon.png
+- manifestVersion: 1
+  name: Duskpaw-Jamie_Duskpaw_Mercenary_Skins
+  authorName: Duskpaw
+  websiteUrl: https://thunderstore.io/package/Duskpaw/Jamie_Duskpaw_Mercenary_Skins/
+  displayName: Jamie_Duskpaw_Mercenary_Skins
+  description: A mod that turns Mercenary into my character, Jamie Duskpaw. Mod
+    includes both SFW and NSFW versions. The character is owned by me, model
+    made by @FuckThisShit747 on Twitter, and made into a mod by Mr Bones. Fixed
+    a bug with fluff.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - KingEnderBrine-LobbySkinsFix-1.2.0
+    - bbepis-BepInExPack-5.4.1905
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/Duskpaw-Jamie_Duskpaw_Mercenary_Skins/1.1.0/icon.png
+- manifestVersion: 1
+  name: TailLover-MegaSceptileMerc
+  authorName: TailLover
+  websiteUrl: https://thunderstore.io/package/TailLover/MegaSceptileMerc/
+  displayName: MegaSceptileMerc
+  description: Mega Sceptile skin over Merc - Tail Physics - Now has a custom made
+    shiny variant!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/TailLover-MegaSceptileMerc/2.0.0/icon.png
+- manifestVersion: 1
+  name: TailLover-GeoLoaderGreymon
+  authorName: TailLover
+  websiteUrl: https://thunderstore.io/package/TailLover/GeoLoaderGreymon/
+  displayName: GeoLoaderGreymon
+  description: GeoGreymon found a new evolution - GeoLoaderGreymon! As with all my
+    skins, includes tail physics - Updated with new arms!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.3.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/TailLover-GeoLoaderGreymon/1.0.2/icon.png
+- manifestVersion: 1
+  name: KingEnderBrine-ScrollableLobbyUI
+  authorName: KingEnderBrine
+  websiteUrl: https://thunderstore.io/package/KingEnderBrine/ScrollableLobbyUI/
+  displayName: ScrollableLobbyUI
+  description: Adds scrolling to lobby UI (skills, loadout, character select, difficulty)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.9
+    - RiskofThunder-HookGenPatcher-1.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 8
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/KingEnderBrine-ScrollableLobbyUI/1.8.0/icon.png
+- manifestVersion: 1
+  name: RuneFox237-RenamonArtificer
+  authorName: RuneFox237
+  websiteUrl: https://thunderstore.io/package/RuneFox237/RenamonArtificer/
+  displayName: RenamonArtificer
+  description: Custom Artificer Skin with tail and ear physics
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - bbepis-BepInExPack-5.4.1902
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/RuneFox237-RenamonArtificer/1.0.4/icon.png
+- manifestVersion: 1
+  name: VEB-MladyMerc
+  authorName: VEB
+  websiteUrl: https://thunderstore.io/package/VEB/MladyMerc/
+  displayName: MladyMerc
+  description: Neckbierd skin mod for mercinary
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/halma/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/RiskOfRain2/cache/VEB-MladyMerc/1.0.0/icon.png

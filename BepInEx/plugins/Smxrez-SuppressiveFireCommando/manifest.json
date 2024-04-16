@@ -1,0 +1,10 @@
+{
+    "name": "SuppressiveFireCommando",
+    "version_number": "2.2.2",
+    "website_url": "",
+    "description": "2.0 UPDATE - Adds a skin for almost every survivor",
+    "dependencies": [
+        "RiskofThunder-R2API_Loadout-1.0.0",
+        "KingEnderBrine-LobbySkinsFix-1.2.0"
+    ]
+}

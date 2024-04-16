@@ -1,0 +1,9 @@
+﻿{
+	"name": "KatarinaClaesSkin",
+	"version_number": "2.0.0",
+	"website_url": "",
+	"description": "Adds Katarina Claes skin for the best chuuni class - Mercenary.",
+	"dependencies": [
+        "bbepis-BepInExPack-5.4.1903"
+	]
+}

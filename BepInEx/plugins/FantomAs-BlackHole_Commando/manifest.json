@@ -1,0 +1,9 @@
+{
+    "name": "BlackHole_Commando",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Add BlackHole skin to commando",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

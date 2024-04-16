@@ -1,0 +1,10 @@
+{
+  "name": "PixelgunnerCommandoSkin",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "Commando got tired of his old dualies and picked up a blockier alternative!",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.2100",
+    "tristanmcpherson-R2API-4.4.1"
+  ]
+}

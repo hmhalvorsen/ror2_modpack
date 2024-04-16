@@ -1,0 +1,8 @@
+{
+    "name": "Empty_Loader",
+    "version_number": "1.0.0",
+	"website_url": "",
+	"description": "A skin mod that gets rid of Loader's gear and looks funny. Uses Loader's Mastery skin.",
+	"dependencies": [
+    ]
+}

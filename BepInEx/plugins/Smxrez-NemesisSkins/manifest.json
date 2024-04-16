@@ -1,0 +1,10 @@
+{
+    "name": "NemesisSkins",
+    "version_number": "0.4.0",
+    "website_url": "",
+    "description": "A skinpack that adds 4 skins based on StarStorm1's nemesis survivors",
+    "dependencies": [
+        "KingEnderBrine-LobbySkinsFix-1.2.0",
+        "RiskofThunder-R2API_Skins-1.1.0"
+    ]
+}

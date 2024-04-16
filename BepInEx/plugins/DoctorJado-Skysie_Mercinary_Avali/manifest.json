@@ -1,0 +1,10 @@
+{
+	"name": "Skysie_Mercinary_Avali",
+	"version_number": "1.1.1",
+	"website_url": "",
+	"description": "Skysie as Mercinary for RoR",
+	"dependencies": 
+	[
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Hoodless_Railgunner",
+	"version_number": "1.0.1",
+	"website_url": "",
+	"description": "A couple of hoodless Railgunner skins, reminiscent of the mastery design",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.1903"
+	]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "ElysiumLoader",
+    "version_number": "1.1.1",
+    "website_url": "",
+    "description": "The first skin I decided to make was a lewd Loader skin. No regrets.",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1",
+    "tristanmcpherson-R2API-2.5.14"
+    ]
+}

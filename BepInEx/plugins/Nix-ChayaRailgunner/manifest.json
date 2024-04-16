@@ -1,0 +1,9 @@
+﻿{
+	"name": "ChayaRailgunner",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "Comission Skin of a tiger girl as the railgunner",
+	"dependencies": [
+        "bbepis-BepInExPack-5.4.1903"
+	]
+}

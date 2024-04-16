@@ -1,0 +1,9 @@
+{
+    "name": "Femme_Bandit",
+    "version_number": "1.2.0",
+    "website_url": "",
+    "description": "[Lite NSFW] A gender bending skin for Bandit. She's got some thiccness.",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

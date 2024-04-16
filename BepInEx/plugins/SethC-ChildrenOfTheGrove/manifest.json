@@ -1,0 +1,11 @@
+{
+    "name": "ChildrenOfTheGrove",
+    "version_number": "1.6.0",
+    "website_url": "",
+    "description": "A couple skins inspired by The Grovetender",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2103",
+	"tristanmcpherson-R2API-5.0.3",
+        "KingEnderBrine-LobbySkinsFix-1.2.0"
+    ]
+}

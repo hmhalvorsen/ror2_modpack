@@ -1,0 +1,9 @@
+{
+    "name": "Fem_Mercenary",
+    "version_number": "1.2.0",
+    "website_url": "",
+    "description": "Adds 2 highly polished fem skins to RoR2's most advanced class. No longer dependent on EnigmaticThunder (or anything else)",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

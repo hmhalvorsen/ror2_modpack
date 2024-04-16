@@ -1,0 +1,14 @@
+{
+    "name": "Doom_Paladin",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/thunderstore-io",
+    "description": "Rip and Tear, until it is done.",
+    "dependencies": 
+	[
+	    "bbepis-BepInExPack-5.4.9",
+        "RiskofThunder-HookGenPatcher-1.2.1",
+        "Paladin_Alliance-PaladinMod-1.5.8",
+        "tristanmcpherson-R2API-4.3.2",
+        "KingEnderBrine-LobbySkinsFix-1.2.0"
+    ]
+}

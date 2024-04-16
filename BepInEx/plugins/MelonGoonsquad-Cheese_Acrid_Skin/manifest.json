@@ -1,0 +1,9 @@
+{
+  "name": "Cheese_Acrid_Skin",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "Adds a cheese skin for the Acrid survivor",
+  "dependencies": [
+    "KingEnderBrine-LobbySkinsFix-1.2.1"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Fem_Commando_Item_Display_Fix",
+    "version_number": "0.0.0",
+    "website_url": "",
+    "description": "Changes how items are displayed on Commando to fit Liamono's 'Fem Commando' model",
+    "dependencies": [ 
+    "Liamono-Fem_Commando-1.2.0"
+    ]
+}

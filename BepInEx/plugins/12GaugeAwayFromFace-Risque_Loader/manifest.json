@@ -1,0 +1,9 @@
+{
+    "name": "Risque_Loader",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "[NSFW] Gives loader a risque skin, alongside a few recolors. Complete with jiggle physics.",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

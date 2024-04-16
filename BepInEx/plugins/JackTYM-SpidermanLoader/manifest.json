@@ -1,0 +1,9 @@
+{
+    "name": "SpidermanLoader",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/JackTYM/RoR2Modding",
+    "description": "Adds a Spider-Man skin to Loader",
+    "dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

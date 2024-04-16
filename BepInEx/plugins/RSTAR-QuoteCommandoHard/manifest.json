@@ -1,0 +1,11 @@
+{
+  "namespace": "Ruby",
+  "name": "QuoteCommandoHard",
+  "description": "Your favorite cave-busting android's in town, sporting a unique, challenging blue outfit!",
+  "version_number": "1.0.0",
+    "website_url": "",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.9",
+    "RiskofThunder-HookGenPatcher-1.2.3"
+  ]
+}

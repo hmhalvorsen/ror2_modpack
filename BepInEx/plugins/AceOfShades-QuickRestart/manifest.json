@@ -1,0 +1,10 @@
+{
+    "name": "QuickRestart",
+    "version_number": "1.4.2",
+    "website_url": "https://github.com/Maceris/quick-restart",
+    "description": "Allows quickly starting a new run.",
+    "dependencies": [
+        "tristanmcpherson-R2API-4.3.21",
+		    "bbepis-BepInExPack-5.4.1905"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "SnowLeopardEngineer",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/thunderstore-io",
+    "description": "Adds in a magic Snow Leopard as engineer with magic crystal turrets.",
+    "dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

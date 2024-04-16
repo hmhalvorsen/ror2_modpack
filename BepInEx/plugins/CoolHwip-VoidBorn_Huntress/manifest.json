@@ -1,0 +1,9 @@
+{
+    "name": "VoidBorn_Huntress",
+    "version_number": "1.0.11",
+    "website_url": "",
+    "description": "NSFW void-ish themed huntress model",
+    "dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+    ]
+}

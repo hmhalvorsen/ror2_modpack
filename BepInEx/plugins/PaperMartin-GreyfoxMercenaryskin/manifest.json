@@ -1,0 +1,10 @@
+{
+    "name": "GreyfoxMercenaryskin",
+    "version_number": "2.0.0",
+    "website_url": "sorry nothing",
+    "description": "A skin for the mercenary based on Grey Fox from metal gear solid",
+    "dependencies": [
+        "tristanmcpherson-R2API-3.0.52",
+	   "bbepis-BepInExPack-5.4.9"
+    ]
+}

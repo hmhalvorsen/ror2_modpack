@@ -1,0 +1,9 @@
+{
+	"name": "Retros_Skinpack",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "A collection of skins and recolors I made for my friends and I, now they're for you too. Includes Config.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.1903"
+	]
+}

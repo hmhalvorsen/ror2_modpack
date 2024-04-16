@@ -1,0 +1,9 @@
+{
+    "name": "NudeLoader",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Adds a skin that makes Loader nude.",
+    "dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

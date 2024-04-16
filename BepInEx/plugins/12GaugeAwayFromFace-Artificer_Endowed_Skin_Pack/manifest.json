@@ -1,0 +1,9 @@
+{
+    "name": "Artificer_Endowed_Skin_Pack",
+    "version_number": "1.0.7",
+    "website_url": "",
+    "description": "[NSFW] Give Artificer a pair of news skins that make her... endowed. Includes a modified version of the Academic Skin.",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

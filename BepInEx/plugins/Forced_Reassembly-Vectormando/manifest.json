@@ -1,0 +1,10 @@
+{
+    "name": "Vectormando",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Adds a Vector Graphic Commando as a skin.",
+    "dependencies": [
+        "RiskofThunder-R2API_Loadout-1.0.0",
+        "KingEnderBrine-LobbySkinsFix-1.2.0"
+    ]
+}

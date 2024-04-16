@@ -1,0 +1,9 @@
+{
+	"name": "MechaDragonRailgunner",
+	"version_number": "0.7.0",
+	"website_url": "https://irongut.gumroad.com/l/uPsxL",
+	"description": "Railgunner skin that turns them into a Robo Dragon! Has tail physics. Plans to alter backpack later.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

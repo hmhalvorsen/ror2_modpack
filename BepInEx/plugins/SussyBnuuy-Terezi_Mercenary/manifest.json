@@ -1,0 +1,9 @@
+{
+    "name": "Terezi_Mercenary",
+    "version_number": "1.0.0",
+	"website_url": "",
+	"description": "A skin mod that makes merc look like Terezi Homestuck.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.2103"
+    ]
+}

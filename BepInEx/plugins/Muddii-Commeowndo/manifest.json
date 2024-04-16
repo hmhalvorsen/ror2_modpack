@@ -1,0 +1,10 @@
+﻿{
+	"name": "Commeowndo",
+	"version_number": "1.2.0",
+	"website_url": "",
+	"description": "Adds cat ears to many survivors",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.2111",
+		"RiskofThunder-HookGenPatcher-1.2.3"
+	]
+}

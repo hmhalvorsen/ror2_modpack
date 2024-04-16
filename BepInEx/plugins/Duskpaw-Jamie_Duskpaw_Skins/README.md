@@ -1,0 +1,1 @@
+A mod that turns Mercenary and Bandit into my character, Jamie Duskpaw. This mod includes both SFW and NSFW versions. The character is owned by me, model made by @FuckThisShit747 on Twitter, and made into a mod by Mr Bones. Railgunner coming soon.

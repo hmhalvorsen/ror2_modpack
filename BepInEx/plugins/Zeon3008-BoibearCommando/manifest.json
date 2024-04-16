@@ -1,0 +1,9 @@
+{
+    "name": "BoibearCommando",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "This funky little guy called Boibear joins the fight as a skin for the Commando Class.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2103"
+    ]
+}

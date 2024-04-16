@@ -1,0 +1,9 @@
+{
+    "name": "SmoreSkins",
+    "version_number": "1.1.3",
+    "website_url": "",
+    "description": "A skinpack that contains 12 cool recolors",
+    "dependencies": [
+        "KingEnderBrine-LobbySkinsFix-1.2.0"
+    ]
+}

@@ -1,0 +1,1 @@
+Skin for Paladin that is Saber from Fate. You know, stay night, grand order, that shit. Hopefully in the future I can figure out how to change the blessed/sword glow/lasers to be yellow or someone can help me with it. Huge thanks to Paladin discord, specifically TimeSweeper, and also KingEnderBrine for the massive amount of help they gave me.

@@ -1,0 +1,9 @@
+{
+    "name": "SenatorArmstrongLoader",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "Nanomachines, son. They harden in response to physical trauma.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.1903"
+    ]
+}

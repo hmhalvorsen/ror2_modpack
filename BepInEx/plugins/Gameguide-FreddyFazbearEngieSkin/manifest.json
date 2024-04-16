@@ -1,0 +1,9 @@
+{
+    "name": "FreddyFazbearEngieSkin",
+    "version_number": "2.0.1",
+    "website_url": "",
+    "description": "Five Nights at Freddy's Skins for ROR2 survivors. Oh yeah!",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.4.1905"
+    ]
+}

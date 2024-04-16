@@ -1,0 +1,9 @@
+{
+    "name": "DragonCommando",
+    "version_number": "1.2.1",
+    "website_url": "",
+    "description": "the skrunkly",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.1902"
+    ]
+}

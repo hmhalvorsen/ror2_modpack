@@ -1,0 +1,9 @@
+{
+    "name": "Lemons_Fem_Captain_Skin",
+    "version_number": "1.0.4",
+    "website_url": "",
+    "description": "Gives Captain a unique gender bend skin.",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

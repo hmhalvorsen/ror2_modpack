@@ -1,0 +1,9 @@
+{
+	"name": "SalazzleHuntress",
+	"version_number": "2.0.0",
+	"website_url": "",
+	"description": "Who gave this lizard a bow? Huntress skin making her Salazzle from Pokemon - Has Tail and Feeler Physics. Now with a shiny variant!",
+	"dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

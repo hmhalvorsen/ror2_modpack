@@ -1,0 +1,9 @@
+{
+    "name": "Fem_Commando",
+    "version_number": "1.2.0",
+    "website_url": "",
+    "description": "Adds 2 polished fem skins for Commando. No longer dependent on EnigmaticThunder (or anything else)",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MysticalArtificer",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "A skin for Artificer that's pretty mystical",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2103",
+	"tristanmcpherson-R2API-5.0.3",
+        "KingEnderBrine-LobbySkinsFix-1.2.0"
+    ]
+}

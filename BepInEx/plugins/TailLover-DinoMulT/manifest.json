@@ -1,0 +1,9 @@
+{
+	"name": "DinoMulT",
+	"version_number": "1.0.3",
+	"website_url": "",
+	"description": "Mul-T skin changing his base colours, and replacing his head and adding a mechanical tail - has physics",
+	"dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

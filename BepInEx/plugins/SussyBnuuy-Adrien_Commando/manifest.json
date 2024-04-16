@@ -1,0 +1,9 @@
+{
+    "name": "Adrien_Commando",
+    "version_number": "1.0.0",
+	"website_url": "",
+	"description": "A commissioned skin mod that makes Commando look like a furry character named Adrien. Model was made in Blender.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.2103"
+    ]
+}

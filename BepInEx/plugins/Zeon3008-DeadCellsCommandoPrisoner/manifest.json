@@ -1,0 +1,9 @@
+{
+    "name": "DeadCellsCommandoPrisoner",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "A commando from a different realm joins the crew of the UES Safe Travels.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2103"
+    ]
+}

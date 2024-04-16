@@ -1,0 +1,9 @@
+{
+	"name": "FrankasaurusEngi",
+	"version_number": "1.0.4",
+	"website_url": "",
+	"description": "Frankasaurus from the obscure game 'ATTACK OF THE FRIDAY MONSTERS! A TOKYO TALE' as a skin for Engineer. Has Tail Physics",
+	"dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

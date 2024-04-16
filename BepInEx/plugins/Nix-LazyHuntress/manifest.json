@@ -1,0 +1,9 @@
+﻿{
+	"name": "LazyHuntress",
+	"version_number": "1.0.2",
+	"website_url": "",
+	"description": "Adds a loose dress shirt skin for huntress",
+	"dependencies": [
+        "bbepis-BepInExPack-5.4.1903"
+	]
+}

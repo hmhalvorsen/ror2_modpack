@@ -1,0 +1,9 @@
+{
+    "name": "Loona_Loader",
+    "version_number": "1.0.0",
+	"website_url": "",
+	"description": "A commissioned skin mod that makes Loader look like a thicc version of Loona from Helluva Boss. Includes 4 outfits.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.2103"
+    ]
+}

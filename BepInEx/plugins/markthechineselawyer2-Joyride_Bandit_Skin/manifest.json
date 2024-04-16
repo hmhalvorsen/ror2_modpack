@@ -1,0 +1,10 @@
+{
+    "name": "Joyride_Bandit_Skin",
+    "version_number": "1.0.3",
+    "website_url": "https://github.com/thunderstore-io",
+    "description": "An updated version of a cyberpunk styled skin I made for bandit, now with a cool mask!",
+    "dependencies": [
+        "tristanmcpherson-R2API-4.3.2",
+        "KingEnderBrine-LobbySkinsFix-1.2.0"
+    ]
+}

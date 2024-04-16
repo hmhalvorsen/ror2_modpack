@@ -1,0 +1,9 @@
+{
+    "name": "BoiCommandoSkin",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Oh shit its that Boi, Oh shit waddup",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.1905"
+    ]
+}

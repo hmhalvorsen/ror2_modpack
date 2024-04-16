@@ -1,0 +1,9 @@
+{
+    "name": "Femme_Mercenary_Skin",
+    "version_number": "1.1.4",
+    "website_url": "",
+    "description": "[NSFW] Gives Mercenary a gender bend skin. She's quite bottom heavy.",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

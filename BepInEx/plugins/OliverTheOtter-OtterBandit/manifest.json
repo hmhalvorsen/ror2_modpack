@@ -1,0 +1,9 @@
+{
+    "name": "OtterBandit",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "Otter with a shotgun, what he gonna do-",
+    "dependencies": [
+        "bbepis-BepInExPack-5.3.1"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "RenamonArtificer",
+    "version_number": "1.0.4",
+    "website_url": "https://github.com/RuneFox237/RenamonArtificer",
+    "description": "Custom Artificer Skin with tail and ear physics",
+  "dependencies": [
+    "bbepis-BepInExPack-5.4.1902"
+  ]
+}

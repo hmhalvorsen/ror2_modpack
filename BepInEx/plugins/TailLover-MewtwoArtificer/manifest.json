@@ -1,0 +1,9 @@
+{
+	"name": "MewtwoArtificer",
+	"version_number": "1.0.3",
+	"website_url": "",
+	"description": "Mewtwo joins the roster as a skin for Artificer - has tail physics. Now has two new colour variations from smash!",
+	"dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

@@ -1,0 +1,9 @@
+﻿{
+	"name": "Mario64Commando",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "Mario 64 skin over commando",
+	"dependencies": [
+        "bbepis-BepInExPack-5.4.1903"
+	]
+}

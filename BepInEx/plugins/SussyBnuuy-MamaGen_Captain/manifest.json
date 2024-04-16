@@ -1,0 +1,9 @@
+{
+    "name": "MamaGen_Captain",
+    "version_number": "1.1.0",
+	"website_url": "",
+	"description": "A commissioned skin mod that makes Captain look like a Mama-Gen. Includes 3 skins.",
+	"dependencies": [
+			"bbepis-BepInExPack-5.3.1"
+    ]
+}

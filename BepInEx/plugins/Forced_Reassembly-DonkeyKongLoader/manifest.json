@@ -1,0 +1,10 @@
+{
+    "name": "DonkeyKongLoader",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "The spawn of Satan returns in a new form",
+    "dependencies": [
+        "RiskofThunder-R2API_Loadout-1.0.0",
+        "KingEnderBrine-LobbySkinsFix-1.2.0"
+    ]
+}

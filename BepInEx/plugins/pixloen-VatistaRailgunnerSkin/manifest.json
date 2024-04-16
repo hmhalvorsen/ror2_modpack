@@ -1,0 +1,10 @@
+{
+    "name": "VatistaRailgunnerSkin",
+    "version_number": "1.2.0",
+    "website_url": "",
+    "description": "Adds a Railgunner skin of Vatista from fighting game Under Night In-Birth. Now with 7 alternate colors!",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2113",
+        "tristanmcpherson-R2API-5.0.5"
+    ]
+}

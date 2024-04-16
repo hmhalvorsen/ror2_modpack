@@ -1,0 +1,2250 @@
+[Message:   BepInEx] BepInEx 5.4.21.0 - Risk of Rain 2 (3/15/2024 6:28:51 PM)
+[Info   :   BepInEx] Running under Unity v2019.4.26.14694700
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.17020
+[Info   :   BepInEx] Supports SRE: False
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.21.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.GUI.Loader 1.0.0.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [FixPluginTypesSerialization 1.0.0.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.MonoMod.HookGenPatcher 1.2.1.0]
+[Info   :   BepInEx] 4 patcher plugins loaded
+[Info   :BepInEx.GUI.Loader] Finding and launching GUI
+[Info   :BepInEx.GUI.Loader] Found bepinex_gui v3 executable in C:\Program Files (x86)\Steam\steamapps\common\Risk of Rain 2\BepInEx\patchers\RiskofThunder-BepInEx_GUI\BepInEx.GUI\bepinex_gui.exe
+[Info   :BepInEx.GUI.Loader] [SendLogToClient] Accepting Socket.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Message:FixPluginTypesSerialization] Using the config cache
+[Info   :FixPluginTypesSerialization] Running under Unity v2019.4.26
+[Debug  :FixPluginTypesSerialization] Unity version obtained from main application module.
+[Info   :   BepInEx] Patching [RoR2] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Error  :BepInEx.GUI.Loader] Error while trying to send log to socket: System.Net.Sockets.SocketException (0x80004005): Connection reset by peer
+  at System.Net.Sockets.Socket.Send (System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags) [0x00016] in <6b80e2850f1c48e6a227f0818ca6b227>:0 
+  at System.Net.Sockets.Socket.Send (System.Byte[] buffer) [0x00000] in <6b80e2850f1c48e6a227f0818ca6b227>:0 
+  at BepInEx.GUI.Loader.SendLogToClientSocket.SendPacketsToClientUntilConnectionIsClosed (System.Net.Sockets.Socket clientSocket) [0x0003d] in <1bdf28b1593443dcb8ec24f9e13cdb6a>:0 
+Disconnecting socket.
+[Info   :BepInEx.GUI.Loader] [SendLogToClient] Accepting Socket.
+[Info   :   BepInEx] 326 plugins to load
+[Warning:   BepInEx] Skipping [Merc_Nemorni 1.0.0] because a newer version exists (Merc_Nemorni 1.0.0)
+[Info   :   BepInEx] TS Manifest: RiskofThunder-RoR2BepInExPack-1.11.0
+[Info   :   BepInEx] Loading [RoR2BepInExPack 1.11.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: System.Diagnostics.StackTrace.AddFrames
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: System.Diagnostics.StackTrace.AddFrames
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: System.Reflection.Assembly.GetTypes
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: RoR2.AchievementManager.CollectAchievementDefs
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: HG.Reflection.SearchableAttribute.ScanAllAssemblies
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: RoR2.RoR2Application.OnLoad
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: ResourceAvailability.MakeAvailable
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: RoR2.UnitySystemConsoleRedirector.Redirect
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: RoR2.Console.InitConVars
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Console.InitConVars
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: EntityStates.GenericCharacterDeath.PlayDeathAnimation
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: EntityStates.GenericCharacterDeath.PlayDeathAnimation
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: DynamicBone.ApplyParticlesToTransforms
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: DynamicBone.ApplyParticlesToTransforms
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: RoR2.UI.MainMenu.MainMenuController.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: RoR2.ProjectileCatalog.SetProjectilePrefabs
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.ProjectileCatalog.SetProjectilePrefabs
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: RoR2.EntitlementManagement.BaseUserEntitlementTracker`1[RoR2.LocalUser].UserHasEntitlement
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.EntitlementManagement.BaseUserEntitlementTracker`1[RoR2.LocalUser].UserHasEntitlement
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: RoR2.EntitlementManagement.BaseUserEntitlementTracker`1[RoR2.NetworkUser].UserHasEntitlement
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.EntitlementManagement.BaseUserEntitlementTracker`1[RoR2.NetworkUser].UserHasEntitlement
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.HealthComponent.TakeDamage
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.HealthComponent.TakeDamage
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: RoR2.Run.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Run.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: RoR2.CharacterBody.RemoveOldestTimedBuff
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.CharacterBody.RemoveOldestTimedBuff
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: UnityEngine.Networking.NetworkManager.StartHost
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: UnityEngine.Networking.NetworkManager.StartServer
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: RoR2.Items.ContagiousItemManager.StepInventoryInfection
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Items.ContagiousItemManager.StepInventoryInfection
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoR2BepInExPack.dll for: RoR2.Run.GenerateStageRNG
+[Info   :   BepInEx] TS Manifest: Bubbet-SkipIntro-1.0.0
+[Info   :   BepInEx] Loading [Skip Intro Cutscene 1.0.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: 0Harmony.dll for: RoR2.SplashScreenController.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.SplashScreenController.Start
+[Info   :   BepInEx] TS Manifest: crindle-Void_Fiend_Female_Skin-0.0.1
+[Info   :   BepInEx] Loading [FemaleVoidFiend 0.0.1]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Artificer_Academic_Skin-1.0.4
+[Info   :   BepInEx] Loading [Academic Artificer 1.0.4]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Alternate_Huntress-1.3.3
+[Info   :   BepInEx] Loading [Alt Thicc Huntress 1.3.3]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Busty_Fem_Commando_Mandalorian_Skin-1.2.1
+[Info   :   BepInEx] Loading [Big_Tiddy_Female_Mandalorian_Skin 1.2.1]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Commando_Elite_Trooper_Skin-1.2.2
+[Info   :   BepInEx] Loading [Commando Trooper 1.2.2]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Artificer_Endowed_Skin_Pack-1.0.7
+[Info   :   BepInEx] Loading [Endowed Artificer 1.0.6]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Enhanced_Fem_Acrid-1.0.2
+[Info   :   BepInEx] Loading [Fem Acrid Edit 12G 1.0.2]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Fem_Captain_Skin-1.0.3
+[Info   :   BepInEx] Loading [Fem Captain 1.0.3]
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemCaptain.dll for: RoR2.Language.LoadStrings
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Fem_Commando_Skin-1.8.1
+[Info   :   BepInEx] Loading [Fem Commando 12G 1.8.1]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Femme_Bandit-1.2.0
+[Info   :   BepInEx] Loading [Femme Bandit 12G 1.2.0]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Femme_Mercenary_Skin-1.1.4
+[Info   :   BepInEx] Loading [Femme Merc 1.1.4]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Lemons_Fem_Captain_Skin-1.0.4
+[Info   :   BepInEx] Loading [Lemon Fem Captain 1.0.4]
+[Debug  :RoR2BepInExPack] Hook added by assembly: LemonFemCaptain.dll for: RoR2.Language.LoadStrings
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Risque_Fem_Captain_Skin-1.0.1
+[Info   :   BepInEx] Loading [Risque Fem Captain 12G 1.0.0]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Risque_Fem_Commando_Skin-1.3.1
+[Info   :   BepInEx] Loading [Risque Fem Commando 12G 1.2.0]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Risque_Fem_Mercenary_Skin-1.1.0
+[Info   :   BepInEx] Loading [Risque Fem Merc 12G 1.1.0]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Risque_Huntress-1.1.0
+[Info   :   BepInEx] Loading [Risque Huntress 12G 1.1.0]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Risque_Loader-1.0.0
+[Info   :   BepInEx] Loading [Risque Loader 12G 1.0.0]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Risque_Railgunner_Skin-1.0.0
+[Info   :   BepInEx] Loading [Risque Railgunner 12G 1.0.0]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-SFW_Alternate_Huntress-1.0.3
+[Info   :   BepInEx] Loading [SFW_Alt_Huntress 1.0.3]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-TF2_Engineer_Skin-1.0.3
+[Info   :   BepInEx] Loading [TeamFortress2_Engineer_Engineer_Skin 1.1.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: TeamFortress2_Engineer_Engineer_Skin.dll for: RoR2.Language.LoadStrings
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-ThiccArtificerSkin-1.1.1
+[Info   :   BepInEx] Loading [Thicc Arti 12G 1.1.1]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Thicc_Loader-1.0.4
+[Info   :   BepInEx] Loading [Thicc Loader 1.0.3]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Big_Tiddy_Fem_Engineer_Skin-1.4.0
+[Info   :   BepInEx] Loading [Tig_Biddy_Fem_Engineer_Skin 1.4.0]
+[Info   :   BepInEx] TS Manifest: 12GaugeAwayFromFace-Bandit_UES_Trooper_Skin-1.2.1
+[Info   :   BepInEx] Loading [UES Trooper Bandit Skin 1.2.1]
+[Info   :   BepInEx] TS Manifest: Alicket-CommandoYuukaSkin-1.3.1
+[Info   :   BepInEx] Loading [HayaseYuukaCommando 1.0.0]
+[Info   :   BepInEx] TS Manifest: Alicket-MisonoMikaArtificer-1.1.2
+[Info   :   BepInEx] Loading [MisonoMikaArtificer 1.0.0]
+[Info   :   BepInEx] TS Manifest: Alicket-RailgunnerAris-1.1.2
+[Info   :   BepInEx] Loading [TendouArisTheRailgunner 1.0.0]
+[Info   :   BepInEx] TS Manifest: KrononConspirator-MadVeteran_Skinpack-1.4.2
+[Info   :   BepInEx] Loading [MadVeteran 1.4.2]
+[Info   :   BepInEx] TS Manifest: Homestuck-Vriska_8andit_skin-1.0.2
+[Info   :   BepInEx] Loading [Vriska8 1.0.0]
+[Info   :   BepInEx] TS Manifest: Arty_Boyos-IkeaArti-2.0.0
+[Info   :   BepInEx] Loading [IkeaArti 1.0.0]
+[Info   :   BepInEx] TS Manifest: Arty_Boyos-KindredHuntress-2.0.0
+[Info   :   BepInEx] Loading [Kindred 1.0.0]
+[Info   :   BepInEx] TS Manifest: Arty_Boyos-KindredsLizard-2.0.0
+[Info   :   BepInEx] Loading [KindredsLizard 1.0.0]
+[Info   :   BepInEx] TS Manifest: Arty_Boyos-RoyalLizard-2.0.0
+[Info   :   BepInEx] Loading [RoyalLizard 1.0.0]
+[Info   :   BepInEx] TS Manifest: Arty_Boyos-VoidQueen-3.0.0
+[Info   :   BepInEx] Loading [VoidQueen 1.0.0]
+[Info   :   BepInEx] TS Manifest: Vise-Empty_Loader-1.0.0
+[Info   :   BepInEx] Loading [EmptyLoader 1.0.0]
+[Info   :   BepInEx] TS Manifest: Vise-Vanny_Mercinary-1.0.0
+[Info   :   BepInEx] Loading [Vanny Mercinary 1.0.0]
+[Info   :   BepInEx] TS Manifest: Vise-Railgunner_Zelda-1.0.0
+[Info   :   BepInEx] Loading [ZeldaSkin 1.0.0]
+[Info   :   BepInEx] TS Manifest: AudreyFromEarth-Huntress_Cheddar-1.0.0
+[Info   :   BepInEx] Loading [CheddarHuntress 1.0.0]
+[Info   :   BepInEx] TS Manifest: AudreyFromEarth-Huntress_Loona-1.1.0
+[Info   :   BepInEx] Loading [LoonaHuntress 1.0.0]
+[Info   :   BepInEx] TS Manifest: AudreyFromEarth-Poptartificer-1.0.0
+[Info   :   BepInEx] Loading [Poptartificer 1.0.0]
+[Info   :   BepInEx] TS Manifest: AvaCat-PuggyJacksonHuntress-1.0.0
+[Info   :   BepInEx] Loading [PuggyJacksonHuntress 1.0.0]
+[Info   :   BepInEx] TS Manifest: AvaCat-SnowLeopardEngineer-1.0.0
+[Info   :   BepInEx] Loading [SnowLeopardEngineer 1.0.0]
+[Info   :   BepInEx] TS Manifest: JustForMemes-JetstreamSamMercenary-1.0.0
+[Info   :   BepInEx] Loading [JetstreamSamMercenary 1.0.0]
+[Info   :   BepInEx] TS Manifest: JustForMemes-SenatorArmstrongLoader-1.0.1
+[Info   :   BepInEx] Loading [SenatorLoader 1.0.0]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_ArtifactCode-1.0.1
+[Info   :   BepInEx] Loading [R2API.ArtifactCode 1.0.1]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_CommandHelper-1.0.1
+[Info   :   BepInEx] Loading [R2API.CommandHelper 1.0.1]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_ContentManagement-1.0.4
+[Info   :   BepInEx] Loading [R2API.ContentManagement 1.0.4]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_DamageType-1.0.4
+[Info   :   BepInEx] Loading [R2API.DamageType 1.0.4]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Deployable-1.0.1
+[Info   :   BepInEx] Loading [R2API.Deployable 1.0.1]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Difficulty-1.1.2
+[Info   :   BepInEx] Loading [R2API.Difficulty 1.1.2]
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Difficulty.dll for: RoR2.DifficultyCatalog.GetDifficultyDef
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Difficulty.dll for: RoR2.RuleDef.FromDifficulty
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Director-2.1.0
+[Info   :   BepInEx] Loading [R2API.Director 2.1.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Director.dll for: RoR2.ClassicStageInfo.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Director.dll for: RoR2.ClassicStageInfo.HandleMixEnemyArtifact
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.ClassicStageInfo.HandleMixEnemyArtifact
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Director.dll for: RoR2.SceneCatalog.Init
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Dot-1.0.1
+[Info   :   BepInEx] Loading [R2API.Dot 1.0.1]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Elites-1.0.3
+[Info   :   BepInEx] Loading [R2API.Elites 1.0.3]
+[Debug  :R2API.Elites] EliteAPI.cctor finished.
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Elites.dll for: RoR2.CombatDirector.Init
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.CombatDirector.Init
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Elites.dll for: RoR2.CombatDirector.Init
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Elites.dll for: RoR2.CharacterModel.UpdateMaterials
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.CharacterModel.UpdateMaterials
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Items-1.0.3
+[Info   :   BepInEx] Loading [R2API.Items 1.0.3]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Language-1.0.1
+[Info   :   BepInEx] Loading [R2API.Language 1.0.1]
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Language.dll for: RoR2.Language.GetLocalizedStringByToken
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Language.dll for: RoR2.Language.TokenIsRegistered
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Skins-1.1.0
+[Info   :   BepInEx] Loading [R2API.Skins 1.1.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.ModelSkinController.ApplySkin
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.EffectComponent.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.EffectManager.SpawnEffect
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.BulletAttack.FireSingle
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.BulletAttack.FireSingle
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.EffectManager.SimpleMuzzleFlash
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.EffectManager.SimpleMuzzleFlash
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: EntityStates.BasicMeleeAttack.BeginMeleeAttackEffect
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.Orbs.GenericDamageOrb.Begin
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Orbs.GenericDamageOrb.Begin
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Loadout-1.0.2
+[Info   :   BepInEx] Loading [R2API.Loadout 1.0.2]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_LobbyConfig-1.0.1
+[Info   :   BepInEx] Loading [R2API.LobbyConfig 1.0.1]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Networking-1.0.2
+[Info   :   BepInEx] Loading [R2API.Networking 1.0.2]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Orb-1.0.1
+[Info   :   BepInEx] Loading [R2API.Orb 1.0.1]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Prefab-1.0.3
+[Info   :   BepInEx] Loading [R2API.Prefab 1.0.3]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_RecalculateStats-1.3.0
+[Info   :   BepInEx] Loading [R2API.RecalculateStats 1.3.0]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_SceneAsset-1.1.2
+[Info   :   BepInEx] Loading [R2API.SceneAsset 1.1.2]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Sound-1.0.2
+[Info   :   BepInEx] Loading [R2API.Sound 1.0.2]
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Sound.dll for: AkWwiseInitializationSettings.InitializeSoundEngine
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Sound.dll for: AkWwiseInitializationSettings.InitializeSoundEngine
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Sound.dll for: RoR2.MusicController.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Sound.dll for: RoR2.MusicController.UpdateState
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Sound.dll for: RoR2.MusicController.LateUpdate
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.MusicController.LateUpdate
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_TempVisualEffect-1.0.2
+[Info   :   BepInEx] Loading [R2API.TempVisualEffect 1.0.2]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Unlockable-1.0.2
+[Info   :   BepInEx] Loading [R2API.Unlockable 1.0.2]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Core-5.0.12
+[Info   :   BepInEx] Loading [R2API 5.0.12]
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Core.dll for: RoR2.RoR2Application.Awake
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Addressables-1.0.3
+[Info   :   BepInEx] Loading [R2API.Addressables 1.0.3]
+[Info   :   BepInEx] TS Manifest: RiskofThunder-R2API_Colors-1.0.1
+[Info   :   BepInEx] Loading [R2API.Colors 1.0.1]
+[Info   :   BepInEx] TS Manifest: bobblet-AmongUsCommando-1.0.1
+[Info   :   BepInEx] Loading [Among Us Commando 1.0.0]
+[Info   :   BepInEx] TS Manifest: bobblet-UltrakillV1_Bandit_Skin-1.0.4
+[Info   :   BepInEx] Loading [Ultrakill V1 Bandit Skin 1.0.3]
+[Info   :   BepInEx] TS Manifest: VanillaVitamins-SaoriBandit-1.0.2
+[Info   :   BepInEx] Loading [BanditSaoriSkin 1.0.0]
+[Info   :   BepInEx] TS Manifest: bread-GupCaptain-1.0.0
+[Info   :   BepInEx] Loading [GupCaptain 1.0.0]
+[Info   :   BepInEx] TS Manifest: SethC-AstronautCommando-1.0.0
+[Info   :   BepInEx] Loading [AstronautCommando 1.0.0]
+[Info   :   BepInEx] TS Manifest: SethC-ChildrenOfTheGrove-1.6.0
+[Info   :   BepInEx] Loading [GroveChildren 1.0.0]
+[Info   :   BepInEx] TS Manifest: SethC-MysticalArtificer-1.0.0
+[Info   :   BepInEx] Loading [MysticalArtificer 1.0.0]
+[Info   :   BepInEx] TS Manifest: SethC-ThomasRex-2.0.0
+[Info   :   BepInEx] Loading [ThomasRex 1.0.0]
+[Info   :   BepInEx] TS Manifest: BreadboiSkins-Xenomorph-1.0.0
+[Info   :   BepInEx] Loading [Xenomorph 1.0.0]
+[Info   :   BepInEx] TS Manifest: BrinTheBoy-RaidenMerc-1.0.4
+[Info   :   BepInEx] Loading [RaidenMerc 1.0.4]
+[Info   :   BepInEx] TS Manifest: ChaoticSquidKid-OuterWildsHatchling-1.0.0
+[Info   :   BepInEx] Loading [OuterWildsHatchling 1.0.0]
+[Info   :   BepInEx] TS Manifest: SammachTeam-BigRobomando-1.0.3
+[Info   :   BepInEx] Loading [BigmandoMod 1.0.3]
+[Info   :   BepInEx] TS Manifest: con-PossumAcrid-1.0.2
+[Info   :   BepInEx] Loading [PossumAcrid 1.0.0]
+[Info   :   BepInEx] TS Manifest: CoolHwip-VoidBorn_Huntress-1.0.11
+[Info   :   BepInEx] Loading [VoidBorn 1.0.11]
+[Info   :   BepInEx] TS Manifest: Crawron-BeachCaptain-1.0.0
+[Info   :   BepInEx] Loading [BeachCaptain 1.0.0]
+[Info   :   BepInEx] TS Manifest: CrazyHamsters_Team-HuntressMononokeSkin-1.0.0
+[Info   :   BepInEx] Loading [HuntressMononoke 1.0.0]
+[Info   :   BepInEx] TS Manifest: Cyto3218-Cyto_Commando-2.1.0
+[Info   :   BepInEx] Loading [CytoCommando 2.1.0]
+[Info   :   BepInEx] TS Manifest: dan8991iel-LunarCoinShareOnPickup-4.2.1
+[Info   :   BepInEx] Loading [LunarCoinShareOnPickup 4.2.1]
+[Debug  :RoR2BepInExPack] Hook added by assembly: LunarCoinShareOnPickup.dll for: RoR2.GenericPickupController.OnInteractionBegin
+[Info   :   BepInEx] TS Manifest: ScytherianStudios-CodyDripArtificer-2.0.4
+[Info   :   BepInEx] Loading [CodyDripArtificer 2.0.4]
+[Info   :   BepInEx] TS Manifest: DemonicCat-LouisAlderMercenary-1.0.1
+[Info   :   BepInEx] Loading [LouisAlderMercenary 1.0.0]
+[Info   :   BepInEx] TS Manifest: DoctorJado-Skysie_Mercinary_Avali-1.1.1
+[Info   :   BepInEx] Loading [SkysieMercinary 1.0]
+[Info   :   BepInEx] TS Manifest: dotflare-WinterSkinPack-1.0.1
+[Info   :   BepInEx] Loading [ChristmasPack 1.0.0]
+[Info   :   BepInEx] TS Manifest: dotflare-LostThroughTimeSkinPack-1.1.4
+[Info   :   BepInEx] Loading [LTT1 1.0.7]
+[Info   :   BepInEx] TS Manifest: EnforcerGang-MinerUnearthed-1.9.10
+[Info   :   BepInEx] Loading [DiggerUnearthed 1.9.10]
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Items.dll for: RoR2.CharacterModel.UpdateMaterials
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.CharacterModel.UpdateMaterials
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Items.dll for: RoR2.ItemDisplayRuleSet.Init
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Items.dll for: RoR2.ItemCatalog.SetItemDefs
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.ItemCatalog.SetItemDefs
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.NetworkExtensions.Write
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.NetworkExtensions.ReadDamageInfo
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.BulletAttack.DefaultHitCallbackImplementation
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.BulletAttack.DefaultHitCallbackImplementation
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.Orbs.DamageOrb.OnArrival
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Orbs.DamageOrb.OnArrival
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.Orbs.GenericDamageOrb.OnArrival
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Orbs.GenericDamageOrb.OnArrival
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.Orbs.LightningOrb.OnArrival
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Orbs.LightningOrb.OnArrival
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.Orbs.ChainGunOrb.OnArrival
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Orbs.ChainGunOrb.OnArrival
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.Projectile.DeathProjectile.FixedUpdate
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Projectile.DeathProjectile.FixedUpdate
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.Projectile.ProjectileDotZone.ResetOverlap
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Projectile.ProjectileDotZone.ResetOverlap
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.Projectile.ProjectileExplosion.DetonateServer
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Projectile.ProjectileExplosion.DetonateServer
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.Projectile.ProjectileGrantOnKillOnDestroy.OnDestroy
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Projectile.ProjectileGrantOnKillOnDestroy.OnDestroy
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.Projectile.ProjectileIntervalOverlapAttack.FixedUpdate
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Projectile.ProjectileIntervalOverlapAttack.FixedUpdate
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.Projectile.ProjectileOverlapAttack.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Projectile.ProjectileOverlapAttack.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.Projectile.ProjectileOverlapAttack.ResetOverlapAttack
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Projectile.ProjectileOverlapAttack.ResetOverlapAttack
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.Projectile.ProjectileProximityBeamController.UpdateServer
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Projectile.ProjectileProximityBeamController.UpdateServer
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.Projectile.ProjectileSingleTargetImpact.OnProjectileImpact
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Projectile.ProjectileSingleTargetImpact.OnProjectileImpact
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.DotController.EvaluateDotStacksForType
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.DotController.EvaluateDotStacksForType
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.DotController.AddPendingDamageEntry
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.DotController.AddPendingDamageEntry
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.BlastAttack.HandleHits
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.BlastAttack.HandleHits
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.BlastAttack.PerformDamageServer
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.BlastAttack.PerformDamageServer
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.BlastAttack+BlastAttackDamageInfo.Write
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.BlastAttack+BlastAttackDamageInfo.Read
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.OverlapAttack.ProcessHits
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.OverlapAttack.ProcessHits
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.OverlapAttack.PerformDamage
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.OverlapAttack.PerformDamage
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.OverlapAttack+OverlapAttackMessage.Serialize
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.OverlapAttack+OverlapAttackMessage.Deserialize
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.GlobalEventManager.OnHitAll
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.GlobalEventManager.OnHitAll
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.HealthComponent.SendDamageDealt
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.HealthComponent.SendDamageDealt
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.DamageDealtMessage.Serialize
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.DamageDealtMessage.Deserialize
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.ContactDamage.FireOverlaps
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.ContactDamage.FireOverlaps
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.DamageType.dll for: RoR2.DelayBlast.Detonate
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.DelayBlast.Detonate
+[Debug  :RoR2BepInExPack] Hook added by assembly: DiggerUnearthed.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :RoR2BepInExPack] Hook added by assembly: DiggerUnearthed.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :RoR2BepInExPack] Hook added by assembly: DiggerUnearthed.dll for: RoR2.GlobalEventManager.OnHitAll
+[Debug  :RoR2BepInExPack] Hook added by assembly: DiggerUnearthed.dll for: RoR2.Language.SetFolders
+[Info   :   BepInEx] TS Manifest: dotflare-LostThroughTimeSkinPack-1.1.4
+[Info   :   BepInEx] Loading [LTT2 1.0.3]
+[Info   :   BepInEx] TS Manifest: dotflare-AntiqueCaptain-1.0.7
+[Info   :   BepInEx] Loading [MercCap 1.1.0]
+[Info   :   BepInEx] TS Manifest: Team_Pepega-GodzillaAcridSkin-1.2.0
+[Info   :   BepInEx] Loading [GodzillaAcrid 1.2.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: Godzilla.dll for: RoR2.SurvivorCatalog.Init
+[Info   :   BepInEx] TS Manifest: Necrofearfire-Warlock_Artificer-0.9.1
+[Info   :   BepInEx] Loading [Warlock Artificer 0.9.1]
+[Info   :   BepInEx] TS Manifest: Ekpy-BoiCommandoSkin-1.0.0
+[Info   :   BepInEx] Loading [BoiCommando 1.0.0]
+[Info   :   BepInEx] TS Manifest: Dreams-LightDreamerSkin-1.0.0
+[Info   :   BepInEx] Loading [LightDreamer 1.0.0]
+[Info   :   BepInEx] TS Manifest: EmperorKermit-PlagueBandit-1.0.1
+[Info   :   BepInEx] Loading [PlagueBandit 1.0.0]
+[Info   :   BepInEx] TS Manifest: EnforcerGang-Enforcer-3.8.2
+[Info   :   BepInEx] Loading [Enforcer 3.8.1]
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.Language.SetFolders
+[Info   :   BepInEx] TS Manifest: Rune580-Risk_Of_Options-2.7.1
+[Info   :   BepInEx] Loading [Risk Of Options 2.7.1]
+[Debug  :RoR2BepInExPack] Hook added by assembly: RiskOfOptions.dll for: RoR2.Language.GetLocalizedStringByToken
+[Debug  :RoR2BepInExPack] Hook added by assembly: RiskOfOptions.dll for: RoR2.PauseManager.CCTogglePause
+[Info   :   BepInEx] TS Manifest: MetrosexualFruitcake-CustomEmotesAPI-2.3.1
+[Info   :   BepInEx] Loading [Custom Emotes API 2.3.1]
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.CommandHelper.dll for: RoR2.Console.InitConVars
+[Info   :Custom Emotes API] Wanna see a cool NRE?
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+ScrollManager.UpdateButtonVisibility (System.String filter) (at <968c778b50af4af985fc34e58ff4afbd>:IL_0090)
+ScrollManager.OnEnable () (at <968c778b50af4af985fc34e58ff4afbd>:IL_0001)
+UnityEngine.GameObject:AddComponent()
+EmotesAPI.Settings:Yes()
+EmotesAPI.Settings:RunAll()
+EmotesAPI.CustomEmotesAPI:Awake()
+UnityEngine.GameObject:AddComponent(Type)
+BepInEx.Bootstrap.Chainloader:Start()
+FlashWindow:.cctor()
+
+[Debug  :RoR2BepInExPack] Hook added by assembly: CustomEmotesAPI.dll for: RoR2.SurvivorCatalog.Init
+[Debug  :RoR2BepInExPack] Hook added by assembly: CustomEmotesAPI.dll for: RoR2.UI.HUD.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: CustomEmotesAPI.dll for: RoR2.SceneCatalog.OnActiveSceneChanged
+[Debug  :RoR2BepInExPack] Hook added by assembly: CustomEmotesAPI.dll for: RoR2.AudioManager+VolumeConVar.SetString
+[Debug  :RoR2BepInExPack] Hook added by assembly: CustomEmotesAPI.dll for: RoR2.PlayerCharacterMasterController.FixedUpdate
+[Info   :   BepInEx] TS Manifest: EnforcerGang-HAND_OVERCLOCKED-1.4.6
+[Info   :   BepInEx] Loading [HAN-D Overclocked 1.4.1]
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Prefab.dll for: RoR2.Util.IsPrefab
+[Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.Language.SetFolders
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.RecalculateStats.dll for: RoR2.CharacterBody.RecalculateStats
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.CharacterBody.RecalculateStats
+[Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.HealthComponent.TakeDamage
+[Info   :R2API.ContentManagement] Created a SerializableContentPack for mod com.EnforcerGang.HANDOverclocked
+[Error  : Unity Log] Material doesn't have a float or range property '_BumpScale'
+[Error  : Unity Log] Material doesn't have a color property '_EmissionColor'
+[Error  : Unity Log] Material doesn't have a float or range property '_BumpScale'
+[Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: HAND_Overclocked.dll for: RoR2.SkinDef.Awake
+[Warning:HAN-D Overclocked] skin1
+[Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: HAND_Overclocked.dll for: RoR2.SkinDef.Awake
+[Warning:HAN-D Overclocked] skin2
+[Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: HAND_Overclocked.dll for: RoR2.SkinDef.Awake
+[Warning:HAN-D Overclocked] skin3
+[Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: HAND_Overclocked.dll for: RoR2.SkinDef.Awake
+[Warning:HAN-D Overclocked] skin4
+[Warning:HAN-D Overclocked] skin69
+[Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.ProjectileGhostReplacementManager.Init
+[Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.ModelSkinController.ApplySkin
+[Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.CharacterModel.UpdateItemDisplay
+[Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.HealthComponent.TakeDamage
+[Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "BBBoulderMediumRound1" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+[Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "GPGiantRockSlab1Collision" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+[Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "GPRuinRing1" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+[Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "DCHeatvent1" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+[Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "WPPlatform1FullRing" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+[Warning: Unity Log] Couldn't create a Convex Mesh from source mesh "mdlIcoRockL" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+[Error  : Unity Log] Material doesn't have a float or range property '_BumpScale'
+[Error  : Unity Log] Material doesn't have a color property '_EmissionColor'
+[Error  : Unity Log] Material doesn't have a float or range property '_BumpScale'
+[Error  : Unity Log] A game object can only be in one layer. The layer needs to be in the range [0...31]
+[Error  : Unity Log] Material doesn't have a float or range property '_BumpScale'
+[Error  : Unity Log] Material doesn't have a color property '_EmissionColor'
+[Error  : Unity Log] Material doesn't have a float or range property '_BumpScale'
+[Error  : Unity Log] A game object can only be in one layer. The layer needs to be in the range [0...31]
+[Debug  :RoR2BepInExPack] Hook added by assembly: HAND_Overclocked.dll for: RoR2.SurvivorCatalog.Init
+[Info   :   BepInEx] TS Manifest: FantomAs-BlackHole_Commando-1.0.0
+[Info   :   BepInEx] Loading [BlackHole-Commando 1.0.0]
+[Info   :   BepInEx] TS Manifest: FantomAs-GenjiSkin-1.0.0
+[Info   :   BepInEx] Loading [GenjiSkin 1.0.0]
+[Info   :   BepInEx] TS Manifest: FantomAs-SummerSkinPack-1.0.1
+[Info   :   BepInEx] Loading [SummerSkinPack 1.0.1]
+[Info   :   BepInEx] TS Manifest: Forced_Reassembly-BetaCommandoSkin-1.1.0
+[Info   :   BepInEx] Loading [BetaCommandoSkin 1.0.0]
+[Info   :   BepInEx] TS Manifest: Forced_Reassembly-BupHuntress-1.0.0
+[Info   :   BepInEx] Loading [Bup 1.0.0]
+[Info   :   BepInEx] TS Manifest: Forced_Reassembly-ClassicBanditSkin-2.0.1
+[Info   :   BepInEx] Loading [ClassicBanditSkin 1.0.0]
+[Info   :   BepInEx] TS Manifest: Forced_Reassembly-VibriCommandoSkin-1.3.1
+[Info   :   BepInEx] Loading [CommandoVibriSkinMod 1.0.0]
+[Info   :   BepInEx] TS Manifest: Forced_Reassembly-DonkeyKongLoader-1.0.0
+[Info   :   BepInEx] Loading [DKLoaderSkin 1.0.0]
+[Info   :   BepInEx] TS Manifest: Forced_Reassembly-TailsEngineer-1.0.0
+[Info   :   BepInEx] Loading [TailsEngi 1.0.0]
+[Info   :   BepInEx] TS Manifest: Forced_Reassembly-Vectormando-1.0.0
+[Info   :   BepInEx] Loading [Vectormando 1.0.0]
+[Info   :   BepInEx] TS Manifest: Forced_Reassembly-64YoshiAcrid-1.0.0
+[Info   :   BepInEx] Loading [YoshiAcrid 1.0.0]
+[Info   :   BepInEx] TS Manifest: Foxyz-Bandit_Mika-0.1.0
+[Info   :   BepInEx] Loading [Bandit Mika 0.1.0]
+[Info   :   BepInEx] TS Manifest: FrostRay-Frost_Ray_Skin_Pack-1.2.3
+[Info   :   BepInEx] Loading [FrostRaySkinPack 1.0.0]
+[Info   :   BepInEx] TS Manifest: FrostTheDragon-BestBoiSkinPack-1.2.0
+[Info   :   BepInEx] Loading [BestBoiSkinPack 1.2.0]
+[Info   :   BepInEx] TS Manifest: FrostTheDragon-DragonCommando-1.2.1
+[Info   :   BepInEx] Loading [DragonCommando 1.2.1]
+[Info   :   BepInEx] TS Manifest: Fruju-SpectralClawsPardofelisSkin-1.0.2
+[Info   :   BepInEx] Loading [SpectralClawsPardofelisSkin 1.0.2]
+[Info   :   BepInEx] TS Manifest: Fzzy-BocchiRailgunnerSkin-1.1.0
+[Info   :   BepInEx] Loading [BocchiSkin 1.0.0]
+[Info   :   BepInEx] TS Manifest: Gameguide-FreddyFazbearEngieSkin-2.0.1
+[Info   :   BepInEx] Loading [FreddyEngie 2.0.1]
+[Info   :   BepInEx] TS Manifest: GEMO-AllCommandoSkinsPack-1.5.0
+[Info   :   BepInEx] Loading [AllCommandoSkinPack 1.5.0]
+[Info   :   BepInEx] TS Manifest: Anzu-NSFW_Artificer-1.0.1
+[Info   :   BepInEx] Loading [NSFW Artificer 1.0.0]
+[Info   :   BepInEx] TS Manifest: Anzu-NSFW_Huntress-1.3.1
+[Info   :   BepInEx] Loading [NSFW Huntress 1.3.0]
+[Info   :   BepInEx] TS Manifest: mrarm-ItemCounters-1.0.1
+[Info   :   BepInEx] Loading [Item Counters 1.0.0]
+[Info   :   BepInEx] TS Manifest: Gnome-ChefMod-2.2.10
+[Info   :   BepInEx] Loading [ChefMod 2.2.0]
+[Info   : Unity Log] System.String[]
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChefMod.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChefMod.dll for: RoR2.GlobalEventManager.OnHitAll
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChefMod.dll for: RoR2.CharacterBody.Update
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChefMod.dll for: RoR2.SiphonNearbyController.SearchForTargets
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChefMod.dll for: RoR2.Run.HandlePlayerFirstEntryAnimation
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.ContentManagement.dll for: RoR2.ContentManagement.ContentManager.SetContentPacks
+[Info   :R2API.ContentManagement] Created a SerializableContentPack for mod com.Gnome.ChefMod
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '<null>') is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '<null>') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Prefab.dll for: RoR2.Networking.NetworkManagerSystem.OnStartClient
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChefMod.dll for: RoR2.CharacterBody.RecalculateStats
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChefMod.dll for: RoR2.CharacterModel.UpdateOverlays
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.CharacterModel.UpdateOverlays
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChefMod.dll for: RoR2.Language.SetFolders
+[Info   :   BepInEx] TS Manifest: Heyimnoob-BioDroneAcrid-1.1.0
+[Info   :   BepInEx] Loading [Bio Drone Acrid 1.0.0]
+[Info   :   BepInEx] TS Manifest: Heyimnoob-UsurperPaladin-1.2.0
+[Info   :   BepInEx] Loading [OopsAllCommando! 1.0.0]
+[Info   :   BepInEx] TS Manifest: AceOfShades-QuickRestart-1.4.2
+[Info   :   BepInEx] Loading [QuickRestart 1.4.2]
+[Debug  :RoR2BepInExPack] Hook added by assembly: QuickRestart.dll for: RoR2.UI.ChatBox.FocusInputField
+[Debug  :RoR2BepInExPack] Hook added by assembly: QuickRestart.dll for: RoR2.UI.ChatBox.UnfocusInputField
+[Debug  :RoR2BepInExPack] Hook added by assembly: QuickRestart.dll for: RoR2.UI.PauseScreenController.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: QuickRestart.dll for: RoR2.UI.PauseScreenController.Awake
+[Info   :   BepInEx] TS Manifest: TeamBear-EliteFireworksTeamLeaderCommando-1.0.0
+[Info   :   BepInEx] Loading [Elite Fireworks Commando 1.0.0]
+[Info   :   BepInEx] TS Manifest: TeamBear-FireworksAndCuddlesLoader-1.1.0
+[Info   :   BepInEx] Loading [FireworksLoader 1.1.0]
+[Info   :   BepInEx] TS Manifest: TeamBear-LightningTeamLeaderRailgunner-1.1.1
+[Info   :   BepInEx] Loading [LightningTeamLeaderRailgunner 1.1.0]
+[Info   :   BepInEx] TS Manifest: TeamBear-MechaCuddleMerc-1.0.1
+[Info   :   BepInEx] Loading [MechaCuddleMasterMerc 1.0.1]
+[Info   :   BepInEx] TS Manifest: TeamBear-MetalTeamEngi-1.1.0
+[Info   :   BepInEx] Loading [MetalTeamEngi 1.1.0]
+[Info   :   BepInEx] TS Manifest: TeamBear-PandaTeamLeaderHuntress-1.1.1
+[Info   :   BepInEx] Loading [PandaTeamLeaderHuntress 1.1.0]
+[Info   :   BepInEx] TS Manifest: JackTYM-SpiderGwenLoader-1.0.0
+[Info   :   BepInEx] Loading [Spider Gwen Loader 1.0.0]
+[Info   :   BepInEx] TS Manifest: JackTYM-SpidermanLoader-1.0.0
+[Info   :   BepInEx] Loading [SpiderManLoader 1.0.0]
+[Info   :   BepInEx] TS Manifest: DarkLordLui-DoomBandit64-1.0.0
+[Info   :   BepInEx] Loading [DoomBanditMod 1.0.0]
+[Info   :   BepInEx] TS Manifest: Johnhakumen-MercMysteriousHeroineX-1.0.2
+[Info   :   BepInEx] Loading [MercMysteriousHeroineX 1.0.2]
+[Debug  :RoR2BepInExPack] Hook added by assembly: MercMysteriousHeroineX.dll for: RoR2.Language.LoadStrings
+[Info   :   BepInEx] TS Manifest: Paladin_Alliance-PaladinMod-1.6.3
+[Info   :   BepInEx] Loading [Paladin 1.6.2]
+[Info   :   BepInEx] TS Manifest: Johnhakumen-SaberPaladin-1.0.0
+[Info   :   BepInEx] Loading [SaberPaladin 1.0.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: SaberPaladin.dll for: RoR2.Language.LoadStrings
+[Info   :   BepInEx] TS Manifest: k8e-Doomfist_Loader-1.0.0
+[Info   :   BepInEx] Loading [Doomfist Loader 1.0.0]
+[Info   :   BepInEx] TS Manifest: HitagiTzuyu-GanyuRailgunnerSkin-1.0.2
+[Info   :   BepInEx] Loading [GanyuMod 1.0.1]
+[Info   :   BepInEx] TS Manifest: HitagiTzuyu-JeanHuntressSkin-1.0.0
+[Info   :   BepInEx] Loading [JeanHuntressSkin 1.0.0]
+[Info   :   BepInEx] TS Manifest: KeyBlader-BowserAcrid-1.0.0
+[Info   :   BepInEx] Loading [Bowser 1.0.0]
+[Info   :   BepInEx] TS Manifest: KeyBlader-ChaseyBandit-1.0.0
+[Info   :   BepInEx] Loading [Chancey 1.0.0]
+[Info   :   BepInEx] TS Manifest: KeyBlader-Mario64Commando-1.0.0
+[Info   :   BepInEx] Loading [Mario 1.0.0]
+[Info   :   BepInEx] TS Manifest: KeyBlader-CaptainHenryStickmin-1.0.0
+[Info   :   BepInEx] Loading [Stickmin 0.0.1]
+[Info   :   BepInEx] TS Manifest: KingEnderBrine-LobbySkinsFix-1.2.1
+[Info   :   BepInEx] Loading [Lobby Skins Fix 1.2.1]
+[Debug  :RoR2BepInExPack] Hook added by assembly: LobbySkinsFix.dll for: RoR2.SurvivorMannequins.SurvivorMannequinSlotController.ApplyLoadoutToMannequinInstance
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.SurvivorMannequins.SurvivorMannequinSlotController.ApplyLoadoutToMannequinInstance
+[Info   :   BepInEx] TS Manifest: KingEnderBrine-Mercenary2B-1.3.0
+[Info   :   BepInEx] Loading [Mercenary2B 1.3.0]
+[Info   :   BepInEx] TS Manifest: KingEnderBrine-ScrollableLobbyUI-1.8.0
+[Info   :   BepInEx] Loading [Scrollable lobby UI 1.8.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.UI.CharacterSelectController.RebuildLocal
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.UI.CharacterSelectController.RebuildLocal
+[Debug  :RoR2BepInExPack] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.UI.LoadoutPanelController.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.UI.LoadoutPanelController+Row..ctor
+[Debug  :RoR2BepInExPack] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.UI.LoadoutPanelController+Row.FinishSetup
+[Debug  :RoR2BepInExPack] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.UI.LoadoutPanelController.OnDestroy
+[Debug  :RoR2BepInExPack] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.CharacterSelectBarController.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.CharacterSelectBarController.Build
+[Debug  :RoR2BepInExPack] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.CharacterSelectBarController.EnforceValidChoice
+[Debug  :RoR2BepInExPack] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.CharacterSelectBarController.PickIconBySurvivorDef
+[Debug  :RoR2BepInExPack] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.UI.RuleBookViewer.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.UI.RuleCategoryController.SetData
+[Debug  :RoR2BepInExPack] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.UI.RuleBookViewerStrip.Update
+[Debug  :RoR2BepInExPack] Hook added by assembly: ScrollableLobbyUI.dll for: RoR2.UI.RuleBookViewerStrip.SetData
+[Info   :   BepInEx] TS Manifest: kinggrinyov-KingModUtilities-1.8.1
+[Info   :   BepInEx] Loading [KingModUtilities 1.8.1]
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.EquipmentSlot.PerformEquipmentAction
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.UI.CharacterSelectController.OnEnable
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.UI.HGHeaderNavigationController.LateUpdate
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.UI.CharacterSelectController.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.SurvivorMannequins.SurvivorMannequinDioramaController.OnEnable
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.Stage.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.TeamManager.SetTeamExperience
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.Artifacts.DoppelgangerInvasionManager.PerformInvasion
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.DeathRewards.OnKilledServer
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.UI.CharacterSelectController.RebuildLocal
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.UI.LoadoutPanelController.Rebuild
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.UI.MainMenu.BaseMainMenuScreen.OnEnter
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.MusicController.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.MusicController.LateUpdate
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.Networking.NetworkManagerSystem.OnClientSceneChanged
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.MusicController.LateUpdate
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.CharacterAI.BaseAI.EvaluateSingleSkillDriver
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.SkillLocator.ApplyAmmoPack
+[Debug  :RoR2BepInExPack] Hook added by assembly: KingModUtilities.dll for: RoR2.UI.HealthBar.Start
+[Info   :   BepInEx] TS Manifest: KJ-THICC_T-1.0.1
+[Info   :   BepInEx] Loading [Thicc Mul-T 1.0.0]
+[Info   :   BepInEx] TS Manifest: Dripped_Out_Survivors-Dripped_Out_Bandit-1.0.0
+[Info   :   BepInEx] Loading [DripBandit 1.0.0]
+[Info   :   BepInEx] TS Manifest: Dripped_Out_Survivors-Dripped_Out_Commando-2.6.9
+[Info   :   BepInEx] Loading [DrippedOutCommando 1.0.0]
+[Info   :   BepInEx] TS Manifest: Dripped_Out_Survivors-Dripped_Out_Huntress-1.0.0
+[Info   :   BepInEx] Loading [DrippedOutHuntress 1.0.0]
+[Info   :   BepInEx] TS Manifest: KomradeSpectre-VergilMercenary-1.0.0
+[Info   :   BepInEx] Loading [VergilMercenary 1.0.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: VergilMercenary.dll for: RoR2.SurvivorCatalog.Init
+[Info   :   BepInEx] TS Manifest: KoolaidBerryBlue-Loader_Mechanical_Dairy_Skin-1.0.2
+[Info   :   BepInEx] Loading [Loader Mechanical Dairy Skin 1.1.0]
+[Info   :   BepInEx] TS Manifest: Duskpaw-Jamie_Duskpaw_Skins-1.0.0
+[Info   :   BepInEx] Loading [Bandit_Nemorni 1.0.0]
+[Info   :   BepInEx] TS Manifest: KrononConspirator-Paladin_Berserker-1.0.0
+[Info   :   BepInEx] Loading [Black_Bezerker 1.0.0]
+[Info   :   BepInEx] TS Manifest: KrononConspirator-Bulwark_Enforcer-1.0.0
+[Info   :   BepInEx] Loading [Bulwark_Enforcer 1.0.0]
+[Info   :   BepInEx] TS Manifest: KrononConspirator-Doom_Paladin-1.0.0
+[Info   :   BepInEx] Loading [Doom_Paladin 1.0.0]
+[Info   :   BepInEx] TS Manifest: Daawnily-KatarinaClaesSkin-2.0.0
+[Info   :   BepInEx] Loading [Katarina_Merc 1.0.0]
+[Info   :   BepInEx] TS Manifest: KrononConspirator-KitsuneKunoichi_Artificer-1.1.0
+[Info   :   BepInEx] Loading [KitsuneKunoichi_Artificer 1.0.0]
+[Info   :   BepInEx] TS Manifest: KrononConspirator-Lich_King_Paladin-1.0.0
+[Info   :   BepInEx] Loading [Lich_King_Paladin 1.0.0]
+[Info   :   BepInEx] TS Manifest: Duskpaw-Jamie_Duskpaw_Mercenary_Skins-1.1.0
+[Info   :   BepInEx] Loading [Merc_Nemorni 1.0.0]
+[Info   :   BepInEx] TS Manifest: ReesesNezumi-SorceratArti-1.1.0
+[Info   :   BepInEx] Loading [ReeseNezumi_Arti 1.0.0]
+[Info   :   BepInEx] TS Manifest: KrononConspirator-TF2_Demoman_Paladin-1.1.0
+[Info   :   BepInEx] Loading [TF2_Demoman_Paladin 1.1.0]
+[Info   :   BepInEx] TS Manifest: KrononConspirator-Titanfall_Viper_Commando-1.0.0
+[Info   :   BepInEx] Loading [Titanfall_Viper_Mando 1.0.0]
+[Info   :   BepInEx] TS Manifest: KrononConspirator-40K_Grey_Knight_Paladin-1.0.0
+[Info   :   BepInEx] Loading [W40K_Grey_Knight_Paladin 1.0.0]
+[Info   :   BepInEx] TS Manifest: KrononConspirator-40K_Iron_Warrior_Nemforcer-1.1.0
+[Info   :   BepInEx] Loading [W40K_Iron_Warrior_Nemforcer 1.1.0]
+[Info   :   BepInEx] TS Manifest: LexLamb-MechArtificer-0.0.1
+[Info   :   BepInEx] Loading [MechArtificer 1.0.0]
+[Info   :   BepInEx] TS Manifest: Liamono-Fem_Bandit-0.5.0
+[Info   :   BepInEx] Loading [Fem Bandit Skin (anniversary update no dependencies) 0.5.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemBanditNoDependency.dll for: RoR2.Language.LoadStrings
+[Info   :   BepInEx] TS Manifest: Liamono-Fem_Commando-1.2.0
+[Info   :   BepInEx] Loading [Fem Commando Skin (anniversary update no dependencies) 1.2.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemCommandoNoDependencies.dll for: RoR2.Language.LoadStrings
+[Info   :   BepInEx] TS Manifest: Liamono-Fem_Mercenary-1.2.0
+[Info   :   BepInEx] Loading [Fem Mercenary Skin (anniversary update no dependencies) 1.2.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemMercenaryNoDependencies.dll for: RoR2.Language.LoadStrings
+[Info   :   BepInEx] TS Manifest: Liamono-Fem_Paladin-1.3.0
+[Info   :   BepInEx] Loading [Fem Paladin Skin  1.3.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemPaladin.dll for: RoR2.Language.LoadStrings
+[Info   :   BepInEx] TS Manifest: Liamono-Infiltrator_Fem_Bandit-0.5.0
+[Info   :   BepInEx] Loading [Infiltrator Fem Bandit Skin (anniversary update no dependencies) 0.0.1]
+[Debug  :RoR2BepInExPack] Hook added by assembly: InfiltratorFemBandit.dll for: RoR2.Language.LoadStrings
+[Info   :   BepInEx] TS Manifest: Limeyhoney-GildedSurvivors-3.0.1
+[Info   :   BepInEx] Loading [Gilded Skins 3.0.1]
+[Info   :   BepInEx] TS Manifest: Maiesen-Plague_Artificer_Skin-0.1.2
+[Info   :   BepInEx] Loading [PlagueArtificer 0.1.1]
+[Info   :   BepInEx] TS Manifest: Maiesen-Steampunk_Loader_Skin-0.1.2
+[Info   :   BepInEx] Loading [SteampunkLoader 0.1.1]
+[Info   :   BepInEx] TS Manifest: markthechineselawyer2-Joyride_Bandit_Skin-1.0.3
+[Info   :   BepInEx] Loading [Joyride 1.0.2]
+[Info   :   BepInEx] TS Manifest: marklow-HellfireCaptain-1.2.2
+[Info   :   BepInEx] Loading [HellfireCaptain 1.2.2]
+[Info   :   BepInEx] TS Manifest: marklow-KanagawaSkinpack-1.1.1
+[Info   :   BepInEx] Loading [KanagawaCaptain 1.1.1]
+[Info   :   BepInEx] TS Manifest: marklow-PrestigiousSkinpack-1.4.2
+[Info   :   BepInEx] Loading [PrestigiousSkinpack 1.4.2]
+[Info   :   BepInEx] TS Manifest: MarkTullius-MuricaHuntress-1.0.2
+[Info   :   BepInEx] Loading [MuricaHuntress 1.0.0]
+[Info   :   BepInEx] TS Manifest: Nix-NeptuniaMercenary-1.0.1
+[Info   :   BepInEx] Loading [Neptunia 1.0.0]
+[Info   :   BepInEx] TS Manifest: Nix-RobobunnyMerc-1.0.0
+[Info   :   BepInEx] Loading [robomerc 1.0.0]
+[Info   :   BepInEx] TS Manifest: MAVRI-CaptainUnderglowDrip-1.1.1
+[Info   :   BepInEx] Loading [CaptainUnderglowDrip 1.1.0]
+[Info   :   BepInEx] TS Manifest: MAVRI-SakasamaSkins-1.0.1
+[Info   :   BepInEx] Loading [SakasamaSkinsRemastered 1.0.0]
+[Info   :   BepInEx] TS Manifest: Catsune-Hoodless_Railgunner-1.0.1
+[Info   :   BepInEx] Loading [RailgunnerGlowyThing4 1.0.0]
+[Info   :   BepInEx] TS Manifest: Catsune-Voidbound_Railgunner_Skin-1.0.1
+[Info   :   BepInEx] Loading [RailgunnerVoidbound31 1.0.0]
+[Info   :   BepInEx] TS Manifest: Catsune-Voidbound_Railgunner_Skin-1.0.1
+[Info   :   BepInEx] Loading [RailgunnerVoidbound36 1.0.0]
+[Info   :   BepInEx] TS Manifest: Catsune-Hoodless_Railgunner-1.0.1
+[Info   :   BepInEx] Loading [VoidBoundFinal1 1.0.0]
+[Info   :   BepInEx] TS Manifest: MintLightning-Fem_Bandit_Item_Display_Fix-0.0.1
+[Info   :   BepInEx] Loading [FemBanditItemFix 0.0.0]
+[Info   :   BepInEx] TS Manifest: MintLightning-Fem_Commando_Item_Display_Fix-0.0.0
+[Info   :   BepInEx] Loading [FemCommandoItemFix 0.0.0]
+[Info   :   BepInEx] TS Manifest: MipoeBaku-PaimonSkinPlugin-1.3.0
+[Info   :   BepInEx] Loading [PaimonSkinPlugin 1.3.0]
+[Info   :   BepInEx] TS Manifest: Moffein-BaseVoiceoverLib-1.1.4
+[Info   :   BepInEx] Loading [BaseVoiceoverLib 1.2.1]
+[Debug  :RoR2BepInExPack] Hook added by assembly: BaseVoiceoverLib.dll for: RoR2.CharacterMotor.Jump
+[Debug  :RoR2BepInExPack] Hook added by assembly: BaseVoiceoverLib.dll for: RoR2.TeleporterInteraction+ChargingState.OnEnter
+[Debug  :RoR2BepInExPack] Hook added by assembly: BaseVoiceoverLib.dll for: RoR2.TeleporterInteraction+ChargedState.OnEnter
+[Debug  :RoR2BepInExPack] Hook added by assembly: BaseVoiceoverLib.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :RoR2BepInExPack] Hook added by assembly: BaseVoiceoverLib.dll for: EntityStates.Missions.BrotherEncounter.EncounterFinished.OnEnter
+[Debug  :RoR2BepInExPack] Hook added by assembly: BaseVoiceoverLib.dll for: RoR2.ShrineChanceBehavior.AddShrineStack
+[Debug  :RoR2BepInExPack] Hook added by assembly: BaseVoiceoverLib.dll for: RoR2.CharacterBody.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly: BaseVoiceoverLib.dll for: RoR2.SurvivorMannequins.SurvivorMannequinSlotController.RebuildMannequinInstance
+[Info   :   BepInEx] TS Manifest: Moffein-FixGenesisLoopConsoleSpam-1.0.0
+[Info   :   BepInEx] Loading [FixGenesisLoopConsoleSpam 1.0.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: FixGenesisLoopConsoleSpam.dll for: EntityStates.VagrantNovaItem.BaseVagrantNovaItemState.OnEnter
+[Info   :   BepInEx] TS Manifest: EnforcerGang-SniperClassic-1.5.8
+[Info   :   BepInEx] Loading [Sniper Classic 1.5.6]
+[Debug  :RoR2BepInExPack] Hook added by assembly: SniperClassic.dll for: RoR2.SurvivorCatalog.Init
+[Info   :R2API.ContentManagement] Created a SerializableContentPack for mod com.Moffein.SniperClassic
+[Debug  :RoR2BepInExPack] Hook added by assembly: SniperClassic.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: SniperClassic.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: SniperClassic.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: SniperClassic.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: SniperClassic.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: SniperClassic.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: SniperClassic.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: SniperClassic.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: SniperClassic.dll for: RoR2.Language.SetFolders
+[Debug  :RoR2BepInExPack] Hook added by assembly: SniperClassic.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :RoR2BepInExPack] Hook added by assembly: SniperClassic.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :RoR2BepInExPack] Hook added by assembly: SniperClassic.dll for: EntityStates.GlobalSkills.LunarNeedle.FireLunarNeedle.OnEnter
+[Debug  :RoR2BepInExPack] Hook added by assembly: SniperClassic.dll for: RoR2.CharacterAI.BaseAI.FindEnemyHurtBox
+[Debug  :RoR2BepInExPack] Hook added by assembly: SniperClassic.dll for: RoR2.CharacterAI.BaseAI.OnBodyDamaged
+[Debug  :RoR2BepInExPack] Hook added by assembly: SniperClassic.dll for: RoR2.CharacterModel.UpdateOverlays
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.CharacterModel.UpdateOverlays
+[Debug  :RoR2BepInExPack] Hook added by assembly: SniperClassic.dll for: RoR2.NetworkUIPromptController.OnControlBegin
+[Debug  :RoR2BepInExPack] Hook added by assembly: SniperClassic.dll for: RoR2.NetworkUIPromptController.OnControlEnd
+[Info   :   BepInEx] TS Manifest: Mr_Foxtrot-Battle_Buddy_Commando_Skin-1.0.1
+[Info   :   BepInEx] Loading [BattleBuddyCommando 1.0.0]
+[Info   :   BepInEx] TS Manifest: Muddii-Commeowndo-1.2.0
+[Info   :   BepInEx] Loading [Commeowndo 1.0.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: Commeowndo.dll for: RoR2.CharacterMaster.OnBodyStart
+[Info   :   BepInEx] TS Manifest: multi-OkinaMataraArtificer-1.1.0
+[Info   :   BepInEx] Loading [OkinaArtificerMod 1.0.0]
+[Info   :   BepInEx] TS Manifest: Naughtyknight-ShadowTheMercenary-1.3.0
+[Info   :   BepInEx] Loading [ShadowTheMercenary 1.3.0]
+[Info   :   BepInEx] TS Manifest: Naughtyknight-SonicMerc-2.3.1
+[Info   :   BepInEx] Loading [SonicTheMercenary 2.3.0]
+[Info   :   BepInEx] TS Manifest: Nix-ChayaRailgunner-1.0.0
+[Info   :   BepInEx] Loading [ChayaRailGunner 1.0.0]
+[Info   :   BepInEx] TS Manifest: Nix-KeiyozaMerc-1.1.0
+[Info   :   BepInEx] Loading [FoxMerc 1.0.0]
+[Info   :   BepInEx] TS Manifest: Nix-HoloHuntressNSFW-1.0.5
+[Info   :   BepInEx] Loading [HoloHuntress 1.0.0]
+[Info   :   BepInEx] TS Manifest: Nix-HoloHuntress-1.0.0
+[Info   :   BepInEx] Loading [HoloHuntressClothed 1.0.0]
+[Info   :   BepInEx] TS Manifest: Nix-LazyHuntress-1.0.2
+[Info   :   BepInEx] Loading [LazyHuntress 1.0.0]
+[Info   :   BepInEx] TS Manifest: Nix-A_Certain_Scientific_Railgunner-1.3.0
+[Info   :   BepInEx] Loading [misakaRailgunner 1.0.0]
+[Info   :   BepInEx] TS Manifest: Nix-NecroArtificer-1.0.0
+[Info   :   BepInEx] Loading [NecroArti 1.0.0]
+[Info   :   BepInEx] TS Manifest: Nix-SeiMando-1.0.1
+[Info   :   BepInEx] Loading [Sei 1.0.0]
+[Info   :   BepInEx] TS Manifest: Nix-Tamari_Huntress-1.0.0
+[Info   :   BepInEx] Loading [Tamari 1.0.0]
+[Info   :   BepInEx] TS Manifest: Nix-TechnoMerc-1.0.3
+[Info   :   BepInEx] Loading [TechnoMerc 1.0.2]
+[Info   :   BepInEx] TS Manifest: Nix-2BHuntress-1.0.0
+[Info   :   BepInEx] Loading [twoB 1.0.0]
+[Info   :   BepInEx] TS Manifest: Nix-VioletEverBandit-1.0.0
+[Info   :   BepInEx] Loading [VioletEvergarden 1.0.0]
+[Info   :   BepInEx] TS Manifest: NotArme-AnichanCommandoSkin-1.1.1
+[Info   :   BepInEx] Loading [AnichanCommandoSkin 1.1.1]
+[Debug  :RoR2BepInExPack] Hook added by assembly: AnichanSkin.dll for: RoR2.SurvivorCatalog.Init
+[Info   :   BepInEx] TS Manifest: Nuxlar-Mandr-1.0.0
+[Info   :   BepInEx] Loading [Mandr 1.0.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: Mandr.dll for: RoR2.CharacterMaster.OnBodyStart
+[Info   :   BepInEx] TS Manifest: OkayPlanet-Loving_Huntress-1.0.0
+[Info   :   BepInEx] Loading [Loving Huntress (NSFW) 1.0.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: LovingHuntressNSFW.dll for: RoR2.Language.LoadStrings
+[Info   :   BepInEx] TS Manifest: OliverTheOtter-OtterBandit-1.0.1
+[Info   :   BepInEx] Loading [OtterBandit 1.1.1]
+[Info   :   BepInEx] TS Manifest: Otter-Captain_Ziggy-1.3.0
+[Info   :   BepInEx] Loading [CaptainZiggy 1.3.0]
+[Info   :   BepInEx] TS Manifest: PaperMartin-GreyfoxMercenaryskin-2.0.0
+[Info   :   BepInEx] Loading [Grey Fox 2.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: GreyFox.dll for: RoR2.Language.LoadStrings
+[Info   :   BepInEx] TS Manifest: pixloen-VatistaRailgunnerSkin-1.2.0
+[Info   :   BepInEx] Loading [VatistaRailgunner 1.1.0]
+[Info   :   BepInEx] TS Manifest: PlasticRogue-Dark_Samus_Void_Fiend-1.0.1
+[Info   :   BepInEx] Loading [DarkSamusVFSkin 1.0.1]
+[Info   :   BepInEx] TS Manifest: PlasticRogue-Lop_Mercenary-1.0.0
+[Info   :   BepInEx] Loading [LopMercSkin 1.0.0]
+[Info   :   BepInEx] TS Manifest: RetroInspired-Ratcrid-1.0.0
+[Info   :   BepInEx] Loading [MasquePack 1.1.1]
+[Info   :   BepInEx] TS Manifest: RetroInspired-Gupmando-1.0.2
+[Info   :   BepInEx] Loading [Gupmando 1.0.2]
+[Info   :   BepInEx] TS Manifest: RetroInspired-Railgunner_Skins-1.0.2
+[Info   :   BepInEx] Loading [RailGunnerSkins 1.0.2]
+[Info   :   BepInEx] TS Manifest: RetroInspired-Retros_Skinpack-1.0.0
+[Info   :   BepInEx] Loading [RetroSkinpack 1.0.0]
+[Info   :   BepInEx] TS Manifest: Rhewllyd-NudeArtificer-1.1.0
+[Info   :   BepInEx] Loading [NudeArtificer 1.0.0]
+[Info   :   BepInEx] TS Manifest: Rhewllyd-NudeFemBandit-1.0.0
+[Info   :   BepInEx] Loading [NudeFemBandit 1.0.0]
+[Info   :   BepInEx] TS Manifest: Rhewllyd-NudeFemCommando-1.0.0
+[Info   :   BepInEx] Loading [NudeFemCommando 1.0.0]
+[Info   :   BepInEx] TS Manifest: Rhewllyd-NudeLoader-1.0.0
+[Info   :   BepInEx] Loading [NudeLoader 1.0.0]
+[Info   :   BepInEx] TS Manifest: rodbot_-Artificer_Haydee_Skin-1.0.4
+[Info   :   BepInEx] Loading [Artificer_Haydee_Skin 1.0.4]
+[Debug  :RoR2BepInExPack] Hook added by assembly: HaydeeSkinArti.dll for: RoR2.Language.LoadStrings
+[Info   :   BepInEx] TS Manifest: RSTAR-PixelgunnerBandit-1.0.0
+[Info   :   BepInEx] Loading [PixelgunnerBandit 1.2.0]
+[Info   :   BepInEx] TS Manifest: RSTAR-PixelgunnerCommandoSkin-1.0.0
+[Info   :   BepInEx] Loading [PixelgunnerCommando 1.0.0]
+[Info   :   BepInEx] TS Manifest: RSTAR-QuoteCommando-1.0.0
+[Info   :   BepInEx] Loading [QuoteCommando 1.0.0]
+[Info   :   BepInEx] TS Manifest: RSTAR-QuoteCommandoHard-1.0.0
+[Info   :   BepInEx] Loading [QuoteCommandoHard 1.0.0]
+[Info   :   BepInEx] TS Manifest: RumblingJOSEPH-VoidItemAPI-1.1.0
+[Info   :   BepInEx] Loading [VoidItemAPI 1.0.0]
+[Debug  :RoR2BepInExPack] Hook added by assembly: 0Harmony.dll for: RoR2.Items.ContagiousItemManager.Init
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.Items.ContagiousItemManager.Init
+[Info   :   BepInEx] TS Manifest: RuneFox237-FemLemCommando-1.0.2
+[Info   :   BepInEx] Loading [FemLemurianCommando 1.0.2]
+[Info   :   BepInEx] TS Manifest: RuneFox237-FemSpyroHuntress-1.0.4
+[Info   :   BepInEx] Loading [FemSpyroHuntress 1.0.0]
+[Info   :   BepInEx] TS Manifest: RuneFox237-LoonaRailgunner-1.1.1
+[Info   :   BepInEx] Loading [Loona Railgunner 1.1.1]
+[Info   :   BepInEx] TS Manifest: RuneFox237-RenamonArtificer-1.0.4
+[Info   :   BepInEx] Loading [RenamonArtificer 1.0.0]
+[Info   :   BepInEx] TS Manifest: Alicket-MisonoMikaArtificer-1.1.2
+[Info   :   BepInEx] Loading [ArtificerMikaVoiceover 1.1.2]
+[Info   :   BepInEx] TS Manifest: VanillaVitamins-SaoriBandit-1.0.2
+[Info   :   BepInEx] Loading [BanditSaoriVoiceover 1.0.1]
+[Info   :   BepInEx] TS Manifest: Alicket-CommandoYuukaSkin-1.3.1
+[Info   :   BepInEx] Loading [CommandoYuukaVoiceover 1.3.1]
+[Info   :   BepInEx] TS Manifest: Alicket-RailgunnerAris-1.1.2
+[Info   :   BepInEx] Loading [RailgunnerArisVoiceover 1.1.2]
+[Info   :   BepInEx] TS Manifest: Serynn-SpiritBlossomKindredHuntress-1.1.0
+[Info   :   BepInEx] Loading [SpiritBlossomKindred Huntress 1.1.0]
+[Info   :   BepInEx] TS Manifest: Picatin-SniperPilot_Huntress-1.0.0
+[Info   :   BepInEx] Loading [Huntress 1.0.0]
+[Info   :   BepInEx] TS Manifest: Picatin-PulseBladePilot_Railgunner-2.0.1
+[Info   :   BepInEx] Loading [Pulse_pilot 1.0.0]
+[Info   :   BepInEx] TS Manifest: Smxrez-NemesisSkins-0.4.0
+[Info   :   BepInEx] Loading [NemesisSkins 1.0.0]
+[Info   :   BepInEx] TS Manifest: Smxrez-Smirkposting-2.4.0
+[Info   :   BepInEx] Loading [Smirkposting 2.3.0]
+[Info   :   BepInEx] TS Manifest: Smxrez-SmoreSkins-1.1.3
+[Info   :   BepInEx] Loading [SmoreSkins 1.0.0]
+[Info   :   BepInEx] TS Manifest: Smxrez-SuppressiveFireCommando-2.2.2
+[Info   :   BepInEx] Loading [SuppressiveFire 2.2.0]
+[Info   :   BepInEx] TS Manifest: PotatoLeague-Guntank-1.0.0
+[Info   :   BepInEx] Loading [Guntank Commando 1.0.0]
+[Info   :   BepInEx] TS Manifest: Sparky1j-MindflayerArtificer-1.1.3
+[Info   :   BepInEx] Loading [MindFlayerArtificer 1.0.6]
+[Info   :   BepInEx] TS Manifest: Sparky1j-MinosLoader-1.1.0
+[Info   :   BepInEx] Loading [Minosloader 1.0.0]
+[Info   :   BepInEx] TS Manifest: Spartan-HonkaiSRSkins-0.3.0
+[Info   :   BepInEx] Loading [Honkai: SR Skins 0.3.0]
+[Info   :   BepInEx] TS Manifest: Rynum-Baguetto-1.1.0
+[Info   :   BepInEx] Loading [BaguetteCommando 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Adrien_Commando-1.0.0
+[Info   :   BepInEx] Loading [AdrienCommando 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-AnonFox_Bandit-1.0.0
+[Info   :   BepInEx] Loading [AnonFox Bandit 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Arflin_Railgunner-1.0.0
+[Info   :   BepInEx] Loading [Arflin Railgunner 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Asriel_Artificer-1.0.0
+[Info   :   BepInEx] Loading [Asriel Mage 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Cloud_Strife_Mercenary-1.0.0
+[Info   :   BepInEx] Loading [Cloud Mercenary 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Giegue_Artificer-1.0.0
+[Info   :   BepInEx] Loading [Giegue Mage 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Goat_Guide_Huntress-1.1.0
+[Info   :   BepInEx] Loading [Goat Guide Huntress 1.1.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Godzilla_Railgunner-1.0.0
+[Info   :   BepInEx] Loading [Godzilla Railgunner 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Grimmy_Railgunner-1.0.0
+[Info   :   BepInEx] Loading [Grimmy Railgunner 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Hagrid_Acrid-1.0.1
+[Info   :   BepInEx] Loading [HagridAcrid 1.0.1]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Hatsune_Miku_Artificer-1.0.1
+[Info   :   BepInEx] Loading [HatsuneMikuArtificer 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Loona_Loader-1.0.0
+[Info   :   BepInEx] Loading [Loona Loader 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-MamaGen_Captain-1.1.0
+[Info   :   BepInEx] Loading [MamagenCaptain 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Mamagen_Loader-1.1.0
+[Info   :   BepInEx] Loading [Mamagen Loader 1.1.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-MidNight_Railgunner-1.1.0
+[Info   :   BepInEx] Loading [MidNight Railgunner 1.1.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Mipha_Mercenary-1.0.0
+[Info   :   BepInEx] Loading [Mipha Merc 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Moxlin_Railgunner-1.0.0
+[Info   :   BepInEx] Loading [Moxlin Railgunner 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Neon_Bandit-1.0.0
+[Info   :   BepInEx] Loading [Neon Bandit 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Pepper_Artificer-1.0.0
+[Info   :   BepInEx] Loading [Pepper Mage 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-PEPSI_MAN_Void_Fiend-1.1.0
+[Info   :   BepInEx] Loading [PEPSI ☆ MAN Void Fiend 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Protogen_Bunny_Commando-1.2.0
+[Info   :   BepInEx] Loading [ProtobunCommando 1.1.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Sephiroth_Mercenary-1.0.0
+[Info   :   BepInEx] Loading [Sephiroth Mercenary 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Starburst_Manokit_Bandit-1.0.0
+[Info   :   BepInEx] Loading [Starburst Manokit Bandit 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Styx_Railgunner-1.0.0
+[Info   :   BepInEx] Loading [Styx Railgunner 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Taylor_Commando-1.0.0
+[Info   :   BepInEx] Loading [Taylor the Rat 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Terezi_Mercenary-1.0.0
+[Info   :   BepInEx] Loading [Terezi Mercenary 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Waluigi_Mercenary-1.0.1
+[Info   :   BepInEx] Loading [WaluigiMercenary 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-WastelandCanid_Commando-1.0.0
+[Info   :   BepInEx] Loading [WastelandCanidCommando 1.0.0]
+[Info   :   BepInEx] TS Manifest: SussyBnuuy-Wickerbuncle_Huntress-1.1.0
+[Info   :   BepInEx] Loading [Wickerbuncle 1.1.0]
+[Info   :   BepInEx] TS Manifest: TailLover-CaptainLatch-1.0.1
+[Info   :   BepInEx] Loading [CaptainLatch 1.0.0]
+[Info   :   BepInEx] TS Manifest: TailLover-DinoMulT-1.0.3
+[Info   :   BepInEx] Loading [DinoMul-T 1.0.3]
+[Info   :   BepInEx] TS Manifest: TailLover-MechaDragonRailgunner-0.7.0
+[Info   :   BepInEx] Loading [DragonRailgunner 0.5.0]
+[Info   :   BepInEx] TS Manifest: TailLover-FrankasaurusEngi-1.0.4
+[Info   :   BepInEx] Loading [FrankasaurusEngi 1.0.3]
+[Info   :   BepInEx] TS Manifest: TailLover-GeoLoaderGreymon-1.0.2
+[Info   :   BepInEx] Loading [GeoLoaderGreymon 1.0.1]
+[Info   :   BepInEx] TS Manifest: TailLover-GexCommando-1.0.2
+[Info   :   BepInEx] Loading [GexCommando 1.0.1]
+[Info   :   BepInEx] TS Manifest: TailLover-InteleonBandit-1.0.2
+[Info   :   BepInEx] Loading [InteleonBandit 1.0.2]
+[Info   :   BepInEx] TS Manifest: TailLover-Lemmando-1.0.0
+[Info   :   BepInEx] Loading [Lemmando 1.0.0]
+[Info   :   BepInEx] TS Manifest: TailLover-LongTailAcrid-1.0.1
+[Info   :   BepInEx] Loading [LongTailAcrid 1.0.1]
+[Debug  :RoR2BepInExPack] Hook added by assembly: LongTailAcrid.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: LongTailAcrid.dll for: RoR2.Language.LoadStrings
+[Info   :   BepInEx] TS Manifest: TailLover-MegaCharizardYRailgunner-1.0.0
+[Info   :   BepInEx] Loading [MegaCharizardYRailgunner 1.0.0]
+[Info   :   BepInEx] TS Manifest: TailLover-MegaSceptileMerc-2.0.0
+[Info   :   BepInEx] Loading [MegaSceptileMerc 2.0.0]
+[Info   :   BepInEx] TS Manifest: TailLover-MewtwoArtificer-1.0.3
+[Info   :   BepInEx] Loading [MewtwoArtificer 1.0.3]
+[Info   :   BepInEx] TS Manifest: TailLover-SalazzleHuntress-2.0.0
+[Info   :   BepInEx] Loading [SalazzleHuntress 2.0.0]
+[Info   :   BepInEx] TS Manifest: TailLover-UltraNecrozmaFiend-1.0.1
+[Info   :   BepInEx] Loading [UltraNecrozmaFiend 1.0.0]
+[Info   :   BepInEx] TS Manifest: Takrak-RailgunnerAltTextures-1.0.8
+[Info   :   BepInEx] Loading [RailgunnerAltTextures 1.0.0]
+[Info   :   BepInEx] TS Manifest: UndyingDuck-HollowKnightMerc-1.0.0
+[Info   :   BepInEx] Loading [HollowKnight 1.0.0]
+[Info   :   BepInEx] TS Manifest: ValRend-ElysiumLoader-1.1.1
+[Info   :   BepInEx] Loading [ElysiumLoader 1.1.1]
+[Info   :   BepInEx] TS Manifest: ValRend-ThiccCommando-2.0.1
+[Info   :   BepInEx] Loading [ThiccCommando 2.0.0]
+[Info   :   BepInEx] TS Manifest: VEB-MladyMerc-1.0.0
+[Info   :   BepInEx] Loading [Mlady Merc 1.0.0]
+[Info   :   BepInEx] TS Manifest: Veo-ReZeroEmiliaSkin-1.0.0
+[Info   :   BepInEx] Loading [ReZeroEmiliaSkin 1.0.0]
+[Info   :   BepInEx] TS Manifest: Doowonky-Winston_Acrid-1.0.0
+[Info   :   BepInEx] Loading [WinstonAcrid 1.0.0]
+[Info   :   BepInEx] TS Manifest: virtualpaninis-CommandoNanners-1.0.0
+[Info   :   BepInEx] Loading [bananagun 1.0.0]
+[Info   :   BepInEx] TS Manifest: MelonGoonsquad-Cheese_Acrid_Skin-1.0.0
+[Info   :   BepInEx] Loading [Cheese Acrid 1.0.0]
+[Info   :   BepInEx] TS Manifest: MetrosexualFruitcake-BadAssEmotes-1.7.8
+[Info   :   BepInEx] Loading [BadAssEmotes 1.7.5]
+[Info   :Custom Emotes API] Loaded AssetBundle: badassemotes
+[Info   :Custom Emotes API] Loaded AssetBundle: badassemotesifustage
+[Info   :Custom Emotes API] Loaded AssetBundle: braindamage
+[Info   :Custom Emotes API] Loaded AssetBundle: hydrolicpresstest
+[Info   :Custom Emotes API] Loaded AssetBundle: ifubundle
+[Info   :Custom Emotes API] Loaded AssetBundle: peaceextras
+[Info   :Custom Emotes API] Loaded AssetBundle: thunderanimation
+[Info   :Custom Emotes API] Loaded SoundBank: BadAssEmotes.bnk
+[Info   :Custom Emotes API] Loaded SoundBank: Badassemotes2.bnk
+[Info   :Custom Emotes API] Loaded SoundBank: BadAssEmotes3.bnk
+[Info   :Custom Emotes API] Loaded SoundBank: Hydrolic.bnk
+[Info   :Custom Emotes API] Loaded SoundBank: Init.bnk
+[Info   :Custom Emotes API] Loaded SoundBank: Init2.bnk
+[Info   :Custom Emotes API] Loaded SoundBank: nunchukemotes.bnk
+[Info   :Custom Emotes API] Loaded SoundBank: Test.bnk
+[Info   : Unity Log] EmotesError: [Breakin] is already defined as a custom emote but is trying to be added. Skipping
+[Info   :R2API.ContentManagement] Created a SerializableContentPack for mod com.weliveinasociety.CustomEmotesAPI
+[Debug  :RoR2BepInExPack] Hook added by assembly: BadAssEmotes.dll for: RoR2.Run.OnClientGameOver
+[Info   :   BepInEx] TS Manifest: Wonda-CebeMercenary-1.1.0
+[Info   :   BepInEx] Loading [Cebe Mercenary 1.1.0]
+[Info   :   BepInEx] TS Manifest: Wonda-ZackArtificer-1.1.0
+[Info   :   BepInEx] Loading [Zack Artificer 1.1.0]
+[Info   :   BepInEx] TS Manifest: xironix-RiskOfKermit-1.0.0
+[Info   :   BepInEx] Loading [Kermit 1.0.0]
+[Info   :   BepInEx] TS Manifest: XoXFaby-BetterAPI-4.0.3
+[Info   :   BepInEx] Loading [BetterAPI 4.0.3]
+[Info   :   BepInEx] TS Manifest: Zeon3008-BoibearCommando-1.0.0
+[Info   :   BepInEx] Loading [Boibear 1.0.0]
+[Info   :   BepInEx] TS Manifest: Zeon3008-DeadCellsCommandoPrisoner-1.0.0
+[Info   :   BepInEx] Loading [Commando Prisoner 1.0.0]
+[Info   :   BepInEx] TS Manifest: Constant-ine-PauseInMultiplayer-1.0.9
+[Info   :   BepInEx] Loading [PauseInMultiplayer 1.0.9]
+[Debug  :RoR2BepInExPack] Hook added by assembly: PauseInMultiplayer.dll for: RoR2.Run.BeginStage
+[Debug  :RoR2BepInExPack] Hook added by assembly: PauseInMultiplayer.dll for: RoR2.TeleporterInteraction.OnInteractionBegin
+[Debug  :RoR2BepInExPack] Hook added by assembly: PauseInMultiplayer.dll for: RoR2.Run.SetRunStopwatchPaused
+[Debug  :RoR2BepInExPack] Hook added by assembly: PauseInMultiplayer.dll for: RoR2.CombatDirector.FixedUpdate
+[Info   :   BepInEx] TS Manifest: NotTsunami-ShowDeathCause-3.0.1
+[Info   :   BepInEx] Loading [ShowDeathCause 3.0.1]
+[Debug  :RoR2BepInExPack] Hook added by assembly: 0Harmony.dll for: RoR2.UI.GameEndReportPanelController.SetPlayerInfo
+[Debug  :RoR2BepInExPack] Hook added by assembly:  for: RoR2.UI.GameEndReportPanelController.SetPlayerInfo
+[Info   :   BepInEx] TS Manifest: JaceDaDorito-FogboundLagoon-1.1.3
+[Info   :   BepInEx] Loading [FBLStage 1.1.0]
+[Info   :   BepInEx] TS Manifest: Smxrez-NemesisSkins-0.4.0
+[Info   :   BepInEx] Loading [NSVFX 1.0.0]
+[Message:   BepInEx] Chainloader startup complete
+[Warning: Unity Log] Network message MsgType.Highest + 22 is unregistered.
+[Info   : Unity Log] buildId = 1.2.4.4
+[Info   : Unity Log] WwiseUnity: Wwise(R) SDK Version 2019.2.12 Build 7544.
+[Info   : Unity Log] WwiseUnity: Setting Plugin DLL path to: C:/Program Files (x86)/Steam/steamapps/common/Risk of Rain 2/Risk of Rain 2_Data\Plugins\x86_64
+[Info   : Unity Log] WwiseUnity: Sound engine initialized successfully.
+[Info   :R2API.Sound] Custom sound banks loaded.
+[Debug  :RoR2BepInExPack] Assembly.GetTypes() failed for Enforcer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (threw ReflectionTypeLoadException). System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at DMD<GetTypes>?-1286735872._System_Reflection_Assembly::GetTypes (System.Reflection.Assembly this) [0x00000] in <c5921571e7104df8956c0463088cf5a4>:IL_0000 
+  at DMD<>?-1286735872.Trampoline<System.Reflection.Assembly::GetTypes>?1562280960 (System.Reflection.Assembly ) [0x00020] in <37ce75be975a499d989dba5e15f5b921>:IL_0020 
+  at RoR2BepInExPack.ReflectionHooks.AutoCatchReflectionTypeLoadException.SaferGetTypes (System.Func`2[T,TResult] orig, System.Reflection.Assembly self) [0x00006] in <6ad3493f40044c6da2459203788ed698>:IL_0006 
+[Info   : Unity Log] Active scene changed from  to loadingbasic
+[Info   : Unity Log] Loaded scene loadingbasic loadSceneMode=2
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemaleVoidFiend.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemaleVoidFiend.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: AcademicArtificer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: AltThiccHuntress.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Big_Tiddy_Female_Mandalorian_Skin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: CommandoTrooper.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: EndowedArtificer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemAcridEdit12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemAcridEdit12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemAcridEdit12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemAcridEdit12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemAcridEdit12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemAcridEdit12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemAcridEdit12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemAcridEdit12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemAcridEdit12G.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemCommando12G.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemmeBandit12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemmeBandit12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemmeBandit12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemmeBandit12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemmeBandit12G.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemmeMerc.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemCaptain12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemCaptain12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemCaptain12G.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemCommando12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemCommando12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemCommando12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemCommando12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemCommando12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemCommando12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemCommando12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemCommando12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemCommando12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemCommando12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemCommando12G.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemMerc12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemMerc12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemMerc12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemMerc12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemMerc12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemMerc12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemMerc12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemMerc12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemMerc12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemMerc12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemMerc12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemMerc12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemMerc12G.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueHuntress12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueHuntress12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueHuntress12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueHuntress12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueHuntress12G.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueLoader12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueLoader12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueLoader12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueLoader12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueLoader12G.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueRailgunner12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueRailgunner12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueRailgunner12G.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: SFW_Alt_Huntress.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccArti12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccArti12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccArti12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccArti12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccArti12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccArti12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccArti12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccArti12G.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccArti12G.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccLoader.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Tig_Biddy_Fem_Engineer_Skin.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Tig_Biddy_Fem_Engineer_Skin.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Tig_Biddy_Fem_Engineer_Skin.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Tig_Biddy_Fem_Engineer_Skin.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Tig_Biddy_Fem_Engineer_Skin.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Tig_Biddy_Fem_Engineer_Skin.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Tig_Biddy_Fem_Engineer_Skin.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Tig_Biddy_Fem_Engineer_Skin.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Tig_Biddy_Fem_Engineer_Skin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: UESTrooperBanditSkin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: HayaseYuukaCommando.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: HayaseYuukaCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MisonoMikaArtificer.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: MisonoMikaArtificer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: TendouArisTheRailgunner.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: TendouArisTheRailgunner.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MadVeteran.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: MadVeteran.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Vriska8.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: IkeaArti.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Kindred.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: KindredsLizard.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoyalLizard.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: VoidQueen.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: EmptyLoader.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: VannyMercinary.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: ZeldaSkin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: CheddarHuntress.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: LoonaHuntress.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Poptartificer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: PuggyJacksonHuntress.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: SnowLeopardEngineer.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: SnowLeopardEngineer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: JetstreamSamMercenary.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: SenatorLoader.dll for: RoR2.Language.LoadStrings
+[Info   :     R2API] [NetworkCompatibility] Adding to the networkModList : 
+[Info   :     R2API] com.Dragonyck.GodzillaAcrid;1.2.0
+[Info   :     R2API] com.EnforcerGang.Enforcer;3.8.1
+[Info   :     R2API] com.EnforcerGang.HANDOverclocked;1.4.1
+[Info   :     R2API] com.Gnome.ChefMod;2.2.0
+[Info   :     R2API] com.Kingpinush.KingModUtilities;1.8.1
+[Info   :     R2API] com.KomradeSpectre.VergilMercenary;1.0.0
+[Info   :     R2API] com.Moffein.SniperClassic;1.5.6
+[Info   :     R2API] com.rob.DiggerUnearthed;1.9.10
+[Info   :     R2API] com.rob.Paladin;1.6.2
+[Info   :     R2API] com.weliveinasociety.CustomEmotesAPI;2.3.1
+[Info   :     R2API] Constant-ine.PauseInMultiplayer;1.0.9
+[Debug  :RoR2BepInExPack] Hook added by assembly: AmongUsCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: UltrakillV1BanditSkin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: BanditSaoriSkin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: GupCaptain.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: AstronautCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: GroveChildren.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: GroveChildren.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'Tail') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'DangleR') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'DangleL') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'TailE') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'stomachJiggle') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'DangleBase') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'DangleLeft') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'DangleLeftBottom') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'DangleLeftTop') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'DangleRightBottom') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'TailBaseCaptain') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'ChildDynamic') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'DynamicLegBottomBL') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'DynamicLegBottomFL') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'DangleRightM') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'TailBaseM') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'TailBaseMU') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: MysticalArtificer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThomasRex.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Xenomorph.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Xenomorph.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: RaidenMerc.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: OuterWildsHatchling.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: BigmandoMod_1.0.3.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: PossumAcrid.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: VoidBorn.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: BeachCaptain.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: HuntressMononoke.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: CytoCommando.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: CytoCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: CodyDripArtificer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: LouisAlderMercenary.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: SkysieMercinary.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: SkysieMercinary.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChristmasPack.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChristmasPack.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: LTT1.dll for: RoR2.Language.LoadStrings
+[Info   :DiggerUnearthed] [Initializing Miner]
+[Info   :R2API.ContentManagement] Created a SerializableContentPack for mod com.rob.DiggerUnearthed
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: R2API.Skins.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: DiggerUnearthed.dll for: RoR2.SceneDirector.Start
+[Info   :DiggerUnearthed] [Initialized]
+[Debug  :RoR2BepInExPack] Hook added by assembly: LTT2.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MercCap.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: WarlockArtificer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: BoiCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: LightDreamer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: PlagueBandit.dll for: RoR2.Language.LoadStrings
+[Info   :  Enforcer] [Initializing Enforcer]
+[Info   :R2API.ContentManagement] Created a SerializableContentPack for mod com.EnforcerGang.Enforcer
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Enforcer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.HealthComponent.TakeDamage
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: EntityStates.GolemMonster.FireLaser.OnEnter
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.CharacterBody.RecalculateStats
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.CharacterBody.Update
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.CharacterBody.OnLevelUp
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.CharacterMaster.OnInventoryChanged
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.ContentManagement.ContentManager.SetContentPacks
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.SceneDirector.Start
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.ArenaMissionController.BeginRound
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.ArenaMissionController.EndRound
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.EscapeSequenceController.BeginEscapeSequence
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.UI.MainMenu.BaseMainMenuScreen.OnEnter
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.CharacterSelectBarController.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.MapZone.TryZoneStart
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.HealthComponent.Suicide
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: EntityStates.GlobalSkills.LunarNeedle.FireLunarNeedle.OnEnter
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.EntityStateMachine.SetState
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.DamageInfo.ModifyDamageInfo
+[Debug  :RoR2BepInExPack] Hook added by assembly: Enforcer.dll for: RoR2.BodyCatalog.Init
+[Info   :  Enforcer] [Initialized]
+[Debug  :RoR2BepInExPack] Hook added by assembly: BlackHoleCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: GenjiSkin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: SummerSkinPack.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: BetaCommandoSkin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Bup.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: ClassicBanditSkin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: CommandoVibriSkinMod.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: DKLoaderSkin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: TailsEngi.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Vectormando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: YoshiAcrid.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: BanditMika.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: BanditMika.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: FrostRaySkinPack.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: BestBoiSkinPack.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: DragonCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: SpectralClawsPardofelisSkin.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: SpectralClawsPardofelisSkin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: BocchiSkin.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: BocchiSkin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: FreddyEngie.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: AllCommandoSkinPack.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: NSFWArtificer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: NSFWHuntress.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: NSFWHuntress.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: ItemCounters.dll for: RoR2.UI.ScoreboardStrip.SetMaster
+[Debug  :RoR2BepInExPack] Hook added by assembly: ItemCounters.dll for: RoR2.UI.ScoreboardStrip.UpdateMoneyText
+[Debug  :RoR2BepInExPack] Hook added by assembly: BioDroneAcrid.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: OopsAllCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: EliteFireworksCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: FireworksLoader.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: LightningTeamLeaderRailgunner.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MechaCuddleMasterMerc.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MetalTeamEngi.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: PandaTeamLeaderHuntress.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: SpiderGwenLoader.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: SpiderManLoader.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: DoomBanditMod.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: DoomBanditMod.dll for: RoR2.Language.LoadStrings
+[Info   :   Paladin] [Initializing Paladin]
+[Info   :R2API.ContentManagement] Created a SerializableContentPack for mod com.rob.Paladin
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PaladinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterBody.RecalculateStats
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterModel.UpdateOverlays
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterMaster.OnInventoryChanged
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.GlobalEventManager.OnHitEnemy
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: EntityStates.GlobalSkills.LunarNeedle.FireLunarNeedle.OnEnter
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: EntityStates.GlobalSkills.LunarNeedle.ChargeLunarSecondary.PlayChargeAnimation
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: EntityStates.GlobalSkills.LunarNeedle.ThrowLunarSecondary.PlayThrowAnimation
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: EntityStates.GlobalSkills.LunarDetonator.Detonate.OnEnter
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterSpeech.BrotherSpeechDriver.DoInitialSightResponse
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.CharacterSpeech.BrotherSpeechDriver.OnBodyKill
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.UI.HUD.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaladinMod.dll for: RoR2.EntityStateCatalog.Init
+[Info   :   Paladin] [Initialized]
+[Debug  :RoR2BepInExPack] Hook added by assembly: DoomfistLoader.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: GanyuMod.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: JeanHuntressSkin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Bowser.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Chancey.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Mario.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Stickmin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Mercenary2B.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Mercenary2B.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccMulT.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: DripBandit.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: DrippedOutCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: DrippedOutHuntress.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: LoaderMechanicalDairySkin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Bandit_Nemorni.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Bandit_Nemorni.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Black_Bezerker.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Bulwark_Enforcer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Doom_Paladin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: KatarinaSkin.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: KatarinaSkin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: KitsuneKunoichi_Artificer.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: KitsuneKunoichi_Artificer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Lich_King_Paladin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Merc_Nemorni1.1.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Merc_Nemorni1.1.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: ReeseNezumi_Arti.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ReeseNezumi_Arti.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: TF2_Demoman_Paladin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Titanfall_Viper_Mando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: W40K_Grey_Knight_Paladin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: W40K_Iron_Warrior_Nemforcer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MechArtificer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: GildedSkins.dll for: RoR2.Language.LoadStrings
+[Info   :R2API.ContentManagement] Created a SerializableContentPack for mod com.Limeyhoney.GildedSkins
+[Debug  :RoR2BepInExPack] Hook added by assembly: PlagueArtificer.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: PlagueArtificer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: SteampunkLoader.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: SteampunkLoader.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Joyride.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: HellfireCaptain.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: KanagawaCaptain.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: PrestigiousSkinpack.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MuricaHuntress.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Neptunia.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Neptunia.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Robomerc.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Robomerc.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: CaptainUnderglowDrip.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: SakasamaSkinsRemastered.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: RailgunnerJadeGlow.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: RailgunnerVoidbound31.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: RailgunnerVoidbound36.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: VoidBoundFinal1.dll for: RoR2.Language.LoadStrings
+[Info   :FemBanditItemFix] [Applying FemBanditItemFix]
+[Info   :FemCommandoItemFix] [Applying FemCommandoItemFix]
+[Debug  :RoR2BepInExPack] Hook added by assembly: PaimonSkinPlugin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: BattleBuddyCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: OkinaArtificerMod.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: ShadowTheMercenary.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: SonicTheMercenary.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChayaRailGunner.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChayaRailGunner.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: FoxMerc.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FoxMerc.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: HoloHuntress.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: HoloHuntress.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: HoloHuntressClothed.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: HoloHuntressClothed.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: LazyHuntress.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: LazyHuntress.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MisakaRailgunner.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: MisakaRailgunner.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: MisakaRailgunner.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: NecroArti.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: NecroArti.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Sei.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Tamari.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Tamari.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: TechnoMerc.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: TechnoMerc.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: TwoB.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: TwoB.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: VioletEvergarden.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: VioletEvergarden.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: OtterBandit.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: OtterBandit.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: CaptainZiggy.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: CaptainZiggy.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: VatistaRailgunner.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: DarkSamusVFSkin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: LopMercSkin.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: LopMercSkin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Ratcrid.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Ratcrid.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'NewTailBase') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'EarL') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: Gupmando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: RailGunner_Skins.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: RetroSkinpack.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: NudeArtificer.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: NudeArtificer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: NudeFemBandit.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: NudeFemBandit.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: NudeFemCommando.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: NudeFemCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: NudeLoader.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: PixelgunnerBandit.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: PixelgunnerCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: QuoteCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: QuoteCommandoHard.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemLemurianCommando.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemLemurianCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemSpyroHuntress.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemSpyroHuntress.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: LoonaRailgunner.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: LoonaRailgunner.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: LoonaRailgunner.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: RenamonArtificer.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: RenamonArtificer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: SpiritBlossomKindredHuntress.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Huntress.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Pulse_pilot.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: NemesisSkins.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Smirkposting.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: SmoreSkins.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: SuppressiveFire.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: GuntankCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MindFlayerArtificer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Minosloader.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: HonkaiSRSkins.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: BaguetteCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: AdrienCommando.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: AdrienCommando.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'TailBase') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: AnonFoxBandit.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: AnonFoxBandit.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'EarBase') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: ArflinRailgunner.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ArflinRailgunner.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'tail1') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'ear1L') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: AsrielMage.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: AsrielMage.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'TailBase') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'Cape1L') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'Cape1R') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'Ear1L') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'Hair1') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'Hair2') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: CloudMercenary.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: GiegueMage.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: GiegueMage.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'EarBase') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: GoatGuideHuntress.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: GoatGuideHuntress.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'DressFrontR') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'EarLowerR') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'Ring') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: GodzillaRailgunner.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: GodzillaRailgunner.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: GrimmyRailgunner.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: GrimmyRailgunner.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: HagridAcrid.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: HatsuneMikuArtificer.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: HatsuneMikuArtificer.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'HairBaseR') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: LoonaLoader.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: LoonaLoader.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MamagenCaptain.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: MamagenCaptain.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MamagenLoader.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: MamagenLoader.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MidNightRailgunner.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: MidNightRailgunner.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'Tail001') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'Ear01L') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'Ear01R') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'MohawkHair1001') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: MiphaMerc.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: MiphaMerc.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MoxlinRailgunner.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: MoxlinRailgunner.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: NeonBandit.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: NeonBandit.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: PepperMage.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: PepperMage.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'HatBase') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: PEPSIMANVoidFiend.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: ProtobunCommando.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ProtobunCommando.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'EarL') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'EarR') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: SephirothMercenary.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: StarburstManokitBandit.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: StarburstManokitBandit.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: StyxRailgunner.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: StyxRailgunner.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: TaylorTheRat.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: TaylorTheRat.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'assBasel') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'assBaser') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: TereziMercenary.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: WaluigiMercenary.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: WastelandCanid_Commando.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: WastelandCanid_Commando.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'TailBase') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'Hair') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: Wickerbuncle.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Wickerbuncle.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: CaptainLatch.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: CaptainLatch.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: DinoMulT.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: DinoMulT.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: DragonRailgunner.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: DragonRailgunner.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: FrankasaurusEngi.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: FrankasaurusEngi.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: GeoLoaderGreymon.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: GeoLoaderGreymon.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: GexCommando.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: GexCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: InteleonBandit.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: InteleonBandit.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Lemmando.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: Lemmando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MegaCharizardYRailgunner.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: MegaCharizardYRailgunner.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MegaSceptileMerc.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: MegaSceptileMerc.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MewtwoArtificer.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: MewtwoArtificer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: SalazzleHuntress.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: SalazzleHuntress.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: UltraNecrozmaFiend.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: UltraNecrozmaFiend.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: RailgunnerAltTextures.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: HollowKnight.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: HollowKnight.dll for: RoR2.Language.LoadStrings
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object '') is missing!
+[Warning: Unity Log] The referenced script (DynamicBone) on this Behaviour is missing!
+[Warning: Unity Log] The referenced script on this Behaviour (Game Object 'FrontPrefab') is missing!
+[Debug  :RoR2BepInExPack] Hook added by assembly: ElysiumLoader.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccCommando.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccCommando.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccCommando.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccCommando.dll for: RoR2.SkinDef.Apply
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccCommando.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: MladyMerc.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: ReZeroEmiliaSkin.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: WinstonAcrid.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: BananaGun.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: CheeseAcrid.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: CebeMercenary.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: ZackArtificer.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Kermit.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: Boibear.dll for: RoR2.Language.LoadStrings
+[Debug  :RoR2BepInExPack] Hook added by assembly: CommandoPrisoner.dll for: RoR2.Language.LoadStrings
+[Info   : Unity Log] application data path isC:/Program Files (x86)/Steam/steamapps/common/Risk of Rain 2/Risk of Rain 2_Data
+[Info   :   Console] Facepunch.Steamworks Unity: WindowsPlayer
+[Info   :   Console] Facepunch.Steamworks Os: Windows
+[Info   :   Console] Facepunch.Steamworks Arch: x64
+[Info   : Unity Log] PlatformSystems:InitNetworkManagerSystem
+[Debug  :RoR2BepInExPack] Not scanning R2API.Utils.EmbeddedResources for ConVars due to it containing delegate pointer field(s)
+[Info   : Unity Log] Launch Parameters: 
+  arg[0]="C:\Program Files (x86)\Steam\steamapps\common\Risk of Rain 2\Risk of Rain 2.exe"
+
+[Info   : Unity Log] "usesocialiconflag" is not a recognized ConCommand or ConVar.
+[Info   : Unity Log] Loaded archived convars.
+[Info   : Unity Log] Could not load config /Config/autoexec.cfg: Could not find file "C:\Program Files (x86)\Steam\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\autoexec.cfg"
+[Info   :R2API.ContentManagement] Generating a total of 8 ContentPacks...
+[Info   : Unity Log] LoadContentPacks() start
+[Info   :  FBLStage] Added bank base path : C:\Program Files (x86)\Steam\steamapps\common\Risk of Rain 2\BepInEx\plugins\JaceDaDorito-FogboundLagoon
+[Info   :  FBLStage] Added bank : fblsoundbank.bnk
+[Debug  :  FBLStage] matAbovePebbles StubbedRoR2/Base/Shaders/HGStandard (UnityEngine.Shader)
+[Debug  :  FBLStage] Hopoo Games/Deferred/Standard
+[Debug  :  FBLStage] matAbovePebbles Hopoo Games/Deferred/Standard (UnityEngine.Shader)
+[Debug  :  FBLStage] matAETerrain1 StubbedRoR2/Base/Shaders/HGTriplanarTerrainBlend (UnityEngine.Shader)
+[Debug  :  FBLStage] Hopoo Games/Deferred/Triplanar Terrain Blend
+[Debug  :  FBLStage] matAETerrain1 Hopoo Games/Deferred/Triplanar Terrain Blend (UnityEngine.Shader)
+[Debug  :  FBLStage] matBonesRibs StubbedRoR2/Base/Shaders/HGStandard (UnityEngine.Shader)
+[Debug  :  FBLStage] Hopoo Games/Deferred/Standard
+[Debug  :  FBLStage] matBonesRibs Hopoo Games/Deferred/Standard (UnityEngine.Shader)
+[Debug  :  FBLStage] matBrazierorb StubbedRoR2/Base/Shaders/HGCloudRemap (UnityEngine.Shader)
+[Debug  :  FBLStage] Hopoo Games/FX/Cloud Remap
+[Debug  :  FBLStage] matBrazierorb Hopoo Games/FX/Cloud Remap (UnityEngine.Shader)
+[Debug  :  FBLStage] matCrimsonLights StubbedRoR2/Base/Shaders/HGCloudRemap (UnityEngine.Shader)
+[Debug  :  FBLStage] Hopoo Games/FX/Cloud Remap
+[Debug  :  FBLStage] matCrimsonLights Hopoo Games/FX/Cloud Remap (UnityEngine.Shader)
+[Debug  :  FBLStage] matDistantSmoke StubbedRoR2/Base/Shaders/HGCloudRemap (UnityEngine.Shader)
+[Debug  :  FBLStage] Hopoo Games/FX/Cloud Remap
+[Debug  :  FBLStage] matDistantSmoke Hopoo Games/FX/Cloud Remap (UnityEngine.Shader)
+[Debug  :  FBLStage] matFBLAboveLeaves StubbedNature/SpeedTree (UnityEngine.Shader)
+[Debug  :  FBLStage] Nature/SpeedTree
+[Debug  :  FBLStage] matFBLAboveLeaves Nature/SpeedTree (UnityEngine.Shader)
+[Debug  :  FBLStage] matFBLBoulder StubbedRoR2/Base/Shaders/HGSnowTopped (UnityEngine.Shader)
+[Debug  :  FBLStage] Hopoo Games/Deferred/Snow Topped
+[Debug  :  FBLStage] matFBLBoulder Hopoo Games/Deferred/Snow Topped (UnityEngine.Shader)
+[Debug  :  FBLStage] matFBLDeepFog StubbedRoR2/Base/Shaders/HGCloudRemap (UnityEngine.Shader)
+[Debug  :  FBLStage] Hopoo Games/FX/Cloud Remap
+[Debug  :  FBLStage] matFBLDeepFog Hopoo Games/FX/Cloud Remap (UnityEngine.Shader)
+[Debug  :  FBLStage] matFBLFacingLeaves StubbedNature/SpeedTree (UnityEngine.Shader)
+[Debug  :  FBLStage] Nature/SpeedTree
+[Debug  :  FBLStage] matFBLFacingLeaves Nature/SpeedTree (UnityEngine.Shader)
+[Debug  :  FBLStage] matFBLFacingLeavesAbove StubbedNature/SpeedTree (UnityEngine.Shader)
+[Debug  :  FBLStage] Nature/SpeedTree
+[Debug  :  FBLStage] matFBLFacingLeavesAbove Nature/SpeedTree (UnityEngine.Shader)
+[Debug  :  FBLStage] matFBLFacingLeavesNoEmit StubbedNature/SpeedTree (UnityEngine.Shader)
+[Debug  :  FBLStage] Nature/SpeedTree
+[Debug  :  FBLStage] matFBLFacingLeavesNoEmit Nature/SpeedTree (UnityEngine.Shader)
+[Debug  :  FBLStage] matFBLTerrain StubbedRoR2/Base/Shaders/HGTriplanarTerrainBlend (UnityEngine.Shader)
+[Debug  :  FBLStage] Hopoo Games/Deferred/Triplanar Terrain Blend
+[Debug  :  FBLStage] matFBLTerrain Hopoo Games/Deferred/Triplanar Terrain Blend (UnityEngine.Shader)
+[Debug  :  FBLStage] matFBLTerrainFar StubbedRoR2/Base/Shaders/HGTriplanarTerrainBlend (UnityEngine.Shader)
+[Debug  :  FBLStage] Hopoo Games/Deferred/Triplanar Terrain Blend
+[Debug  :  FBLStage] matFBLTerrainFar Hopoo Games/Deferred/Triplanar Terrain Blend (UnityEngine.Shader)
+[Debug  :  FBLStage] matFBLWater StubbedCalm Water/CalmWater - DX11 (UnityEngine.Shader)
+[Debug  :  FBLStage] CalmWater/Calm Water [DX11]
+[Debug  :  FBLStage] matFBLWater CalmWater/Calm Water [DX11] (UnityEngine.Shader)
+[Debug  :  FBLStage] matFBLWaterDiorama StubbedCalm Water/CalmWater - DX11 (UnityEngine.Shader)
+[Debug  :  FBLStage] CalmWater/Calm Water [DX11]
+[Debug  :  FBLStage] matFBLWaterDiorama CalmWater/Calm Water [DX11] (UnityEngine.Shader)
+[Debug  :  FBLStage] matOrbEmit StubbedRoR2/Base/Shaders/HGStandard (UnityEngine.Shader)
+[Debug  :  FBLStage] Hopoo Games/Deferred/Standard
+[Debug  :  FBLStage] matOrbEmit Hopoo Games/Deferred/Standard (UnityEngine.Shader)
+[Debug  :  FBLStage] matUnderwaterPebbles StubbedRoR2/Base/Shaders/HGStandard (UnityEngine.Shader)
+[Debug  :  FBLStage] Hopoo Games/Deferred/Standard
+[Debug  :  FBLStage] matUnderwaterPebbles Hopoo Games/Deferred/Standard (UnityEngine.Shader)
+[Debug  :  FBLStage] matUnderWaterPlane StubbedCalm Water/CalmWater - DX11 (UnityEngine.Shader)
+[Debug  :  FBLStage] CalmWater/Calm Water [DX11]
+[Debug  :  FBLStage] matUnderWaterPlane CalmWater/Calm Water [DX11] (UnityEngine.Shader)
+[Debug  :  FBLStage] matUWDistortion StubbedRoR2/Base/Shaders/HGDistortion (UnityEngine.Shader)
+[Debug  :  FBLStage] Hopoo Games/FX/Distortion
+[Debug  :  FBLStage] matUWDistortion Hopoo Games/FX/Distortion (UnityEngine.Shader)
+[Debug  :  FBLStage] New Material StubbedRoR2/Base/Shaders/HGStandard (UnityEngine.Shader)
+[Debug  :  FBLStage] Hopoo Games/Deferred/Standard
+[Debug  :  FBLStage] New Material Hopoo Games/Deferred/Standard (UnityEngine.Shader)
+[Debug  :  FBLStage] skyboxArid Skybox/Cubemap (UnityEngine.Shader)
+[Debug  :  FBLStage] Default_Material.001 Standard (UnityEngine.Shader)
+[Debug  :  FBLStage] No Name Standard (UnityEngine.Shader)
+[Debug  :  FBLStage] BonesArid Standard (UnityEngine.Shader)
+[Debug  :  FBLStage] No Name Standard (UnityEngine.Shader)
+[Debug  :  FBLStage] Material Standard (UnityEngine.Shader)
+[Debug  :  FBLStage] Material Standard (UnityEngine.Shader)
+[Debug  :  FBLStage] FOGBOUND_SCENEDEF_NAME_TOKEN
+[Warning: Unity Log] Failed to assign Buffs.Deafened: Asset "bdDeafened" not found.
+[Warning: Unity Log] Failed to assign Items.SummonedEcho: Asset "SummonedEcho" not found.
+[Warning: Unity Log] Failed to assign Equipment.AffixEcho: Asset "EliteEchoEquipment" not found.
+[Warning: Unity Log] Failed to assign Buffs.AffixEcho: Asset "bdEliteEcho" not found.
+[Warning: Unity Log] Failed to assign Elites.Echo: Asset "edEcho" not found.
+[Debug  :R2API.ContentManagement] Content added from com.Limeyhoney.GildedSkins:
+BANDIT2_BODY_GILDEDUNLOCKABLE_REWARD_ID (UnlockableDef)
+CAPTAIN_BODY_GILDEDUNLOCKABLE_REWARD_ID (UnlockableDef)
+COMMANDO_BODY_GILDEDUNLOCKABLE_REWARD_ID (UnlockableDef)
+CROCO_BODY_GILDEDUNLOCKABLE_REWARD_ID (UnlockableDef)
+ENGI_BODY_GILDEDUNLOCKABLE_REWARD_ID (UnlockableDef)
+Huntress_BODY_GILDEDUNLOCKABLE_REWARD_ID (UnlockableDef)
+LOADER_BODY_GILDEDUNLOCKABLE_REWARD_ID (UnlockableDef)
+MAGE_BODY_GILDEDUNLOCKABLE_REWARD_ID (UnlockableDef)
+MERC_BODY_GILDEDUNLOCKABLE_REWARD_ID (UnlockableDef)
+TOOLBOT_BODY_GILDEDUNLOCKABLE_REWARD_ID (UnlockableDef)
+TREEBOT_BODY_GILDEDUNLOCKABLE_REWARD_ID (UnlockableDef)
+[Debug  :R2API.ContentManagement] Content added from com.rob.Paladin:
+Body (GameObject)
+LightningSpear (GameObject)
+LunarKnightBody (GameObject)
+PaladinDashEffect (GameObject)
+PaladinDisplayPrefab (GameObject)
+PaladinHeal (GameObject)
+PaladinHealZone (GameObject)
+PaladinLightningStrikeImpact (GameObject)
+PaladinLunarShard (GameObject)
+PaladinMonsterMaster (GameObject)
+PaladinScepterHealZone (GameObject)
+PaladinScepterSun (GameObject)
+PaladinScepterSunProjectile (GameObject)
+PaladinScepterSunProjectileGhost (GameObject)
+PaladinScepterTorpor (GameObject)
+PaladinScepterWarcry (GameObject)
+PaladinShockwave (GameObject)
+PaladinSwordBeam (GameObject)
+PaladinTorpor (GameObject)
+PaladinWarcry (GameObject)
+RobPaladinBody (GameObject)
+PALADIN_CLAYUNLOCKABLE_REWARD_ID (UnlockableDef)
+PALADIN_CRUELSUNUNLOCKABLE_REWARD_ID (UnlockableDef)
+PALADIN_HEALUNLOCKABLE_REWARD_ID (UnlockableDef)
+PALADIN_LUNARSHARDUNLOCKABLE_REWARD_ID (UnlockableDef)
+PALADIN_MASTERYUNLOCKABLE_REWARD_ID (UnlockableDef)
+PALADIN_POISONUNLOCKABLE_REWARD_ID (UnlockableDef)
+PALADIN_TORPORUNLOCKABLE_REWARD_ID (UnlockableDef)
+PALADIN_TYPHOONUNLOCKABLE_REWARD_ID (UnlockableDef)
+PALADIN_UNLOCKABLE_REWARD_ID (UnlockableDef)
+[Debug  :R2API.ContentManagement] Content added from com.EnforcerGang.Enforcer:
+EnforcerBlockEffect (GameObject)
+EnforcerBody (GameObject)
+EnforcerBulletTracer (GameObject)
+EnforcerBulletTracer (GameObject)
+EnforcerHammerSlamEffect (GameObject)
+EnforcerHeavyBlockEffect (GameObject)
+EnforcerLaserTracer (GameObject)
+EnforcerMonsterMaster (GameObject)
+EnforcerShockGrenade (GameObject)
+EnforcerStunGrenade (GameObject)
+EnforcerTearGasGrenade (GameObject)
+EnforcerTearGasScepterGrenade (GameObject)
+HammerProjectileGhost (GameObject)
+HammerProjectileGhostGordo (GameObject)
+NeedlerCrosshair (GameObject)
+NemesisEnforcerBody (GameObject)
+NemesisEnforcerBossBody (GameObject)
+NemesisEnforcerBossMaster (GameObject)
+NemesisEnforcerMiniBossBody (GameObject)
+NemesisEnforcerMiniBossMaster (GameObject)
+NemesisEnforcerMonsterMaster (GameObject)
+NemforcerMinigunTracer (GameObject)
+NemGasDotZone (GameObject)
+NemGasGrenade (GameObject)
+NemGasGrenadeGhost (GameObject)
+NemHammerProjectile (GameObject)
+ShockGrenadeGhost (GameObject)
+StunGrenadeGhost (GameObject)
+TearGasDotZone (GameObject)
+TearGasGhost (GameObject)
+TearGasScepterDotZone (GameObject)
+TearGasScepterGhost (GameObject)
+ENFORCER_BUNGUSUNLOCKABLE_REWARD_ID (UnlockableDef)
+ENFORCER_CHARACTERUNLOCKABLE_REWARD_ID (UnlockableDef)
+ENFORCER_CLASSICUNLOCKABLE_REWARD_ID (UnlockableDef)
+ENFORCER_DESPERADOUNLOCKABLE_REWARD_ID (UnlockableDef)
+ENFORCER_DOOMINTERNALUNLOCKABLE_REWARD_ID (UnlockableDef)
+ENFORCER_DOOMUNLOCKABLE_REWARD_ID (UnlockableDef)
+ENFORCER_GRANDMASTERYUNLOCKABLE_REWARD_ID (UnlockableDef)
+ENFORCER_MASTERYUNLOCKABLE_REWARD_ID (UnlockableDef)
+ENFORCER_NEMESIS2UNLOCKABLE_REWARD_ID (UnlockableDef)
+ENFORCER_NEMESISSKINUNLOCKABLE_REWARD_ID (UnlockableDef)
+ENFORCER_RIFLEUNLOCKABLE_REWARD_ID (UnlockableDef)
+ENFORCER_ROBITUNLOCKABLE_REWARD_ID (UnlockableDef)
+ENFORCER_STORMTROOPERUNLOCKABLE_REWARD_ID (UnlockableDef)
+ENFORCER_STUNGRENADEUNLOCKABLE_REWARD_ID (UnlockableDef)
+NEMFORCER_DOMINANCEUNLOCKABLE_REWARD_ID (UnlockableDef)
+NEMFORCER_MASTERYUNLOCKABLE_REWARD_ID (UnlockableDef)
+NEMFORCER_TYPHOONUNLOCKABLE_REWARD_ID (UnlockableDef)
+[Debug  :R2API.ContentManagement] Content added from com.rob.DiggerUnearthed:
+DiggerCrushExplosionEffect (GameObject)
+DireseekerBody (GameObject)
+DireseekerFireball (GameObject)
+DireseekerFireSegment (GameObject)
+DireseekerFireTrail (GameObject)
+DireseekerGroundFireball (GameObject)
+DireseekerMaster (GameObject)
+MinerBackblastEffect (GameObject)
+MinerBody (GameObject)
+MinerDisplay (GameObject)
+MinerMonsterMaster (GameObject)
+MINER_BLACKSMITHUNLOCKABLE_REWARD_ID (UnlockableDef)
+MINER_CAVEINUNLOCKABLE_REWARD_ID (UnlockableDef)
+MINER_CRACKUNLOCKABLE_REWARD_ID (UnlockableDef)
+MINER_CRUSHUNLOCKABLE_REWARD_ID (UnlockableDef)
+MINER_MONSOONUNLOCKABLE_REWARD_ID (UnlockableDef)
+MINER_PUPLEUNLOCKABLE_REWARD_ID (UnlockableDef)
+MINER_TUNDRAUNLOCKABLE_REWARD_ID (UnlockableDef)
+MINER_TYPHOONUNLOCKABLE_REWARD_ID (UnlockableDef)
+MINER_UNLOCKABLE_REWARD_ID (UnlockableDef)
+EntityStates.Direseeker.ChargeUltraFireball (RuntimeType)
+EntityStates.LemurianBruiserMonster.Flamebreath (RuntimeType)
+[Debug  :R2API.ContentManagement] Content added from com.weliveinasociety.CustomEmotesAPI:
+homedepot1 (GameObject)
+ifustagebasebased (GameObject)
+[Debug  :R2API.ContentManagement] Content added from com.Moffein.SniperClassic:
+ClassicSniperDefaultTracer (GameObject)
+mdlSpotter (GameObject)
+MoffeinSniperClassicHeavyBullet (GameObject)
+MoffeinSniperClassicHeavyBulletHeadshot (GameObject)
+SniperClassicBody (GameObject)
+SniperClassicMonsterMaster (GameObject)
+SniperClassicNeedleRifleProjectile (GameObject)
+SniperClassicNeedleRifleProjectileHeadshot (GameObject)
+SniperClassic_SmokeDotZone (GameObject)
+SniperClassic_SmokeGhost (GameObject)
+SniperClassic_SmokeGrenade (GameObject)
+SNIPERCLASSIC_CHARACTERUNLOCKABLE_REWARD_ID (UnlockableDef)
+SNIPERCLASSIC_GRANDMASTERYUNLOCKABLE_REWARD_ID (UnlockableDef)
+SNIPERCLASSIC_MASTERYUNLOCKABLE_REWARD_ID (UnlockableDef)
+[Debug  :R2API.ContentManagement] Content added from com.Gnome.ChefMod:
+BoostedSearProjectile (GameObject)
+CHEF (GameObject)
+CHEFCleaver (GameObject)
+ChefInvader (GameObject)
+CHEFKnife (GameObject)
+ChefKnifeBoosted (GameObject)
+chef_fruitpod (GameObject)
+chef_fruitpod (GameObject)
+Dripping (GameObject)
+FlamBall (GameObject)
+FoirBall (GameObject)
+FoirBallGhost (GameObject)
+OilBeetle (GameObject)
+CHEF_CHEFUNLOCKABLE_REWARD_ID (UnlockableDef)
+CHEF_SLICEUNLOCKABLE_REWARD_ID (UnlockableDef)
+[Debug  :R2API.ContentManagement] Content added from com.EnforcerGang.HANDOverclocked:
+BrokenJanitorInteractable (GameObject)
+BrokenJanitorRepair (GameObject)
+HANDMod_DroneProjectile (GameObject)
+HANDMod_DroneSpeedProjectile (GameObject)
+HANDOverclockedBody (GameObject)
+HANDOverclockedMonsterMaster (GameObject)
+[Info   : Unity Log] LoadContentPacks() end
+[Error  :R2API.ContentManagement] The exact same asset BrokenJanitorInteractable (UnityEngine.GameObject) is being added by two different content packs : com.EnforcerGang.HANDOverclocked and com.EnforcerGang.HANDOverclocked
+[Error  :R2API.ContentManagement] The exact same asset BrokenJanitorRepair (UnityEngine.GameObject) is being added by two different content packs : com.EnforcerGang.HANDOverclocked and com.EnforcerGang.HANDOverclocked
+[Error  :R2API.ContentManagement] The exact same asset mdlSpotter (UnityEngine.GameObject) is being added by two different content packs : com.Moffein.SniperClassic and SniperClassic.content
+[Warning: Unity Log] Could not find scene with name "loadingbasic".
+[Warning: Unity Log] Could not find scene with name "intro".
+[Info   : Unity Log] Command "set_scene" failed: "intro" is not a valid scene.
+[Info   : Unity Log] Game content load completed in 19782ms.
+[Info   : Unity Log] Setting current language to "en"
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemCaptain.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: LemonFemCaptain.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: TeamFortress2_Engineer_Engineer_Skin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: TeamFortress2_Engineer_Engineer_Skin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: MercMysteriousHeroineX.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: MercMysteriousHeroineX.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: SaberPaladin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: SaberPaladin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemBanditNoDependency.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemCommandoNoDependencies.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemMercenaryNoDependencies.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemPaladin.dll for: RoR2.SkinDef.Awake
+[Info   : Unity Log] [RoR2.BodyCatalog] fem paladin has found Paladin renderer: SwordSparksEffect
+[Info   : Unity Log] [RoR2.BodyCatalog] fem paladin has found Paladin renderer: Lightning
+[Info   : Unity Log] [RoR2.BodyCatalog] fem paladin has found Paladin renderer: CastLightning
+[Info   : Unity Log] [RoR2.BodyCatalog] fem paladin has found Paladin renderer: Trail
+[Info   : Unity Log] [RoR2.BodyCatalog] fem paladin has found Paladin renderer: meshPaladin
+[Info   : Unity Log] [RoR2.BodyCatalog] meshPaladin has index 4, bodyInt set.
+[Info   : Unity Log] [RoR2.BodyCatalog] fem paladin has found Paladin renderer: meshSword
+[Info   : Unity Log] [RoR2.BodyCatalog] meshSword has index 5, swordInt set.
+[Info   : Unity Log] [RoR2.BodyCatalog] ADDED FEM PALADIN SUCCESSFULLY
+[Debug  :RoR2BepInExPack] Hook added by assembly: InfiltratorFemBandit.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: LovingHuntressNSFW.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: LovingHuntressNSFW.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: GreyFox.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: GreyFox.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: HaydeeSkinArti.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: HaydeeSkinArti.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: LongTailAcrid.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemaleVoidFiend.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: FemaleVoidFiend.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: AcademicArtificer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: AcademicArtificer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: AltThiccHuntress.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Big_Tiddy_Female_Mandalorian_Skin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Big_Tiddy_Female_Mandalorian_Skin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: CommandoTrooper.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: EndowedArtificer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemAcridEdit12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemCommando12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: FemCommando12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemmeBandit12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: FemmeBandit12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: FemmeMerc.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemCaptain12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: RisqueFemCaptain12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemCommando12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: RisqueFemCommando12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueFemMerc12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: RisqueFemMerc12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueHuntress12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: RisqueHuntress12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueLoader12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: RisqueLoader12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: RisqueRailgunner12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: RisqueRailgunner12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: SFW_Alt_Huntress.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccArti12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: ThiccArti12G.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThiccLoader.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: ThiccLoader.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Tig_Biddy_Fem_Engineer_Skin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Tig_Biddy_Fem_Engineer_Skin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: UESTrooperBanditSkin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: UESTrooperBanditSkin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: HayaseYuukaCommando.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: HayaseYuukaCommando.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: MisonoMikaArtificer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: MisonoMikaArtificer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: TendouArisTheRailgunner.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: TendouArisTheRailgunner.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: MadVeteran.dll for: RoR2.SkinDef.Awake
+[Warning:MadVeteran] Failed to add "EngiTurretNeo" skin to "EngiTurretBody"
+[Error  :MadVeteran] System.NullReferenceException: Object reference not set to an instance of an object
+  at MadVeteran.MadVeteranPlugin.EngiTurretBodyEngiTurretNeoSkinAdded (RoR2.SkinDef skinDef, UnityEngine.GameObject bodyPrefab) [0x00012] in <7c845e091132429dbf7560e9572cccf4>:IL_0012 
+  at MadVeteran.MadVeteranPlugin.AddEngiTurretBodyEngiTurretNeoSkin () [0x00268] in <7c845e091132429dbf7560e9572cccf4>:IL_0268 
+[Warning:MadVeteran] Failed to add "EngiWalkerTurretNeo" skin to "EngiWalkerTurretBody"
+[Error  :MadVeteran] System.NullReferenceException: Object reference not set to an instance of an object
+  at MadVeteran.MadVeteranPlugin.EngiWalkerTurretBodyEngiWalkerTurretNeoSkinAdded (RoR2.SkinDef skinDef, UnityEngine.GameObject bodyPrefab) [0x00012] in <7c845e091132429dbf7560e9572cccf4>:IL_0012 
+  at MadVeteran.MadVeteranPlugin.AddEngiWalkerTurretBodyEngiWalkerTurretNeoSkin () [0x00268] in <7c845e091132429dbf7560e9572cccf4>:IL_0268 
+[Warning:MadVeteran] Failed to add "CapNeo" skin to "CaptainBody"
+[Error  :MadVeteran] System.NullReferenceException: Object reference not set to an instance of an object
+  at MadVeteran.MadVeteranPlugin.CaptainBodyCapNeoSkinAdded (RoR2.SkinDef skinDef, UnityEngine.GameObject bodyPrefab) [0x00012] in <7c845e091132429dbf7560e9572cccf4>:IL_0012 
+  at MadVeteran.MadVeteranPlugin.AddCaptainBodyCapNeoSkin () [0x00268] in <7c845e091132429dbf7560e9572cccf4>:IL_0268 
+[Warning:MadVeteran] Failed to add "MulTNeo" skin to "ToolbotBody"
+[Error  :MadVeteran] System.NullReferenceException: Object reference not set to an instance of an object
+  at MadVeteran.MadVeteranPlugin.ToolbotBodyMulTNeoSkinAdded (RoR2.SkinDef skinDef, UnityEngine.GameObject bodyPrefab) [0x00012] in <7c845e091132429dbf7560e9572cccf4>:IL_0012 
+  at MadVeteran.MadVeteranPlugin.AddToolbotBodyMulTNeoSkin () [0x00268] in <7c845e091132429dbf7560e9572cccf4>:IL_0268 
+[Warning:MadVeteran] Failed to add "CommNeo" skin to "CommandoBody"
+[Error  :MadVeteran] System.NullReferenceException: Object reference not set to an instance of an object
+  at MadVeteran.MadVeteranPlugin.CommandoBodyCommNeoSkinAdded (RoR2.SkinDef skinDef, UnityEngine.GameObject bodyPrefab) [0x00012] in <7c845e091132429dbf7560e9572cccf4>:IL_0012 
+  at MadVeteran.MadVeteranPlugin.AddCommandoBodyCommNeoSkin () [0x00268] in <7c845e091132429dbf7560e9572cccf4>:IL_0268 
+[Warning:MadVeteran] Failed to add "RgunnerNeo" skin to "RailgunnerBody"
+[Error  :MadVeteran] System.NullReferenceException: Object reference not set to an instance of an object
+  at MadVeteran.MadVeteranPlugin.RailgunnerBodyRgunnerNeoSkinAdded (RoR2.SkinDef skinDef, UnityEngine.GameObject bodyPrefab) [0x00012] in <7c845e091132429dbf7560e9572cccf4>:IL_0012 
+  at MadVeteran.MadVeteranPlugin.AddRailgunnerBodyRgunnerNeoSkin () [0x00268] in <7c845e091132429dbf7560e9572cccf4>:IL_0268 
+[Warning:MadVeteran] Failed to add "ArtiNeo" skin to "MageBody"
+[Error  :MadVeteran] System.NullReferenceException: Object reference not set to an instance of an object
+  at MadVeteran.MadVeteranPlugin.MageBodyArtiNeoSkinAdded (RoR2.SkinDef skinDef, UnityEngine.GameObject bodyPrefab) [0x00012] in <7c845e091132429dbf7560e9572cccf4>:IL_0012 
+  at MadVeteran.MadVeteranPlugin.AddMageBodyArtiNeoSkin () [0x00268] in <7c845e091132429dbf7560e9572cccf4>:IL_0268 
+[Warning:MadVeteran] Failed to add "VoidSurvivorNeo" skin to "VoidSurvivorBody"
+[Error  :MadVeteran] System.NullReferenceException: Object reference not set to an instance of an object
+  at MadVeteran.MadVeteranPlugin.VoidSurvivorBodyVoidSurvivorNeoSkinAdded (RoR2.SkinDef skinDef, UnityEngine.GameObject bodyPrefab) [0x00012] in <7c845e091132429dbf7560e9572cccf4>:IL_0012 
+  at MadVeteran.MadVeteranPlugin.AddVoidSurvivorBodyVoidSurvivorNeoSkin () [0x00268] in <7c845e091132429dbf7560e9572cccf4>:IL_0268 
+[Warning:MadVeteran] Failed to add "RexNeo" skin to "TreebotBody"
+[Error  :MadVeteran] System.NullReferenceException: Object reference not set to an instance of an object
+  at MadVeteran.MadVeteranPlugin.TreebotBodyRexNeoSkinAdded (RoR2.SkinDef skinDef, UnityEngine.GameObject bodyPrefab) [0x00012] in <7c845e091132429dbf7560e9572cccf4>:IL_0012 
+  at MadVeteran.MadVeteranPlugin.AddTreebotBodyRexNeoSkin () [0x00284] in <7c845e091132429dbf7560e9572cccf4>:IL_0284 
+[Warning:MadVeteran] Failed to add "LoadNeo" skin to "LoaderBody"
+[Error  :MadVeteran] System.NullReferenceException: Object reference not set to an instance of an object
+  at MadVeteran.MadVeteranPlugin.LoaderBodyLoadNeoSkinAdded (RoR2.SkinDef skinDef, UnityEngine.GameObject bodyPrefab) [0x00012] in <7c845e091132429dbf7560e9572cccf4>:IL_0012 
+  at MadVeteran.MadVeteranPlugin.AddLoaderBodyLoadNeoSkin () [0x00268] in <7c845e091132429dbf7560e9572cccf4>:IL_0268 
+[Warning:MadVeteran] Failed to add "EngiNeo" skin to "EngiBody"
+[Error  :MadVeteran] System.NullReferenceException: Object reference not set to an instance of an object
+  at MadVeteran.MadVeteranPlugin.EngiBodyEngiNeoSkinAdded (RoR2.SkinDef skinDef, UnityEngine.GameObject bodyPrefab) [0x00012] in <7c845e091132429dbf7560e9572cccf4>:IL_0012 
+  at MadVeteran.MadVeteranPlugin.AddEngiBodyEngiNeoSkin () [0x00268] in <7c845e091132429dbf7560e9572cccf4>:IL_0268 
+[Debug  :RoR2BepInExPack] Hook removed by assembly: MadVeteran.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Vriska8.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Vriska8.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: IkeaArti.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: IkeaArti.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Kindred.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Kindred.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: KindredsLizard.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: KindredsLizard.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: RoyalLizard.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: RoyalLizard.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: VoidQueen.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: VoidQueen.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: EmptyLoader.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: EmptyLoader.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: VannyMercinary.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: VannyMercinary.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: ZeldaSkin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: ZeldaSkin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: CheddarHuntress.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: CheddarHuntress.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: LoonaHuntress.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: LoonaHuntress.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Poptartificer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Poptartificer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: PuggyJacksonHuntress.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PuggyJacksonHuntress.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: SnowLeopardEngineer.dll for: RoR2.SkinDef.Awake
+[Warning:SnowLeopardEngineer] Failed to add "CrystalTurret" skin to "EngiTurretBody"
+[Error  :SnowLeopardEngineer] System.NullReferenceException: Object reference not set to an instance of an object
+  at SnowLeopardEngineer.SnowLeopardEngineerPlugin.EngiTurretBodyCrystalTurretSkinAdded (RoR2.SkinDef skinDef, UnityEngine.GameObject bodyPrefab) [0x00012] in <87c786ec290543eda1bf63bdc330db24>:IL_0012 
+  at SnowLeopardEngineer.SnowLeopardEngineerPlugin.AddEngiTurretBodyCrystalTurretSkin () [0x00268] in <87c786ec290543eda1bf63bdc330db24>:IL_0268 
+[Debug  :RoR2BepInExPack] Hook removed by assembly: SnowLeopardEngineer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: JetstreamSamMercenary.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: JetstreamSamMercenary.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: SenatorLoader.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: SenatorLoader.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: AmongUsCommando.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: AmongUsCommando.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: UltrakillV1BanditSkin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: UltrakillV1BanditSkin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: BanditSaoriSkin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: BanditSaoriSkin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: GupCaptain.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: GupCaptain.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: AstronautCommando.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: AstronautCommando.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: GroveChildren.dll for: RoR2.SkinDef.Awake
+[Warning:GroveChildren] Failed to add "GoveTurret" skin to "EngiTurretBody"
+[Error  :GroveChildren] System.NullReferenceException: Object reference not set to an instance of an object
+  at GroveChildren.GroveChildrenPlugin.EngiTurretBodyGoveTurretSkinAdded (RoR2.SkinDef skinDef, UnityEngine.GameObject bodyPrefab) [0x00012] in <8970360983f149ab8022a7cc9b965eda>:IL_0012 
+  at GroveChildren.GroveChildrenPlugin.AddEngiTurretBodyGoveTurretSkin () [0x00268] in <8970360983f149ab8022a7cc9b965eda>:IL_0268 
+[Debug  :RoR2BepInExPack] Hook removed by assembly: GroveChildren.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: MysticalArtificer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: MysticalArtificer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: ThomasRex.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: ThomasRex.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Xenomorph.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Xenomorph.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: RaidenMerc.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: RaidenMerc.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: OuterWildsHatchling.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: OuterWildsHatchling.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: BigmandoMod_1.0.3.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: BigmandoMod_1.0.3.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: PossumAcrid.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PossumAcrid.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: VoidBorn.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: VoidBorn.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: BeachCaptain.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: BeachCaptain.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: HuntressMononoke.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: HuntressMononoke.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: CytoCommando.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: CytoCommando.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: CodyDripArtificer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: CodyDripArtificer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: LouisAlderMercenary.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: LouisAlderMercenary.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: SkysieMercinary.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: SkysieMercinary.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: ChristmasPack.dll for: RoR2.SkinDef.Awake
+[Warning:ChristmasPack] Failed to add "NBandit" skin to "Bandit2Body"
+[Error  :ChristmasPack] System.NullReferenceException: Object reference not set to an instance of an object
+  at ChristmasPack.ChristmasPackPlugin.Bandit2BodyNBanditSkinAdded (RoR2.SkinDef skinDef, UnityEngine.GameObject bodyPrefab) [0x00012] in <814fbd1e1b7b47658d00f76ffffba95d>:IL_0012 
+  at ChristmasPack.ChristmasPackPlugin.AddBandit2BodyNBanditSkin () [0x00268] in <814fbd1e1b7b47658d00f76ffffba95d>:IL_0268 
+[Warning:ChristmasPack] Failed to add "XMage" skin to "MageBody"
+[Error  :ChristmasPack] System.NullReferenceException: Object reference not set to an instance of an object
+  at ChristmasPack.ChristmasPackPlugin.MageBodyXMageSkinAdded (RoR2.SkinDef skinDef, UnityEngine.GameObject bodyPrefab) [0x00012] in <814fbd1e1b7b47658d00f76ffffba95d>:IL_0012 
+  at ChristmasPack.ChristmasPackPlugin.AddMageBodyXMageSkin () [0x00268] in <814fbd1e1b7b47658d00f76ffffba95d>:IL_0268 
+[Debug  :RoR2BepInExPack] Hook removed by assembly: ChristmasPack.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: LTT1.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: LTT1.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: LTT2.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: LTT2.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: MercCap.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: MercCap.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: WarlockArtificer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: WarlockArtificer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: BoiCommando.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: BoiCommando.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: LightDreamer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: LightDreamer.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: PlagueBandit.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: PlagueBandit.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: BlackHoleCommando.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: BlackHoleCommando.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: GenjiSkin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: GenjiSkin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: SummerSkinPack.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: SummerSkinPack.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: BetaCommandoSkin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: BetaCommandoSkin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: Bup.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: Bup.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: ClassicBanditSkin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: ClassicBanditSkin.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by assembly: CommandoVibriSkinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook removed by assembly: CommandoVibriSkinMod.dll for: RoR2.SkinDef.Awake
+[Debug  :RoR2BepInExPack] Hook added by ass

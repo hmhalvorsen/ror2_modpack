@@ -1,0 +1,9 @@
+{
+	"name": "CaptainLatch",
+	"version_number": "1.0.1",
+	"website_url": "",
+	"description": "Captain of the UES 'Easy Prey' lands to find more places to play ball. Has tail physics",
+	"dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "BaseVoiceoverLib",
+    "version_number": "1.1.4",
+    "website_url": "https://github.com/moffein/BaseVoiceoverLib",
+    "description": "Shared mod for various skins that implement voicelines. Does nothing on its own.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.1905",
+		"RiskofThunder-HookGenPatcher-1.2.3"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "SpiderGwenLoader",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/JackTYM/RoR2Modding",
+    "description": "Adds a Spider-Gwen skin to Loader",
+    "dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

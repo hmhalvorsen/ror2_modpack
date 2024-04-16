@@ -1,0 +1,9 @@
+{
+    "name": "Grimmy_Railgunner",
+    "version_number": "1.0.0",
+	"website_url": "",
+	"description": "A commissioned skin mod that makes Railgunner look like an extremely thick-hipped protogen.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.2103"
+    ]
+}

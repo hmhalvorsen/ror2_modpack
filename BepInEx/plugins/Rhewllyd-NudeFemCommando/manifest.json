@@ -1,0 +1,9 @@
+{
+    "name": "NudeFemCommando",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "A nude fem commando skin",
+    "dependencies": [
+        "bbepis-BepInExPack-5.3.1"
+    ]
+}

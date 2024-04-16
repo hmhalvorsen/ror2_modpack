@@ -1,0 +1,9 @@
+{
+    "name": "Steampunk_Loader_Skin",
+    "version_number": "0.1.2",
+    "website_url": "",
+    "description": "[Lite-NSFW] Add a skin for Loader with a steampunk theme.",
+    "dependencies": [
+      "bbepis-BepInExPack-5.4.1902"
+    ]
+  }

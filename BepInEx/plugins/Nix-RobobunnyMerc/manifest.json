@@ -1,0 +1,9 @@
+﻿{
+	"name": "RobobunnyMerc",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "Robot bunny girl skin for merc",
+	"dependencies": [
+        "bbepis-BepInExPack-5.4.1903"
+	]
+}

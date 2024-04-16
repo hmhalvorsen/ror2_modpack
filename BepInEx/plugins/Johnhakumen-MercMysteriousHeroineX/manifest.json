@@ -1,0 +1,10 @@
+{
+    "name": "MercMysteriousHeroineX",
+    "version_number": "1.0.2",
+    "website_url": "_",
+    "description": "Adds skin for Mercenary to become type moon Mysterious Heroine X. It sucks btw. 1.0.2 makes legs not disconnect (LOL)",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.9",
+	"tristanmcpherson-R2API-3.0.30"
+    ]
+}

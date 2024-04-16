@@ -1,0 +1,12 @@
+{
+    "name": "Titanfall_Viper_Commando",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/thunderstore-io",
+    "description": "'Your journey ends here, Pilot. The skies belong to me. Nowhere to run, nowhere to hide.'",
+    "dependencies": 
+	[
+	    "bbepis-BepInExPack-5.4.9",
+        "tristanmcpherson-R2API-4.3.2",
+        "KingEnderBrine-LobbySkinsFix-1.2.0"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "NudeFemBandit",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Adds a skin that makes Bandit female and nude.",
+    "dependencies": [
+		"bbepis-BepInExPack-5.3.1"
+	]
+}

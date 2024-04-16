@@ -1,0 +1,9 @@
+{
+    "name": "Risque_Fem_Captain_Skin",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "[NSFW] Gives Captainw a gender bend skin. An alternate look along with being curvaceous.",
+    "dependencies": [ 
+    "bbepis-BepInExPack-5.3.1"
+    ]
+}

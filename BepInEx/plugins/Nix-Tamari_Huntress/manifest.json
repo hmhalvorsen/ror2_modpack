@@ -1,0 +1,9 @@
+﻿{
+	"name": "Tamari_Huntress",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"description": "Comission Skin of Tamari from ghost and pals",
+	"dependencies": [
+        "bbepis-BepInExPack-5.4.1903"
+	]
+}

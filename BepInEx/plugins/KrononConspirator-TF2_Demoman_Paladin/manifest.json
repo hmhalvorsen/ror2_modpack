@@ -1,0 +1,14 @@
+{
+    "name": "TF2_Demoman_Paladin",
+    "version_number": "1.1.0",
+    "website_url": "https://github.com/thunderstore-io",
+    "description": "'one errant twitch...and kablooie!'",
+    "dependencies": 
+	[
+	    "bbepis-BepInExPack-5.4.9",
+        "RiskofThunder-HookGenPatcher-1.2.1",
+        "tristanmcpherson-R2API-4.3.2",
+        "KingEnderBrine-LobbySkinsFix-1.2.0",
+		"Paladin_Alliance-PaladinMod-1.5.10"
+    ]
+}

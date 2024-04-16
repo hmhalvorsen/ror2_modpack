@@ -1,0 +1,10 @@
+{
+	"name": "KanagawaSkinpack",
+	"version_number": "1.1.1",
+	"website_url": "",
+	"description": "Inspired by -The Great Wave off Kanagawa-. Now void compatible!",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.1903",
+		"tristanmcpherson-R2API-4.2.1"
+	]
+}

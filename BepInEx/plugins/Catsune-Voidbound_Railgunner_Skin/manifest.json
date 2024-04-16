@@ -1,0 +1,9 @@
+{
+	"name": "Voidbound_Railgunner_Skin",
+	"version_number": "1.0.1",
+	"website_url": "",
+	"description": "My first pass at a void-themed skin for railgunner",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.1903"
+	]
+}

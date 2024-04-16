@@ -1,0 +1,10 @@
+{
+    "name": "Dripped_Out_Bandit",
+    "version_number": "1.0.0",
+    "website_url": "https://twitter.com/KKingDoesWeird",
+    "description": "Commando has some new drip and its about time he shows it off.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2103",
+        "tristanmcpherson-R2API-4.4.1"
+    ]
+}

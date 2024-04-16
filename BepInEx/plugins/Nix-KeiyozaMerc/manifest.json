@@ -1,0 +1,9 @@
+﻿{
+	"name": "KeiyozaMerc",
+	"version_number": "1.1.0",
+	"website_url": "",
+	"description": "Comission Skin of Keiyoza as the merc (fox girl merc)",
+	"dependencies": [
+        "bbepis-BepInExPack-5.4.1903"
+	]
+}

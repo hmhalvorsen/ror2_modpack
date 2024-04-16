@@ -1,0 +1,9 @@
+{
+    "name": "Infiltrator_Fem_Bandit",
+    "version_number": "0.5.0",
+    "website_url": "",
+    "description": "Work-in-progress. Adds a high-tech female assassin skin to bandit, now with a new pistol and better polish.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.9"
+	]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "BadAssEmotes",
+    "version_number": "1.7.8",
+    "website_url": "https://github.com/ToastedOven/BadAssEmotes",
+    "description": "19$ Fortnite Card, who wants it?",
+    "dependencies": [
+		"MetrosexualFruitcake-CustomEmotesAPI-1.9.6"
+    ]
+}
